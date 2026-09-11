@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blender": {
+      "command": "C:\\Users\\Qanva\\.local\\bin\\uv.exe",
+      "args": ["tool", "run", "blender-mcp"]
+    }
+  }
+}

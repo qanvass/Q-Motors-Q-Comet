@@ -1,0 +1,39 @@
+{
+  "source_files": [
+    "q comet all four sides.png",
+    "q comet front rear top.png",
+    "Q Comet Front view showroom.png"
+  ],
+  "primary_view": "side silhouette for canopy; front/rear/top for continuity",
+  "source_policy": "Concept illustrations, not calibrated CAD; no exact pixel-fit claim.",
+  "structural_parts": [
+    "four doors",
+    "four fender/quarter skins",
+    "bonnet",
+    "boot",
+    "windshield",
+    "panoramic roof",
+    "rear glass",
+    "four door windows",
+    "four unchanged seat placeholders"
+  ],
+  "expected_primary_parts": {
+    "doors": 4,
+    "seats": 4,
+    "wheels": 4
+  },
+  "decorative_parts": [
+    "existing original Q+ badges",
+    "existing lamps and wheels",
+    "black canopy seals"
+  ],
+  "texture_regions": [],
+  "validation_thresholds": {
+    "symmetry_error_m_max": 0.0001,
+    "canopy_master_boundary_error_m_max": 1e-05,
+    "degenerate_faces": 0,
+    "dimensions_approved": false
+  },
+  "dimensions_policy": "Retain scene wheel centers and provisional package; project.json unchanged.",
+  "scope": "Exterior surfacing review; no game export, rigging, collision, production UV or seat certification"
+}

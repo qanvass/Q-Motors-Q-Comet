@@ -1,0 +1,10 @@
+{
+  "model": "claude-fable-5-1",
+  "permissions": {
+    "allow": [
+      "mcp__blender__get_scene_info",
+      "mcp__blender__execute_python",
+      "mcp__blender__execute_blender_code"
+    ]
+  }
+}

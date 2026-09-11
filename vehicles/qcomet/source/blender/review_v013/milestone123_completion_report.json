@@ -1,0 +1,1258 @@
+{
+  "status": "VEHICLE_V013_RIG_COMPLETE",
+  "blend_file": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_vehicle_v013.blend",
+  "milestones": {
+    "M1_cabin": {
+      "cupholders": [
+        "cupholder_l",
+        "cupholder_r"
+      ],
+      "steering": "steering",
+      "steeringwheel_alias": true,
+      "seats": [
+        "seat_dside_f",
+        "seat_pside_f",
+        "seat_dside_r",
+        "seat_pside_r"
+      ]
+    },
+    "M2_hinging": {
+      "pivot_origins": {
+        "door_dside_f": {
+          "ok": true,
+          "origin_delta": 0.0,
+          "vertex0_delta": 0.0,
+          "pivot": [
+            -0.97,
+            0.9,
+            0.67
+          ]
+        },
+        "door_pside_f": {
+          "ok": true,
+          "origin_delta": 0.0,
+          "vertex0_delta": 0.0,
+          "pivot": [
+            0.97,
+            0.9,
+            0.67
+          ]
+        },
+        "door_dside_r": {
+          "ok": true,
+          "origin_delta": 0.0,
+          "vertex0_delta": 0.0,
+          "pivot": [
+            -0.96,
+            -0.18,
+            0.67
+          ]
+        },
+        "door_pside_r": {
+          "ok": true,
+          "origin_delta": 0.0,
+          "vertex0_delta": 0.0,
+          "pivot": [
+            0.96,
+            -0.18,
+            0.67
+          ]
+        },
+        "bonnet": {
+          "ok": true,
+          "origin_delta": 0.0,
+          "vertex0_delta": 0.0,
+          "pivot": [
+            0.0,
+            1.14,
+            0.98
+          ]
+        },
+        "boot": {
+          "ok": true,
+          "origin_delta": 0.0,
+          "vertex0_delta": 0.0,
+          "pivot": [
+            0.0,
+            -1.38,
+            0.94
+          ]
+        }
+      },
+      "door_parenting": {
+        "door_dside_f": {
+          "ok": true,
+          "attached": [
+            "door_card_dside_f",
+            "mirror_dside",
+            "mirror_dside_stalk",
+            "mirror_dside_bronze",
+            "mirror_dside_camera_lens",
+            "mirror_dside_indicator",
+            "window_lf",
+            "handle_dside_f"
+          ]
+        },
+        "door_pside_f": {
+          "ok": true,
+          "attached": [
+            "door_card_pside_f",
+            "mirror_pside",
+            "mirror_pside_stalk",
+            "mirror_pside_bronze",
+            "mirror_pside_camera_lens",
+            "mirror_pside_indicator",
+            "window_rf",
+            "handle_pside_f"
+          ]
+        },
+        "door_dside_r": {
+          "ok": true,
+          "attached": [
+            "door_card_dside_r",
+            "window_lr",
+            "handle_dside_r"
+          ]
+        },
+        "door_pside_r": {
+          "ok": true,
+          "attached": [
+            "door_card_pside_r",
+            "window_rr",
+            "handle_pside_r"
+          ]
+        }
+      },
+      "hinge_tests": {
+        "door_dside_f": {
+          "rotation_deg": [
+            0.0,
+            0.0,
+            55.0
+          ],
+          "bbox_min": [
+            -1.004,
+            0.319,
+            0.265
+          ],
+          "bbox_max": [
+            -0.054,
+            1.033,
+            1.046
+          ],
+          "clearance_proxy_ok": true
+        },
+        "door_pside_f": {
+          "rotation_deg": [
+            0.0,
+            0.0,
+            -55.0
+          ],
+          "bbox_min": [
+            0.054,
+            0.319,
+            0.265
+          ],
+          "bbox_max": [
+            1.004,
+            1.033,
+            1.046
+          ],
+          "clearance_proxy_ok": true
+        },
+        "door_dside_r": {
+          "rotation_deg": [
+            0.0,
+            0.0,
+            55.0
+          ],
+          "bbox_min": [
+            -0.991,
+            -0.649,
+            0.265
+          ],
+          "bbox_max": [
+            -0.202,
+            -0.052,
+            1.038
+          ],
+          "clearance_proxy_ok": true
+        },
+        "door_pside_r": {
+          "rotation_deg": [
+            0.0,
+            0.0,
+            -55.0
+          ],
+          "bbox_min": [
+            0.202,
+            -0.649,
+            0.265
+          ],
+          "bbox_max": [
+            0.991,
+            -0.052,
+            1.038
+          ],
+          "clearance_proxy_ok": true
+        },
+        "bonnet": {
+          "rotation_deg": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "bbox_min": [
+            -0.71,
+            0.901,
+            0.037
+          ],
+          "bbox_max": [
+            0.71,
+            1.893,
+            1.148
+          ],
+          "clearance_proxy_ok": true
+        },
+        "boot": {
+          "rotation_deg": [
+            55.0,
+            0.0,
+            0.0
+          ],
+          "bbox_min": [
+            -0.73,
+            -1.995,
+            0.167
+          ],
+          "bbox_max": [
+            0.73,
+            -1.444,
+            0.861
+          ],
+          "clearance_proxy_ok": false
+        }
+      }
+    },
+    "M3_sollumz_prep": {
+      "bodyshell_children": [
+        "rear_bumper",
+        "front_splitter",
+        "rear_diffuser",
+        "skirt_dside",
+        "skirt_pside",
+        "underbody_skate",
+        "panoramic_glass_greenhouse",
+        "windscreen",
+        "glass_rear"
+      ],
+      "glass_windows": {
+        "window_lf": true,
+        "window_rf": true,
+        "window_lr": true,
+        "window_rr": true
+      },
+      "lights": {
+        "headlight_l": {
+          "light_id": 0,
+          "attached": [
+            "headlight_dside_housing",
+            "headlight_dside_blade_1",
+            "headlight_dside_blade_2",
+            "headlight_dside_blade_3",
+            "drl_dside"
+          ]
+        },
+        "headlight_r": {
+          "light_id": 1,
+          "attached": [
+            "headlight_pside_housing",
+            "headlight_pside_blade_1",
+            "headlight_pside_blade_2",
+            "headlight_pside_blade_3",
+            "drl_pside"
+          ]
+        },
+        "taillight_l": {
+          "light_id": 2,
+          "attached": [
+            "tail_bar_brake"
+          ]
+        },
+        "taillight_r": {
+          "light_id": 3,
+          "attached": []
+        },
+        "brakelight_l": {
+          "light_id": 2,
+          "attached": []
+        },
+        "brakelight_r": {
+          "light_id": 3,
+          "attached": []
+        },
+        "brakelight_m": {
+          "light_id": -1,
+          "attached": []
+        },
+        "indicator_lf": {
+          "light_id": -1,
+          "attached": [
+            "mirror_dside_indicator"
+          ]
+        },
+        "indicator_rf": {
+          "light_id": -1,
+          "attached": [
+            "mirror_pside_indicator"
+          ]
+        },
+        "indicator_lr": {
+          "light_id": -1,
+          "attached": []
+        },
+        "indicator_rr": {
+          "light_id": -1,
+          "attached": []
+        },
+        "reversinglight_l": {
+          "light_id": -1,
+          "attached": [
+            "reverse_dside",
+            "reverse_dside_housing"
+          ]
+        },
+        "reversinglight_r": {
+          "light_id": -1,
+          "attached": [
+            "reverse_pside",
+            "reverse_pside_housing"
+          ]
+        }
+      },
+      "wheels": {
+        "wheel_lf": {
+          "ok": true,
+          "center": [
+            -0.845,
+            1.5,
+            0.39
+          ]
+        },
+        "wheel_rf": {
+          "ok": true,
+          "center": [
+            0.845,
+            1.5,
+            0.39
+          ]
+        },
+        "wheel_lr": {
+          "ok": true,
+          "center": [
+            -0.845,
+            -1.5,
+            0.39
+          ]
+        },
+        "wheel_rr": {
+          "ok": true,
+          "center": [
+            0.845,
+            -1.5,
+            0.39
+          ]
+        }
+      },
+      "collision": [
+        "col_chassis",
+        "col_greenhouse",
+        "col_roof",
+        "col_bumper_f",
+        "col_bumper_r",
+        "col_door_dside_f",
+        "col_door_pside_f",
+        "col_door_dside_r",
+        "col_door_pside_r",
+        "col_bonnet",
+        "col_boot"
+      ],
+      "chassis_children": [
+        "bodyshell",
+        "bonnet",
+        "boot",
+        "door_dside_f",
+        "door_pside_f",
+        "door_dside_r",
+        "door_pside_r",
+        "wheel_lf",
+        "wheel_rf",
+        "wheel_lr",
+        "wheel_rr",
+        "steering",
+        "seat_dside_f",
+        "seat_pside_f",
+        "seat_dside_r",
+        "seat_pside_r",
+        "dash_glass_bar",
+        "center_console",
+        "pedal_brake",
+        "pedal_accel",
+        "headlight_l",
+        "headlight_r",
+        "taillight_l",
+        "taillight_r",
+        "brakelight_l",
+        "brakelight_r",
+        "brakelight_m",
+        "indicator_lf",
+        "indicator_rf",
+        "indicator_lr",
+        "indicator_rr",
+        "reversinglight_l",
+        "reversinglight_r",
+        "col_chassis",
+        "col_greenhouse",
+        "col_roof",
+        "col_bumper_f",
+        "col_bumper_r"
+      ]
+    }
+  },
+  "verification": {
+    "present_count": 53,
+    "missing": [],
+    "ok": true
+  },
+  "mesh_stats": {
+    "objects": 260,
+    "total_verts": 201873,
+    "total_faces": 174718,
+    "notable": {
+      "bonnet": {
+        "verts": 1763,
+        "faces": 1680
+      },
+      "boot": {
+        "verts": 1763,
+        "faces": 1680
+      },
+      "dash_glass_bar": {
+        "verts": 602,
+        "faces": 600
+      },
+      "door_dside_f": {
+        "verts": 2334,
+        "faces": 2322
+      },
+      "seat_dside_f": {
+        "verts": 3272,
+        "faces": 3246
+      },
+      "steering": {
+        "verts": 1468,
+        "faces": 1462
+      },
+      "wheel_lf": {
+        "verts": 461,
+        "faces": 407
+      },
+      "window_lf": {
+        "verts": 1189,
+        "faces": 1120
+      },
+      "windscreen": {
+        "verts": 2117,
+        "faces": 2016
+      }
+    }
+  },
+  "hierarchy_root": {
+    "name": "chassis",
+    "type": "MESH",
+    "children": [
+      {
+        "name": "bodyshell",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "front_splitter",
+            "type": "MESH",
+            "children": [],
+            "verts": 707,
+            "faces": 600
+          },
+          {
+            "name": "glass_rear",
+            "type": "MESH",
+            "children": [],
+            "verts": 1971,
+            "faces": 1872
+          },
+          {
+            "name": "panoramic_glass_greenhouse",
+            "type": "MESH",
+            "children": [],
+            "verts": 2173,
+            "faces": 2080
+          },
+          {
+            "name": "rear_bumper",
+            "type": "MESH",
+            "children": [],
+            "verts": 4240,
+            "faces": 3660
+          },
+          {
+            "name": "rear_diffuser",
+            "type": "MESH",
+            "children": [],
+            "verts": 484,
+            "faces": 482
+          },
+          {
+            "name": "skirt_dside",
+            "type": "MESH",
+            "children": [],
+            "verts": 343,
+            "faces": 288
+          },
+          {
+            "name": "skirt_pside",
+            "type": "MESH",
+            "children": [],
+            "verts": 343,
+            "faces": 288
+          },
+          {
+            "name": "underbody_skate",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          },
+          {
+            "name": "windscreen",
+            "type": "MESH",
+            "children": [],
+            "verts": 2117,
+            "faces": 2016
+          }
+        ]
+      },
+      {
+        "name": "bonnet",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "col_bonnet",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          }
+        ],
+        "verts": 1763,
+        "faces": 1680
+      },
+      {
+        "name": "boot",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "col_boot",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          }
+        ],
+        "verts": 1763,
+        "faces": 1680
+      },
+      {
+        "name": "brakelight_l",
+        "type": "EMPTY",
+        "children": []
+      },
+      {
+        "name": "brakelight_m",
+        "type": "EMPTY",
+        "children": []
+      },
+      {
+        "name": "brakelight_r",
+        "type": "EMPTY",
+        "children": []
+      },
+      {
+        "name": "center_console",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "armrest",
+            "type": "MESH",
+            "children": [],
+            "verts": 436,
+            "faces": 432
+          },
+          {
+            "name": "console_rotary",
+            "type": "MESH",
+            "children": [],
+            "verts": 816,
+            "faces": 676
+          },
+          {
+            "name": "cupholder_l",
+            "type": "MESH",
+            "children": [],
+            "verts": 576,
+            "faces": 530
+          },
+          {
+            "name": "cupholder_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 576,
+            "faces": 530
+          }
+        ],
+        "verts": 694,
+        "faces": 586
+      },
+      {
+        "name": "col_bumper_f",
+        "type": "MESH",
+        "children": [],
+        "verts": 8,
+        "faces": 6
+      },
+      {
+        "name": "col_bumper_r",
+        "type": "MESH",
+        "children": [],
+        "verts": 8,
+        "faces": 6
+      },
+      {
+        "name": "col_chassis",
+        "type": "MESH",
+        "children": [],
+        "verts": 8,
+        "faces": 6
+      },
+      {
+        "name": "col_greenhouse",
+        "type": "MESH",
+        "children": [],
+        "verts": 8,
+        "faces": 6
+      },
+      {
+        "name": "col_roof",
+        "type": "MESH",
+        "children": [],
+        "verts": 8,
+        "faces": 6
+      },
+      {
+        "name": "dash_glass_bar",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "dash_ambient_strip",
+            "type": "MESH",
+            "children": [],
+            "verts": 488,
+            "faces": 482
+          },
+          {
+            "name": "dash_battery",
+            "type": "FONT",
+            "children": []
+          },
+          {
+            "name": "dash_lower_shell",
+            "type": "MESH",
+            "children": [],
+            "verts": 386,
+            "faces": 384
+          },
+          {
+            "name": "dash_passenger_qplus",
+            "type": "MESH",
+            "children": [],
+            "verts": 432,
+            "faces": 414
+          },
+          {
+            "name": "dash_speed",
+            "type": "FONT",
+            "children": []
+          },
+          {
+            "name": "dash_speed_units",
+            "type": "FONT",
+            "children": []
+          },
+          {
+            "name": "dash_touch_icon_1",
+            "type": "MESH",
+            "children": [],
+            "verts": 216,
+            "faces": 208
+          },
+          {
+            "name": "dash_touch_icon_2",
+            "type": "MESH",
+            "children": [],
+            "verts": 228,
+            "faces": 216
+          },
+          {
+            "name": "dash_touch_icon_3",
+            "type": "MESH",
+            "children": [],
+            "verts": 240,
+            "faces": 224
+          },
+          {
+            "name": "dash_touch_icon_4",
+            "type": "MESH",
+            "children": [],
+            "verts": 252,
+            "faces": 232
+          },
+          {
+            "name": "dash_touch_label_1",
+            "type": "FONT",
+            "children": []
+          },
+          {
+            "name": "dash_touch_label_2",
+            "type": "FONT",
+            "children": []
+          },
+          {
+            "name": "dash_touch_label_3",
+            "type": "FONT",
+            "children": []
+          },
+          {
+            "name": "dash_touch_label_4",
+            "type": "FONT",
+            "children": []
+          }
+        ],
+        "verts": 602,
+        "faces": 600
+      },
+      {
+        "name": "door_dside_f",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "col_door_dside_f",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          },
+          {
+            "name": "door_card_dside_f",
+            "type": "MESH",
+            "children": [],
+            "verts": 1954,
+            "faces": 1920
+          },
+          {
+            "name": "handle_dside_f",
+            "type": "MESH",
+            "children": [],
+            "verts": 76,
+            "faces": 110
+          },
+          {
+            "name": "mirror_dside",
+            "type": "MESH",
+            "children": [],
+            "verts": 602,
+            "faces": 640
+          },
+          {
+            "name": "mirror_dside_bronze",
+            "type": "MESH",
+            "children": [],
+            "verts": 602,
+            "faces": 640
+          },
+          {
+            "name": "mirror_dside_camera_lens",
+            "type": "MESH",
+            "children": [],
+            "verts": 602,
+            "faces": 640
+          },
+          {
+            "name": "mirror_dside_stalk",
+            "type": "MESH",
+            "children": [],
+            "verts": 12,
+            "faces": 10
+          },
+          {
+            "name": "window_lf",
+            "type": "MESH",
+            "children": [],
+            "verts": 1189,
+            "faces": 1120
+          }
+        ],
+        "verts": 2334,
+        "faces": 2322
+      },
+      {
+        "name": "door_dside_r",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "col_door_dside_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          },
+          {
+            "name": "door_card_dside_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 1954,
+            "faces": 1920
+          },
+          {
+            "name": "handle_dside_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 76,
+            "faces": 110
+          },
+          {
+            "name": "window_lr",
+            "type": "MESH",
+            "children": [],
+            "verts": 1131,
+            "faces": 1064
+          }
+        ],
+        "verts": 2342,
+        "faces": 2329
+      },
+      {
+        "name": "door_pside_f",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "col_door_pside_f",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          },
+          {
+            "name": "door_card_pside_f",
+            "type": "MESH",
+            "children": [],
+            "verts": 1954,
+            "faces": 1920
+          },
+          {
+            "name": "handle_pside_f",
+            "type": "MESH",
+            "children": [],
+            "verts": 76,
+            "faces": 110
+          },
+          {
+            "name": "mirror_pside",
+            "type": "MESH",
+            "children": [],
+            "verts": 602,
+            "faces": 640
+          },
+          {
+            "name": "mirror_pside_bronze",
+            "type": "MESH",
+            "children": [],
+            "verts": 602,
+            "faces": 640
+          },
+          {
+            "name": "mirror_pside_camera_lens",
+            "type": "MESH",
+            "children": [],
+            "verts": 602,
+            "faces": 640
+          },
+          {
+            "name": "mirror_pside_stalk",
+            "type": "MESH",
+            "children": [],
+            "verts": 12,
+            "faces": 10
+          },
+          {
+            "name": "window_rf",
+            "type": "MESH",
+            "children": [],
+            "verts": 1189,
+            "faces": 1120
+          }
+        ],
+        "verts": 2334,
+        "faces": 2322
+      },
+      {
+        "name": "door_pside_r",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "col_door_pside_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          },
+          {
+            "name": "door_card_pside_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 1954,
+            "faces": 1920
+          },
+          {
+            "name": "handle_pside_r",
+            "type": "MESH",
+            "children": [],
+            "verts": 76,
+            "faces": 110
+          },
+          {
+            "name": "window_rr",
+            "type": "MESH",
+            "children": [],
+            "verts": 1131,
+            "faces": 1064
+          }
+        ],
+        "verts": 2342,
+        "faces": 2329
+      },
+      {
+        "name": "headlight_l",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "drl_dside",
+            "type": "MESH",
+            "children": [],
+            "verts": 244,
+            "faces": 242
+          },
+          {
+            "name": "headlight_dside_blade_1",
+            "type": "MESH",
+            "children": [],
+            "verts": 404,
+            "faces": 402
+          },
+          {
+            "name": "headlight_dside_blade_2",
+            "type": "MESH",
+            "children": [],
+            "verts": 404,
+            "faces": 402
+          },
+          {
+            "name": "headlight_dside_blade_3",
+            "type": "MESH",
+            "children": [],
+            "verts": 404,
+            "faces": 402
+          },
+          {
+            "name": "headlight_dside_housing",
+            "type": "MESH",
+            "children": [],
+            "verts": 204,
+            "faces": 202
+          }
+        ]
+      },
+      {
+        "name": "headlight_r",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "drl_pside",
+            "type": "MESH",
+            "children": [],
+            "verts": 244,
+            "faces": 242
+          },
+          {
+            "name": "headlight_pside_blade_1",
+            "type": "MESH",
+            "children": [],
+            "verts": 404,
+            "faces": 402
+          },
+          {
+            "name": "headlight_pside_blade_2",
+            "type": "MESH",
+            "children": [],
+            "verts": 404,
+            "faces": 402
+          },
+          {
+            "name": "headlight_pside_blade_3",
+            "type": "MESH",
+            "children": [],
+            "verts": 404,
+            "faces": 402
+          },
+          {
+            "name": "headlight_pside_housing",
+            "type": "MESH",
+            "children": [],
+            "verts": 204,
+            "faces": 202
+          }
+        ]
+      },
+      {
+        "name": "indicator_lf",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "mirror_dside_indicator",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          }
+        ]
+      },
+      {
+        "name": "indicator_lr",
+        "type": "EMPTY",
+        "children": []
+      },
+      {
+        "name": "indicator_rf",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "mirror_pside_indicator",
+            "type": "MESH",
+            "children": [],
+            "verts": 8,
+            "faces": 6
+          }
+        ]
+      },
+      {
+        "name": "indicator_rr",
+        "type": "EMPTY",
+        "children": []
+      },
+      {
+        "name": "pedal_accel",
+        "type": "MESH",
+        "children": [],
+        "verts": 282,
+        "faces": 270
+      },
+      {
+        "name": "pedal_brake",
+        "type": "MESH",
+        "children": [],
+        "verts": 282,
+        "faces": 270
+      },
+      {
+        "name": "reversinglight_l",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "reverse_dside",
+            "type": "MESH",
+            "children": [],
+            "verts": 100,
+            "faces": 98
+          },
+          {
+            "name": "reverse_dside_housing",
+            "type": "MESH",
+            "children": [],
+            "verts": 100,
+            "faces": 98
+          }
+        ]
+      },
+      {
+        "name": "reversinglight_r",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "reverse_pside",
+            "type": "MESH",
+            "children": [],
+            "verts": 100,
+            "faces": 98
+          },
+          {
+            "name": "reverse_pside_housing",
+            "type": "MESH",
+            "children": [],
+            "verts": 100,
+            "faces": 98
+          }
+        ]
+      },
+      {
+        "name": "seat_dside_f",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "seat_dside_f_headrest_qplus",
+            "type": "MESH",
+            "children": [],
+            "verts": 432,
+            "faces": 414
+          }
+        ],
+        "verts": 3272,
+        "faces": 3246
+      },
+      {
+        "name": "seat_dside_r",
+        "type": "MESH",
+        "children": [],
+        "verts": 3272,
+        "faces": 3246
+      },
+      {
+        "name": "seat_pside_f",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "seat_pside_f_headrest_qplus",
+            "type": "MESH",
+            "children": [],
+            "verts": 432,
+            "faces": 414
+          }
+        ],
+        "verts": 3272,
+        "faces": 3246
+      },
+      {
+        "name": "seat_pside_r",
+        "type": "MESH",
+        "children": [],
+        "verts": 3272,
+        "faces": 3246
+      },
+      {
+        "name": "steering",
+        "type": "MESH",
+        "children": [
+          {
+            "name": "steering_column",
+            "type": "MESH",
+            "children": [],
+            "verts": 32,
+            "faces": 18
+          },
+          {
+            "name": "steering_qplus",
+            "type": "MESH",
+            "children": [],
+            "verts": 432,
+            "faces": 414
+          },
+          {
+            "name": "steeringwheel",
+            "type": "EMPTY",
+            "children": []
+          }
+        ],
+        "verts": 1468,
+        "faces": 1462
+      },
+      {
+        "name": "taillight_l",
+        "type": "EMPTY",
+        "children": [
+          {
+            "name": "tail_bar_brake",
+            "type": "MESH",
+            "children": [],
+            "verts": 1284,
+            "faces": 1282
+          }
+        ]
+      },
+      {
+        "name": "taillight_r",
+        "type": "EMPTY",
+        "children": []
+      },
+      {
+        "name": "wheel_lf",
+        "type": "MESH",
+        "children": [],
+        "verts": 461,
+        "faces": 407
+      },
+      {
+        "name": "wheel_lr",
+        "type": "MESH",
+        "children": [],
+        "verts": 461,
+        "faces": 407
+      },
+      {
+        "name": "wheel_rf",
+        "type": "MESH",
+        "children": [],
+        "verts": 461,
+        "faces": 407
+      },
+      {
+        "name": "wheel_rr",
+        "type": "MESH",
+        "children": [],
+        "verts": 461,
+        "faces": 407
+      }
+    ],
+    "verts": 4,
+    "faces": 1
+  },
+  "renders": {
+    "interior_cockpit": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\review_v013\\interior_cockpit.png",
+    "open_doors": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\review_v013\\open_doors.png",
+    "exterior_34": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\review_v013\\exterior_34.png"
+  },
+  "log": [
+    "START on C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_vehicle_v013.blend",
+    "M1 finish naming/parenting",
+    "M2 hinge origins + door parenting",
+    "M3 hierarchy / lights / collision",
+    "Saving C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_vehicle_v013.blend",
+    "Rendering"
+  ],
+  "note": "Collision meshes are Blender bound proxies for Sollumz .ybn authoring \u2014 GTA binaries not fabricated."
+}

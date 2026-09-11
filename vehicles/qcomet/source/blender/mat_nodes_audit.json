@@ -1,0 +1,456 @@
+{
+  "qcomet_export_018": {
+    "shader": "vehicle_mesh.sps",
+    "nodes": [
+      {
+        "name": "UVMap 0",
+        "type": "UVMAP",
+        "label": "UVMap 0"
+      },
+      {
+        "name": "UVMap 1",
+        "type": "UVMAP",
+        "label": "UVMap 1"
+      },
+      {
+        "name": "DiffuseSampler",
+        "type": "TEX_IMAGE",
+        "label": "DiffuseSampler",
+        "image": "qcomet_palette_021"
+      },
+      {
+        "name": "DamageSampler",
+        "type": "TEX_IMAGE",
+        "label": "DamageSampler",
+        "image": "qcomet_palette_001"
+      },
+      {
+        "name": "DirtSampler",
+        "type": "TEX_IMAGE",
+        "label": "DirtSampler",
+        "image": "qcomet_palette_001"
+      },
+      {
+        "name": "BumpSampler",
+        "type": "TEX_IMAGE",
+        "label": "BumpSampler",
+        "image": "qcomet_palette_002"
+      },
+      {
+        "name": "SpecSampler",
+        "type": "TEX_IMAGE",
+        "label": "SpecSampler",
+        "image": "qcomet_palette_003"
+      },
+      {
+        "name": "envEffTexTileUV",
+        "type": "CUSTOM",
+        "label": "envEffTexTileUV"
+      },
+      {
+        "name": "envEffScale",
+        "type": "CUSTOM",
+        "label": "envEffScale"
+      },
+      {
+        "name": "envEffThickness",
+        "type": "CUSTOM",
+        "label": "envEffThickness"
+      },
+      {
+        "name": "reflectivePower",
+        "type": "CUSTOM",
+        "label": "reflectivePower"
+      },
+      {
+        "name": "specular2Color_DirLerp",
+        "type": "CUSTOM",
+        "label": "specular2Color_DirLerp"
+      },
+      {
+        "name": "dirtColor",
+        "type": "CUSTOM",
+        "label": "dirtColor"
+      },
+      {
+        "name": "dirtLevelMod",
+        "type": "CUSTOM",
+        "label": "dirtLevelMod"
+      },
+      {
+        "name": "matDiffuseColor",
+        "type": "CUSTOM",
+        "label": "matDiffuseColor"
+      },
+      {
+        "name": "DamageTextureOffset",
+        "type": "CUSTOM",
+        "label": "DamageTextureOffset"
+      },
+      {
+        "name": "DamageMultiplier",
+        "type": "CUSTOM",
+        "label": "DamageMultiplier"
+      },
+      {
+        "name": "BoundRadius",
+        "type": "CUSTOM",
+        "label": "BoundRadius"
+      },
+      {
+        "name": "DamagedWheelOffsets",
+        "type": "CUSTOM",
+        "label": "DamagedWheelOffsets"
+      },
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "label": ""
+      },
+      {
+        "name": "Normal Map",
+        "type": "NORMAL_MAP",
+        "label": ""
+      },
+      {
+        "name": "Combine XYZ",
+        "type": "COMBXYZ",
+        "label": ""
+      },
+      {
+        "name": "Separate XYZ",
+        "type": "SEPXYZ",
+        "label": ""
+      },
+      {
+        "name": "Math",
+        "type": "MATH",
+        "label": ""
+      },
+      {
+        "name": "Separate XYZ.001",
+        "type": "SEPXYZ",
+        "label": ""
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL",
+        "label": ""
+      }
+    ],
+    "links": [
+      "UVMap 1.UV -> DirtSampler.Vector",
+      "UVMap 0.UV -> DiffuseSampler.Vector",
+      "DiffuseSampler.Color -> Principled BSDF.Base Color",
+      "UVMap 0.UV -> BumpSampler.Vector",
+      "BumpSampler.Color -> Separate XYZ.Vector",
+      "Separate XYZ.X -> Combine XYZ.X",
+      "Separate XYZ.Y -> Math.Value",
+      "Math.Value -> Combine XYZ.Y",
+      "Separate XYZ.Z -> Combine XYZ.Z",
+      "Combine XYZ.Vector -> Normal Map.Color",
+      "Normal Map.Normal -> Principled BSDF.Normal",
+      "DiffuseSampler.Alpha -> Principled BSDF.Alpha",
+      "UVMap 0.UV -> SpecSampler.Vector",
+      "SpecSampler.Color -> Separate XYZ.001.Vector",
+      "Separate XYZ.001.X -> Principled BSDF.Specular IOR Level",
+      "Principled BSDF.BSDF -> Material Output.Surface"
+    ]
+  },
+  "qcomet_export_020": {
+    "shader": "vehicle_lightsemissive.sps",
+    "nodes": [
+      {
+        "name": "UVMap 0",
+        "type": "UVMAP",
+        "label": "UVMap 0"
+      },
+      {
+        "name": "UVMap 1",
+        "type": "UVMAP",
+        "label": "UVMap 1"
+      },
+      {
+        "name": "DiffuseSampler",
+        "type": "TEX_IMAGE",
+        "label": "DiffuseSampler",
+        "image": "qcomet_palette_023"
+      },
+      {
+        "name": "DamageSampler",
+        "type": "TEX_IMAGE",
+        "label": "DamageSampler",
+        "image": "qcomet_palette_001"
+      },
+      {
+        "name": "DirtSampler",
+        "type": "TEX_IMAGE",
+        "label": "DirtSampler",
+        "image": "qcomet_palette_001"
+      },
+      {
+        "name": "SpecSampler",
+        "type": "TEX_IMAGE",
+        "label": "SpecSampler",
+        "image": "qcomet_palette_003"
+      },
+      {
+        "name": "envEffTexTileUV",
+        "type": "CUSTOM",
+        "label": "envEffTexTileUV"
+      },
+      {
+        "name": "envEffScale",
+        "type": "CUSTOM",
+        "label": "envEffScale"
+      },
+      {
+        "name": "envEffThickness",
+        "type": "CUSTOM",
+        "label": "envEffThickness"
+      },
+      {
+        "name": "reflectivePower",
+        "type": "CUSTOM",
+        "label": "reflectivePower"
+      },
+      {
+        "name": "specMapIntMask",
+        "type": "CUSTOM",
+        "label": "specMapIntMask"
+      },
+      {
+        "name": "dirtColor",
+        "type": "CUSTOM",
+        "label": "dirtColor"
+      },
+      {
+        "name": "dirtLevelMod",
+        "type": "CUSTOM",
+        "label": "dirtLevelMod"
+      },
+      {
+        "name": "emissiveMultiplier",
+        "type": "CUSTOM",
+        "label": "emissiveMultiplier"
+      },
+      {
+        "name": "matDiffuseColor",
+        "type": "CUSTOM",
+        "label": "matDiffuseColor"
+      },
+      {
+        "name": "DamageTextureOffset",
+        "type": "CUSTOM",
+        "label": "DamageTextureOffset"
+      },
+      {
+        "name": "DamageMultiplier",
+        "type": "CUSTOM",
+        "label": "DamageMultiplier"
+      },
+      {
+        "name": "BoundRadius",
+        "type": "CUSTOM",
+        "label": "BoundRadius"
+      },
+      {
+        "name": "dimmerSetPacked",
+        "type": "CUSTOM",
+        "label": "dimmerSetPacked"
+      },
+      {
+        "name": "DamagedWheelOffsets",
+        "type": "CUSTOM",
+        "label": "DamagedWheelOffsets"
+      },
+      {
+        "name": "Mix Shader",
+        "type": "MIX_SHADER",
+        "label": ""
+      },
+      {
+        "name": "Emission",
+        "type": "EMISSION",
+        "label": ""
+      },
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "label": ""
+      },
+      {
+        "name": "Separate XYZ",
+        "type": "SEPXYZ",
+        "label": ""
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL",
+        "label": ""
+      }
+    ],
+    "links": [
+      "UVMap 1.UV -> DirtSampler.Vector",
+      "UVMap 0.UV -> DiffuseSampler.Vector",
+      "DiffuseSampler.Color -> Emission.Color",
+      "emissiveMultiplier.X -> Emission.Strength",
+      "Emission.Emission -> Mix Shader.Shader",
+      "DiffuseSampler.Color -> Principled BSDF.Base Color",
+      "DiffuseSampler.Alpha -> Principled BSDF.Alpha",
+      "UVMap 0.UV -> SpecSampler.Vector",
+      "SpecSampler.Color -> Separate XYZ.Vector",
+      "Separate XYZ.X -> Principled BSDF.Specular IOR Level",
+      "Principled BSDF.BSDF -> Mix Shader.Shader",
+      "Mix Shader.Shader -> Material Output.Surface"
+    ]
+  },
+  "qcomet_export_022": {
+    "shader": "vehicle_lightsemissive.sps",
+    "nodes": [
+      {
+        "name": "UVMap 0",
+        "type": "UVMAP",
+        "label": "UVMap 0"
+      },
+      {
+        "name": "UVMap 1",
+        "type": "UVMAP",
+        "label": "UVMap 1"
+      },
+      {
+        "name": "DiffuseSampler",
+        "type": "TEX_IMAGE",
+        "label": "DiffuseSampler",
+        "image": "qcomet_palette_025"
+      },
+      {
+        "name": "DamageSampler",
+        "type": "TEX_IMAGE",
+        "label": "DamageSampler",
+        "image": "qcomet_palette_001"
+      },
+      {
+        "name": "DirtSampler",
+        "type": "TEX_IMAGE",
+        "label": "DirtSampler",
+        "image": "qcomet_palette_001"
+      },
+      {
+        "name": "SpecSampler",
+        "type": "TEX_IMAGE",
+        "label": "SpecSampler",
+        "image": "qcomet_palette_003"
+      },
+      {
+        "name": "envEffTexTileUV",
+        "type": "CUSTOM",
+        "label": "envEffTexTileUV"
+      },
+      {
+        "name": "envEffScale",
+        "type": "CUSTOM",
+        "label": "envEffScale"
+      },
+      {
+        "name": "envEffThickness",
+        "type": "CUSTOM",
+        "label": "envEffThickness"
+      },
+      {
+        "name": "reflectivePower",
+        "type": "CUSTOM",
+        "label": "reflectivePower"
+      },
+      {
+        "name": "specMapIntMask",
+        "type": "CUSTOM",
+        "label": "specMapIntMask"
+      },
+      {
+        "name": "dirtColor",
+        "type": "CUSTOM",
+        "label": "dirtColor"
+      },
+      {
+        "name": "dirtLevelMod",
+        "type": "CUSTOM",
+        "label": "dirtLevelMod"
+      },
+      {
+        "name": "emissiveMultiplier",
+        "type": "CUSTOM",
+        "label": "emissiveMultiplier"
+      },
+      {
+        "name": "matDiffuseColor",
+        "type": "CUSTOM",
+        "label": "matDiffuseColor"
+      },
+      {
+        "name": "DamageTextureOffset",
+        "type": "CUSTOM",
+        "label": "DamageTextureOffset"
+      },
+      {
+        "name": "DamageMultiplier",
+        "type": "CUSTOM",
+        "label": "DamageMultiplier"
+      },
+      {
+        "name": "BoundRadius",
+        "type": "CUSTOM",
+        "label": "BoundRadius"
+      },
+      {
+        "name": "dimmerSetPacked",
+        "type": "CUSTOM",
+        "label": "dimmerSetPacked"
+      },
+      {
+        "name": "DamagedWheelOffsets",
+        "type": "CUSTOM",
+        "label": "DamagedWheelOffsets"
+      },
+      {
+        "name": "Mix Shader",
+        "type": "MIX_SHADER",
+        "label": ""
+      },
+      {
+        "name": "Emission",
+        "type": "EMISSION",
+        "label": ""
+      },
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "label": ""
+      },
+      {
+        "name": "Separate XYZ",
+        "type": "SEPXYZ",
+        "label": ""
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL",
+        "label": ""
+      }
+    ],
+    "links": [
+      "UVMap 1.UV -> DirtSampler.Vector",
+      "UVMap 0.UV -> DiffuseSampler.Vector",
+      "DiffuseSampler.Color -> Emission.Color",
+      "emissiveMultiplier.X -> Emission.Strength",
+      "Emission.Emission -> Mix Shader.Shader",
+      "DiffuseSampler.Color -> Principled BSDF.Base Color",
+      "DiffuseSampler.Alpha -> Principled BSDF.Alpha",
+      "UVMap 0.UV -> SpecSampler.Vector",
+      "SpecSampler.Color -> Separate XYZ.Vector",
+      "Separate XYZ.X -> Principled BSDF.Specular IOR Level",
+      "Principled BSDF.BSDF -> Mix Shader.Shader",
+      "Mix Shader.Shader -> Material Output.Surface"
+    ]
+  }
+}

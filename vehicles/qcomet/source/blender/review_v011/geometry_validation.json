@@ -1,0 +1,908 @@
+{
+  "scope": "Surfacing geometry; not a game-readiness certification",
+  "objects": {
+    "chassis": {
+      "generated_surface": true,
+      "base_vertices": 4,
+      "evaluated_faces": 6,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "pillar_a_dside": {
+      "generated_surface": true,
+      "base_vertices": 116,
+      "evaluated_faces": 230,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "pillar_a_pside": {
+      "generated_surface": true,
+      "base_vertices": 116,
+      "evaluated_faces": 230,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "pillar_c_dside": {
+      "generated_surface": true,
+      "base_vertices": 116,
+      "evaluated_faces": 230,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "pillar_c_pside": {
+      "generated_surface": true,
+      "base_vertices": 116,
+      "evaluated_faces": 230,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_dside_f": {
+      "generated_surface": true,
+      "base_vertices": 1125,
+      "evaluated_faces": 2248,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_pside_f": {
+      "generated_surface": true,
+      "base_vertices": 1125,
+      "evaluated_faces": 2248,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_dside_r": {
+      "generated_surface": true,
+      "base_vertices": 1125,
+      "evaluated_faces": 2248,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_pside_r": {
+      "generated_surface": true,
+      "base_vertices": 1125,
+      "evaluated_faces": 2248,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "handle_dside_f": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "handle_pside_f": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "handle_dside_r": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "handle_pside_r": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "bonnet": {
+      "generated_surface": true,
+      "base_vertices": 1763,
+      "evaluated_faces": 3524,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "boot": {
+      "generated_surface": true,
+      "base_vertices": 1763,
+      "evaluated_faces": 3524,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "front_dimple_intake": {
+      "generated_surface": true,
+      "base_vertices": 1240,
+      "evaluated_faces": 1550,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "front_splitter": {
+      "generated_surface": true,
+      "base_vertices": 657,
+      "evaluated_faces": 1312,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "front_splitter_bronze": {
+      "generated_surface": true,
+      "base_vertices": 146,
+      "evaluated_faces": 290,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_bumper": {
+      "generated_surface": true,
+      "base_vertices": 1971,
+      "evaluated_faces": 3940,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_diffuser": {
+      "generated_surface": true,
+      "base_vertices": 657,
+      "evaluated_faces": 1312,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_diffuser_bronze": {
+      "generated_surface": true,
+      "base_vertices": 146,
+      "evaluated_faces": 290,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "fender_vent_dside": {
+      "generated_surface": true,
+      "base_vertices": 39,
+      "evaluated_faces": 76,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "fender_vent_pside": {
+      "generated_surface": true,
+      "base_vertices": 39,
+      "evaluated_faces": 76,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "fender_vent_bronze_dside": {
+      "generated_surface": true,
+      "base_vertices": 39,
+      "evaluated_faces": 76,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "fender_vent_bronze_pside": {
+      "generated_surface": true,
+      "base_vertices": 39,
+      "evaluated_faces": 76,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "mirror_dside_stalk": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "mirror_pside_stalk": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "badge_front": {
+      "generated_surface": false,
+      "base_vertices": 48,
+      "evaluated_faces": 22,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 48,
+      "loose_vertices": 0
+    },
+    "badge_rear": {
+      "generated_surface": false,
+      "base_vertices": 48,
+      "evaluated_faces": 22,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 48,
+      "loose_vertices": 0
+    },
+    "bumper_f": {
+      "generated_surface": true,
+      "base_vertices": 1971,
+      "evaluated_faces": 3940,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "skirt_dside": {
+      "generated_surface": true,
+      "base_vertices": 343,
+      "evaluated_faces": 684,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "skirt_pside": {
+      "generated_surface": true,
+      "base_vertices": 343,
+      "evaluated_faces": 684,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "front_intake_pocket_dside": {
+      "generated_surface": true,
+      "base_vertices": 187,
+      "evaluated_faces": 372,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "front_intake_pocket_pside": {
+      "generated_surface": true,
+      "base_vertices": 187,
+      "evaluated_faces": 372,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "diffuser_strake_1": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 6,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "diffuser_strake_2": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 6,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "diffuser_strake_3": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 6,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "diffuser_strake_4": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 6,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "quarter_dside_r": {
+      "generated_surface": true,
+      "base_vertices": 4025,
+      "evaluated_faces": 8048,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "fender_dside_f": {
+      "generated_surface": true,
+      "base_vertices": 4025,
+      "evaluated_faces": 8048,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "arch_return_dside_f": {
+      "generated_surface": true,
+      "base_vertices": 505,
+      "evaluated_faces": 1008,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "arch_return_dside_r": {
+      "generated_surface": true,
+      "base_vertices": 505,
+      "evaluated_faces": 1008,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "quarter_pside_r": {
+      "generated_surface": true,
+      "base_vertices": 4025,
+      "evaluated_faces": 8048,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "fender_pside_f": {
+      "generated_surface": true,
+      "base_vertices": 4025,
+      "evaluated_faces": 8048,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "arch_return_pside_f": {
+      "generated_surface": true,
+      "base_vertices": 505,
+      "evaluated_faces": 1008,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "arch_return_pside_r": {
+      "generated_surface": true,
+      "base_vertices": 505,
+      "evaluated_faces": 1008,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "hood_shoulder_dside": {
+      "generated_surface": true,
+      "base_vertices": 1365,
+      "evaluated_faces": 2728,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "hood_shoulder_pside": {
+      "generated_surface": true,
+      "base_vertices": 1365,
+      "evaluated_faces": 2728,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "hood_leading_band": {
+      "generated_surface": true,
+      "base_vertices": 441,
+      "evaluated_faces": 880,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "hood_cowl_band": {
+      "generated_surface": true,
+      "base_vertices": 98,
+      "evaluated_faces": 194,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_deck_shoulder_dside": {
+      "generated_surface": true,
+      "base_vertices": 1365,
+      "evaluated_faces": 2728,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_deck_shoulder_pside": {
+      "generated_surface": true,
+      "base_vertices": 1365,
+      "evaluated_faces": 2728,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_deck_leading_band": {
+      "generated_surface": true,
+      "base_vertices": 441,
+      "evaluated_faces": 880,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "rear_deck_cowl_band": {
+      "generated_surface": true,
+      "base_vertices": 98,
+      "evaluated_faces": 194,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "front_lower_intake_return": {
+      "generated_surface": true,
+      "base_vertices": 511,
+      "evaluated_faces": 1020,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "panoramic_glass_greenhouse": {
+      "generated_surface": true,
+      "base_vertices": 2173,
+      "evaluated_faces": 4344,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "windscreen": {
+      "generated_surface": true,
+      "base_vertices": 2117,
+      "evaluated_faces": 4232,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_rear": {
+      "generated_surface": true,
+      "base_vertices": 1971,
+      "evaluated_faces": 3940,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_front_header": {
+      "generated_surface": true,
+      "base_vertices": 123,
+      "evaluated_faces": 244,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_rear_header": {
+      "generated_surface": true,
+      "base_vertices": 123,
+      "evaluated_faces": 244,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_cowl_seal": {
+      "generated_surface": true,
+      "base_vertices": 146,
+      "evaluated_faces": 290,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_rear_seal": {
+      "generated_surface": true,
+      "base_vertices": 146,
+      "evaluated_faces": 290,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_rail_dside": {
+      "generated_surface": true,
+      "base_vertices": 244,
+      "evaluated_faces": 486,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_dside_f": {
+      "generated_surface": true,
+      "base_vertices": 1189,
+      "evaluated_faces": 2376,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "pillar_b_dside": {
+      "generated_surface": true,
+      "base_vertices": 87,
+      "evaluated_faces": 172,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_dside_r": {
+      "generated_surface": true,
+      "base_vertices": 1131,
+      "evaluated_faces": 2260,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_belt_seal_dside": {
+      "generated_surface": true,
+      "base_vertices": 260,
+      "evaluated_faces": 518,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_rail_pside": {
+      "generated_surface": true,
+      "base_vertices": 244,
+      "evaluated_faces": 486,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_pside_f": {
+      "generated_surface": true,
+      "base_vertices": 1189,
+      "evaluated_faces": 2376,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "pillar_b_pside": {
+      "generated_surface": true,
+      "base_vertices": 87,
+      "evaluated_faces": 172,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_pside_r": {
+      "generated_surface": true,
+      "base_vertices": 1131,
+      "evaluated_faces": 2260,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "canopy_belt_seal_pside": {
+      "generated_surface": true,
+      "base_vertices": 260,
+      "evaluated_faces": 518,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_quarter_dside": {
+      "generated_surface": true,
+      "base_vertices": 551,
+      "evaluated_faces": 1100,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "quarter_divider_dside": {
+      "generated_surface": true,
+      "base_vertices": 87,
+      "evaluated_faces": 172,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "glass_quarter_pside": {
+      "generated_surface": true,
+      "base_vertices": 551,
+      "evaluated_faces": 1100,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "quarter_divider_pside": {
+      "generated_surface": true,
+      "base_vertices": 87,
+      "evaluated_faces": 172,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_dside_blade_1": {
+      "generated_surface": false,
+      "base_vertices": 56,
+      "evaluated_faces": 198,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_dside_blade_2": {
+      "generated_surface": false,
+      "base_vertices": 56,
+      "evaluated_faces": 198,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_dside_blade_3": {
+      "generated_surface": false,
+      "base_vertices": 56,
+      "evaluated_faces": 198,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_dside_housing": {
+      "generated_surface": true,
+      "base_vertices": 297,
+      "evaluated_faces": 592,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_pside_blade_1": {
+      "generated_surface": false,
+      "base_vertices": 56,
+      "evaluated_faces": 198,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_pside_blade_2": {
+      "generated_surface": false,
+      "base_vertices": 56,
+      "evaluated_faces": 198,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_pside_blade_3": {
+      "generated_surface": false,
+      "base_vertices": 56,
+      "evaluated_faces": 198,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "headlight_pside_housing": {
+      "generated_surface": true,
+      "base_vertices": 297,
+      "evaluated_faces": 592,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "drl_dside": {
+      "generated_surface": false,
+      "base_vertices": 44,
+      "evaluated_faces": 120,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 24,
+      "loose_vertices": 0
+    },
+    "drl_pside": {
+      "generated_surface": false,
+      "base_vertices": 44,
+      "evaluated_faces": 120,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 24,
+      "loose_vertices": 0
+    },
+    "tail_bar_running": {
+      "generated_surface": false,
+      "base_vertices": 196,
+      "evaluated_faces": 576,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 24,
+      "loose_vertices": 0
+    },
+    "tail_bar_brake": {
+      "generated_surface": false,
+      "base_vertices": 196,
+      "evaluated_faces": 576,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 24,
+      "loose_vertices": 0
+    },
+    "tail_lens": {
+      "generated_surface": true,
+      "base_vertices": 729,
+      "evaluated_faces": 1456,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_card_dside_f": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_card_pside_f": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_card_dside_r": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "door_card_pside_r": {
+      "generated_surface": false,
+      "base_vertices": 8,
+      "evaluated_faces": 54,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0
+    }
+  },
+  "symmetry": {
+    "pillar_a_dside": 0.0,
+    "pillar_c_dside": 0.0,
+    "door_dside_f": 0.0,
+    "door_dside_r": 0.0,
+    "handle_dside_f": 0.0,
+    "handle_dside_r": 0.0,
+    "fender_vent_dside": 0.0,
+    "fender_vent_bronze_dside": 0.0,
+    "mirror_dside_stalk": 0.0,
+    "skirt_dside": 0.0,
+    "front_intake_pocket_dside": 0.0,
+    "quarter_dside_r": 0.0,
+    "fender_dside_f": 0.0,
+    "arch_return_dside_f": 0.0,
+    "arch_return_dside_r": 0.0,
+    "hood_shoulder_dside": 0.0,
+    "rear_deck_shoulder_dside": 0.0,
+    "canopy_rail_dside": 0.0,
+    "glass_dside_f": 0.0,
+    "pillar_b_dside": 0.0,
+    "glass_dside_r": 0.0,
+    "canopy_belt_seal_dside": 0.0,
+    "glass_quarter_dside": 0.0,
+    "quarter_divider_dside": 0.0,
+    "headlight_dside_blade_1": 0.0,
+    "headlight_dside_blade_2": 0.0,
+    "headlight_dside_blade_3": 0.0,
+    "headlight_dside_housing": 0.0,
+    "drl_dside": 0.0,
+    "door_card_dside_f": 0.0,
+    "door_card_dside_r": 0.0
+  },
+  "required_parts": {
+    "door_dside_f": true,
+    "door_dside_r": true,
+    "door_pside_f": true,
+    "door_pside_r": true,
+    "seat_dside_f": true,
+    "seat_dside_r": true,
+    "seat_pside_f": true,
+    "seat_pside_r": true
+  },
+  "wheel_centers": {
+    "wheel_lf": [
+      -0.8450000286102295,
+      1.5,
+      0.38999998569488525
+    ],
+    "wheel_rf": [
+      0.8450000286102295,
+      1.5,
+      0.38999998569488525
+    ],
+    "wheel_lr": [
+      -0.8450000286102295,
+      -1.5,
+      0.38999998569488525
+    ],
+    "wheel_rr": [
+      0.8450000286102295,
+      -1.5,
+      0.38999998569488525
+    ]
+  },
+  "all_new_surfaces_nondegenerate": true,
+  "all_new_surfaces_closed_after_solidify": true,
+  "legacy_detail_open_edges": {
+    "badge_front": 48,
+    "badge_rear": 48,
+    "drl_dside": 24,
+    "drl_pside": 24,
+    "tail_bar_running": 24,
+    "tail_bar_brake": 24
+  },
+  "bilateral_symmetry_pass": true,
+  "canopy_to_cowl_deck_master_error_m": 0.0,
+  "canopy_to_cowl_deck_master_pass": true,
+  "seat_head_clearance_m": {
+    "seat_dside_f": 0.23391088297135387,
+    "seat_dside_r": 0.2582984951696703,
+    "seat_pside_f": 0.23391088297135387,
+    "seat_pside_r": 0.2582984951696703
+  },
+  "driver_sightline_probe": [
+    {
+      "yaw_degrees": -15,
+      "pitch_degrees": -3,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": -15,
+      "pitch_degrees": 0,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": -15,
+      "pitch_degrees": 5,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": 0,
+      "pitch_degrees": -3,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": 0,
+      "pitch_degrees": 0,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": 0,
+      "pitch_degrees": 5,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": 15,
+      "pitch_degrees": -3,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": 15,
+      "pitch_degrees": 0,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    },
+    {
+      "yaw_degrees": 15,
+      "pitch_degrees": 5,
+      "obstruction": null,
+      "glass": [
+        "windscreen"
+      ]
+    }
+  ],
+  "driver_sightline_probe_note": "Nine static rays from an assumed eye point only; not a first-person gameplay test."
+}

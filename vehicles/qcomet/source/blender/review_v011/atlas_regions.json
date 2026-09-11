@@ -1,0 +1,5 @@
+{
+  "status": "not_applicable_to_this_surfacing_pass",
+  "regions": [],
+  "note": "No source atlas was projected onto the vehicle. Existing and locally authored shaders are retained; production UVs and maps are a later gate."
+}

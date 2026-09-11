@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "qcomet",
+  "displayName": "Q Comet",
+  "manufacturer": "Q Motors",
+  "class": "premium_civilian_ev_sedan",
+  "status": "body_surfacing",
+  "orientation": {
+    "frontAxis": "+Y",
+    "rightAxis": "+X",
+    "upAxis": "+Z"
+  },
+  "dimensionsMeters": {
+    "status": "PROVISIONAL_REQUIRES_OWNER_APPROVAL",
+    "length": 4.86,
+    "width": 1.94,
+    "height": 1.43,
+    "wheelbase": 2.95,
+    "frontTrack": 1.67,
+    "rearTrack": 1.67,
+    "wheelDiameter": 0.76,
+    "tireWidth": 0.27
+  },
+  "gameplay": {
+    "seats": 4,
+    "doors": 4,
+    "role": "executive_business_rp",
+    "handlingStatus": "not_authored"
+  },
+  "requiredMovingParts": [
+    "door_dside_f",
+    "door_pside_f",
+    "door_dside_r",
+    "door_pside_r",
+    "bonnet",
+    "boot",
+    "wheel_lf",
+    "wheel_rf",
+    "wheel_lr",
+    "wheel_rr",
+    "steeringwheel"
+  ],
+  "referencePolicy": {
+    "primaryInterior": "q comet cabin dash.png",
+    "cinematicInterior": "q comet dash board.png",
+    "duplicateExcluded": "q comet cabin view and driver view.png"
+  }
+}

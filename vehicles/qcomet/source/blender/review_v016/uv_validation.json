@@ -1,0 +1,1792 @@
+{
+  "input": "qcomet_sollumz_v015.blend",
+  "output": "qcomet_sollumz_v016.blend",
+  "text": {
+    "dash_battery": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.0292,
+          0.0124
+        ]
+      },
+      "meshes": {
+        "dash_battery.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.2966,
+            0.98,
+            0.7034
+          ]
+        },
+        "dash_battery_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0028,
+            0.2883,
+            0.98,
+            0.7123
+          ]
+        },
+        "dash_battery_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0299,
+            0.2978,
+            0.98,
+            0.7191
+          ]
+        },
+        "dash_battery_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0524,
+            0.3144,
+            0.962,
+            0.7191
+          ]
+        },
+        "dash_battery": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.2966,
+            0.98,
+            0.7034
+          ]
+        }
+      }
+    },
+    "dash_speed": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.0158,
+          0.0247
+        ]
+      },
+      "meshes": {
+        "dash_speed.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.1917,
+            0.02,
+            0.8083,
+            0.98
+          ]
+        },
+        "dash_speed_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.1917,
+            0.0181,
+            0.8083,
+            0.98
+          ]
+        },
+        "dash_speed_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.1938,
+            0.0181,
+            0.8081,
+            0.9743
+          ]
+        },
+        "dash_speed_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.1938,
+            0.0181,
+            0.8081,
+            0.9407
+          ]
+        },
+        "dash_speed": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.1917,
+            0.02,
+            0.8083,
+            0.98
+          ]
+        }
+      }
+    },
+    "dash_speed_units": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.0229,
+          0.0083
+        ]
+      },
+      "meshes": {
+        "dash_speed_units.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3268,
+            0.98,
+            0.6732
+          ]
+        },
+        "dash_speed_units_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3268,
+            0.98,
+            0.6732
+          ]
+        },
+        "dash_speed_units_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3312,
+            0.9749,
+            0.6688
+          ]
+        },
+        "dash_speed_units_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.2819,
+            0.3312,
+            0.9615,
+            0.6688
+          ]
+        },
+        "dash_speed_units": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3268,
+            0.98,
+            0.6732
+          ]
+        }
+      }
+    },
+    "dash_touch_label_1": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.0211,
+          0.0069
+        ]
+      },
+      "meshes": {
+        "dash_touch_label_1.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.343,
+            0.98,
+            0.657
+          ]
+        },
+        "dash_touch_label_1_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0192,
+            0.3367,
+            0.98,
+            0.6634
+          ]
+        },
+        "dash_touch_label_1_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0204,
+            0.3332,
+            0.9661,
+            0.6585
+          ]
+        },
+        "dash_touch_label_1_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0397,
+            0.3332,
+            0.9661,
+            0.6585
+          ]
+        },
+        "dash_touch_label_1": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.343,
+            0.98,
+            0.657
+          ]
+        }
+      }
+    },
+    "dash_touch_label_2": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.0288,
+          0.0068
+        ]
+      },
+      "meshes": {
+        "dash_touch_label_2.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3871,
+            0.98,
+            0.6129
+          ]
+        },
+        "dash_touch_label_2_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3871,
+            0.98,
+            0.6164
+          ]
+        },
+        "dash_touch_label_2_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0303,
+            0.3871,
+            0.9634,
+            0.6164
+          ]
+        },
+        "dash_touch_label_2_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0303,
+            0.3871,
+            0.9634,
+            0.6156
+          ]
+        },
+        "dash_touch_label_2": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3871,
+            0.98,
+            0.6129
+          ]
+        }
+      }
+    },
+    "dash_touch_label_3": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.0217,
+          0.0069
+        ]
+      },
+      "meshes": {
+        "dash_touch_label_3.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3476,
+            0.98,
+            0.6524
+          ]
+        },
+        "dash_touch_label_3_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.0058,
+            0.3408,
+            0.98,
+            0.6545
+          ]
+        },
+        "dash_touch_label_3_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.008,
+            0.3504,
+            0.98,
+            0.655
+          ]
+        },
+        "dash_touch_label_3_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.008,
+            0.343,
+            0.98,
+            0.6468
+          ]
+        },
+        "dash_touch_label_3": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3476,
+            0.98,
+            0.6524
+          ]
+        }
+      }
+    },
+    "dash_touch_label_4": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "plane_span_m": [
+          0.026,
+          0.0069
+        ]
+      },
+      "meshes": {
+        "dash_touch_label_4.001": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3728,
+            0.98,
+            0.6272
+          ]
+        },
+        "dash_touch_label_4_sollumz_medium": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3651,
+            0.98,
+            0.6411
+          ]
+        },
+        "dash_touch_label_4_sollumz_low": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.183,
+            0.3648,
+            0.9551,
+            0.6411
+          ]
+        },
+        "dash_touch_label_4_sollumz_verylow": {
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0",
+            "UVMap 1"
+          ],
+          "uv0_bounds": [
+            0.183,
+            0.3648,
+            0.8111,
+            0.6411
+          ]
+        },
+        "dash_touch_label_4": {
+          "authoring": true,
+          "renamed_legacy_UVMap": true,
+          "layers": [
+            "UVMap 0"
+          ],
+          "uv0_bounds": [
+            0.02,
+            0.3728,
+            0.98,
+            0.6272
+          ]
+        }
+      }
+    }
+  },
+  "glass": {
+    "exp_glass_quarter_dside": {
+      "frame": {
+        "u_axis": [
+          0.0456,
+          -0.999,
+          0.0
+        ],
+        "v_axis": [
+          0.5496,
+          0.0251,
+          0.835
+        ],
+        "plane_span_m": [
+          0.7157,
+          0.4011
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        -0.8342,
+        -0.0381,
+        0.5502
+      ],
+      "meshes": {
+        "glass_quarter_dside_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "glass_quarter_dside_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "glass_quarter_dside_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0,
+            1.0,
+            1.0002
+          ]
+        },
+        "glass_quarter_dside_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.001,
+            0.0037,
+            0.9995,
+            1.0002
+          ]
+        }
+      }
+    },
+    "exp_glass_quarter_pside": {
+      "frame": {
+        "u_axis": [
+          0.0456,
+          0.999,
+          -0.0
+        ],
+        "v_axis": [
+          -0.5496,
+          0.0251,
+          0.835
+        ],
+        "plane_span_m": [
+          0.7157,
+          0.4011
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        0.8342,
+        -0.0381,
+        0.5502
+      ],
+      "meshes": {
+        "glass_quarter_pside_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "glass_quarter_pside_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0001
+          ]
+        },
+        "glass_quarter_pside_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0002
+          ]
+        },
+        "glass_quarter_pside_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0005,
+            0.0035,
+            1.0006,
+            1.0002
+          ]
+        }
+      }
+    },
+    "exp_panoramic_glass_greenhouse": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        "v_axis": [
+          0.0,
+          0.9998,
+          0.0184
+        ],
+        "plane_span_m": [
+          1.4705,
+          1.0388
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        -0.0,
+        -0.0184,
+        0.9998
+      ],
+      "meshes": {
+        "panoramic_glass_greenhouse_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "panoramic_glass_greenhouse_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "panoramic_glass_greenhouse_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            -0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "panoramic_glass_greenhouse_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            -0.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "exp_window_lf": {
+      "frame": {
+        "u_axis": [
+          -0.0222,
+          -0.9998,
+          0.0
+        ],
+        "v_axis": [
+          0.4439,
+          -0.0099,
+          0.896
+        ],
+        "plane_span_m": [
+          0.9961,
+          0.4016
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        -0.8958,
+        0.0199,
+        0.444
+      ],
+      "meshes": {
+        "glass_dside_f_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lf_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lf_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0002
+          ]
+        },
+        "window_lf_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0005,
+            0.0007,
+            1.0,
+            1.0002
+          ]
+        }
+      }
+    },
+    "exp_window_lr": {
+      "frame": {
+        "u_axis": [
+          0.0021,
+          -1.0,
+          0.0
+        ],
+        "v_axis": [
+          0.4209,
+          0.0009,
+          0.9071
+        ],
+        "plane_span_m": [
+          0.8602,
+          0.3867
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        -0.9071,
+        -0.0019,
+        0.4209
+      ],
+      "meshes": {
+        "glass_dside_r_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lr_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lr_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lr_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0004,
+            1.0,
+            1.0004
+          ]
+        }
+      }
+    },
+    "exp_window_rf": {
+      "frame": {
+        "u_axis": [
+          -0.0222,
+          0.9998,
+          0.0
+        ],
+        "v_axis": [
+          -0.4439,
+          -0.0099,
+          0.896
+        ],
+        "plane_span_m": [
+          0.9961,
+          0.4016
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        0.8958,
+        0.0199,
+        0.444
+      ],
+      "meshes": {
+        "glass_pside_f_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rf_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rf_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0,
+            0.9999,
+            1.0003
+          ]
+        },
+        "window_rf_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0007,
+            0.9995,
+            1.0003
+          ]
+        }
+      }
+    },
+    "exp_window_rr": {
+      "frame": {
+        "u_axis": [
+          0.0021,
+          1.0,
+          -0.0
+        ],
+        "v_axis": [
+          -0.4209,
+          0.0009,
+          0.9071
+        ],
+        "plane_span_m": [
+          0.8602,
+          0.3867
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        0.9071,
+        -0.0019,
+        0.4209
+      ],
+      "meshes": {
+        "glass_pside_r_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rr_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rr_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0001,
+            1.0,
+            0.9999
+          ]
+        },
+        "window_rr_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0001,
+            1.0,
+            0.9996
+          ]
+        }
+      }
+    },
+    "exp_windscreen": {
+      "frame": {
+        "u_axis": [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        "v_axis": [
+          0.0,
+          -0.8845,
+          0.4666
+        ],
+        "plane_span_m": [
+          1.8486,
+          0.8182
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        -0.0,
+        0.4666,
+        0.8845
+      ],
+      "meshes": {
+        "windscreen_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9999
+          ]
+        },
+        "windscreen_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9996
+          ]
+        }
+      }
+    },
+    "exp_windscreen_r": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          -0.0,
+          0.8913,
+          0.4533
+        ],
+        "plane_span_m": [
+          1.8988,
+          0.7892
+        ]
+      },
+      "space": "rig",
+      "normal": [
+        0.0,
+        -0.4533,
+        0.8913
+      ],
+      "meshes": {
+        "glass_rear_v011_surface.002": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_r_sollumz_medium": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_r_sollumz_low": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9999
+          ]
+        },
+        "windscreen_r_sollumz_verylow": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9996
+          ]
+        }
+      }
+    },
+    "phys_window_lf": {
+      "frame": {
+        "u_axis": [
+          -0.0222,
+          -0.9998,
+          0.0
+        ],
+        "v_axis": [
+          0.4439,
+          -0.0099,
+          0.896
+        ],
+        "plane_span_m": [
+          0.9961,
+          0.4016
+        ]
+      },
+      "space": "bone-local via (-0.8343105316162109, 0.40850698947906494, 1.0434173345565796)",
+      "normal": [
+        -0.8958,
+        0.0199,
+        0.444
+      ],
+      "meshes": {
+        "glass_dside_f_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lf_sollumz_medium.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lf_sollumz_low.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0002
+          ]
+        },
+        "window_lf_sollumz_verylow.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0005,
+            0.0007,
+            1.0,
+            1.0002
+          ]
+        }
+      }
+    },
+    "phys_window_lr": {
+      "frame": {
+        "u_axis": [
+          0.0021,
+          -1.0,
+          0.0
+        ],
+        "v_axis": [
+          0.4209,
+          0.0009,
+          0.9071
+        ],
+        "plane_span_m": [
+          0.8602,
+          0.3867
+        ]
+      },
+      "space": "bone-local via (-0.825790524482727, -0.5800787210464478, 1.0454245805740356)",
+      "normal": [
+        -0.9071,
+        -0.0019,
+        0.4209
+      ],
+      "meshes": {
+        "glass_dside_r_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lr_sollumz_medium.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lr_sollumz_low.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_lr_sollumz_verylow.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0004,
+            1.0,
+            1.0004
+          ]
+        }
+      }
+    },
+    "phys_window_rf": {
+      "frame": {
+        "u_axis": [
+          -0.0222,
+          0.9998,
+          0.0
+        ],
+        "v_axis": [
+          -0.4439,
+          -0.0099,
+          0.896
+        ],
+        "plane_span_m": [
+          0.9961,
+          0.4016
+        ]
+      },
+      "space": "bone-local via (0.8343105316162109, 0.40850698947906494, 1.0434173345565796)",
+      "normal": [
+        0.8958,
+        0.0199,
+        0.444
+      ],
+      "meshes": {
+        "glass_pside_f_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rf_sollumz_medium.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rf_sollumz_low.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0,
+            0.9999,
+            1.0003
+          ]
+        },
+        "window_rf_sollumz_verylow.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            -0.0,
+            0.0007,
+            0.9995,
+            1.0003
+          ]
+        }
+      }
+    },
+    "phys_window_rr": {
+      "frame": {
+        "u_axis": [
+          0.0021,
+          1.0,
+          -0.0
+        ],
+        "v_axis": [
+          -0.4209,
+          0.0009,
+          0.9071
+        ],
+        "plane_span_m": [
+          0.8602,
+          0.3867
+        ]
+      },
+      "space": "bone-local via (0.825790524482727, -0.5800787210464478, 1.0454245805740356)",
+      "normal": [
+        0.9071,
+        -0.0019,
+        0.4209
+      ],
+      "meshes": {
+        "glass_pside_r_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rr_sollumz_medium.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "window_rr_sollumz_low.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0001,
+            1.0,
+            0.9999
+          ]
+        },
+        "window_rr_sollumz_verylow.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0001,
+            1.0,
+            0.9996
+          ]
+        }
+      }
+    },
+    "phys_windscreen": {
+      "frame": {
+        "u_axis": [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        "v_axis": [
+          0.0,
+          -0.8845,
+          0.4666
+        ],
+        "plane_span_m": [
+          1.8486,
+          0.8182
+        ]
+      },
+      "space": "bone-local via (0.0, 0.6048233509063721, 1.0396625995635986)",
+      "normal": [
+        -0.0,
+        0.4666,
+        0.8845
+      ],
+      "meshes": {
+        "windscreen_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_sollumz_medium.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_sollumz_low.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9999
+          ]
+        },
+        "windscreen_sollumz_verylow.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9996
+          ]
+        }
+      }
+    },
+    "phys_windscreen_r": {
+      "frame": {
+        "u_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "v_axis": [
+          -0.0,
+          0.8913,
+          0.4533
+        ],
+        "plane_span_m": [
+          1.8988,
+          0.7892
+        ]
+      },
+      "space": "bone-local via (0.0, -1.1921744346618652, 1.0350031852722168)",
+      "normal": [
+        0.0,
+        -0.4533,
+        0.8913
+      ],
+      "meshes": {
+        "glass_rear_v011_surface.003": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_r_sollumz_medium.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        "windscreen_r_sollumz_low.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9999
+          ]
+        },
+        "windscreen_r_sollumz_verylow.001": {
+          "layers": [
+            "UVMap 0",
+            "UVMap 1",
+            "UVMap 2"
+          ],
+          "uv2_bounds": [
+            0.0,
+            0.0,
+            1.0,
+            0.9996
+          ]
+        }
+      }
+    }
+  },
+  "audit": {
+    "native_asset_constructed": true,
+    "exported_skeleton_bones": 24,
+    "exported_models_by_lod": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "physics_children": 21,
+    "generated_vehicle_windows": 6,
+    "sollumz_log_entries": 0,
+    "sollumz_uv_warnings": 0,
+    "sollumz_color_warnings": 0
+  },
+  "warnings": [],
+  "blockers": [],
+  "elapsed_s": 76.2,
+  "saved": true
+}

@@ -1,0 +1,892 @@
+{
+  "CAR_METAL": {
+    "sollum_type": "sollumz_material_collision",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_AMBIENT": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_BLACKOUT": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_BRONZE": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_CABIN_METAL": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_CABIN_UI": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_CALIPER": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_COLLISION": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_INDICATOR": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_LEATHER_EMBOSS": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_LENS_SMOKE": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_OLIVE_LEATHER": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_REVERSE": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_RIM_DARK": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_SCREEN": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_TAN_LEATHER": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "M_QCOMET_TIRE": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_blackout_v011": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_export_000": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_000",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_001": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_004",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_002": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_paint3.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_005",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DiffuseSampler2",
+        "image": "qcomet_palette_005",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_003": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_006",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_004": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_007",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_005": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_008",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_006": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_009",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_007": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_vehglass.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_010",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_008": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_vehglass.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_011",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_009": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_012",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_010": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_013",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_011": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_014",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_012": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_015",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_013": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_016",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_014": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_017",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_015": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_018",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_016": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_019",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_017": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_020",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_018": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_021",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_019": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_022",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_020": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_023",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_021": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_024",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_022": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_025",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_023": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_lightsemissive.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_026",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_export_024": {
+    "sollum_type": "sollumz_material_shader",
+    "shader_file": "vehicle_mesh.sps",
+    "textures": [
+      {
+        "node": "DiffuseSampler",
+        "image": "qcomet_palette_027",
+        "filepath": ""
+      },
+      {
+        "node": "DamageSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "DirtSampler",
+        "image": "qcomet_palette_001",
+        "filepath": ""
+      },
+      {
+        "node": "BumpSampler",
+        "image": "qcomet_palette_002",
+        "filepath": ""
+      },
+      {
+        "node": "SpecSampler",
+        "image": "qcomet_palette_003",
+        "filepath": ""
+      }
+    ]
+  },
+  "qcomet_glass_clear_v011": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_glass_roof_v011": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_indicator_amber_v015": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_lamp_black_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_led_warm_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_optics_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_pocket_olive_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_reflector_red": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_reverse_lens_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_review_floor": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_tail_brake_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_tail_running_v012": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_tail_running_v017": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "qcomet_wheelwell_v011": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  },
+  "Trim_Bronze": {
+    "sollum_type": "sollumz_material_none",
+    "shader_file": "default.sps",
+    "textures": []
+  }
+}

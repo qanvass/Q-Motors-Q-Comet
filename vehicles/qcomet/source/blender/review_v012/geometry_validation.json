@@ -1,0 +1,6027 @@
+{
+  "scope": "All visible render-enabled vehicle meshes; excludes archived sources, cutters and review studio.",
+  "objects": {
+    "chassis": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.16185003929138198
+    },
+    "pillar_a_dside": {
+      "vertices": 232,
+      "faces": 230,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.4687698102447204e-05
+    },
+    "pillar_a_pside": {
+      "vertices": 232,
+      "faces": 230,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.459233854792747e-05
+    },
+    "pillar_c_dside": {
+      "vertices": 232,
+      "faces": 230,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.4368012869566762e-05
+    },
+    "pillar_c_pside": {
+      "vertices": 232,
+      "faces": 230,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.445821252265605e-05
+    },
+    "door_dside_f": {
+      "vertices": 2334,
+      "faces": 2322,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.010128429331450145
+    },
+    "door_pside_f": {
+      "vertices": 2334,
+      "faces": 2322,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.010128417986283441
+    },
+    "door_dside_r": {
+      "vertices": 2342,
+      "faces": 2329,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.008260903187503221
+    },
+    "door_pside_r": {
+      "vertices": 2342,
+      "faces": 2329,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.008260908062029471
+    },
+    "handle_dside_f": {
+      "vertices": 76,
+      "faces": 110,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.047074641915064e-06
+    },
+    "handle_pside_f": {
+      "vertices": 76,
+      "faces": 110,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.047074641913027e-06
+    },
+    "handle_dside_r": {
+      "vertices": 76,
+      "faces": 110,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.047074856278309e-06
+    },
+    "handle_pside_r": {
+      "vertices": 76,
+      "faces": 110,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.047074856276412e-06
+    },
+    "bonnet": {
+      "vertices": 3526,
+      "faces": 3524,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.018889687942297378
+    },
+    "boot": {
+      "vertices": 3526,
+      "faces": 3524,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.012430154848164187
+    },
+    "front_splitter": {
+      "vertices": 1414,
+      "faces": 1412,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0019014416333439335
+    },
+    "front_splitter_bronze": {
+      "vertices": 484,
+      "faces": 482,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.2107901538832716e-05
+    },
+    "rear_bumper": {
+      "vertices": 4240,
+      "faces": 3660,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.012218074260204508
+    },
+    "rear_diffuser": {
+      "vertices": 968,
+      "faces": 1206,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0021057401847087314
+    },
+    "rear_diffuser_bronze": {
+      "vertices": 484,
+      "faces": 482,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.852113535589178e-05
+    },
+    "fender_vent_dside": {
+      "vertices": 120,
+      "faces": 146,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00014130539525003915
+    },
+    "fender_vent_pside": {
+      "vertices": 120,
+      "faces": 146,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00014131422408293235
+    },
+    "fender_vent_bronze_dside": {
+      "vertices": 132,
+      "faces": 130,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.3024161674022066e-06
+    },
+    "fender_vent_bronze_pside": {
+      "vertices": 132,
+      "faces": 130,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.3024161674022083e-06
+    },
+    "mirror_dside_stalk": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.4932460464793056e-05
+    },
+    "mirror_dside": {
+      "vertices": 602,
+      "faces": 640,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00024414713246398857
+    },
+    "mirror_dside_bronze": {
+      "vertices": 602,
+      "faces": 640,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.635402834495404e-05
+    },
+    "mirror_pside_stalk": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.5339786896716023e-05
+    },
+    "mirror_pside": {
+      "vertices": 602,
+      "faces": 640,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0002441471324639929
+    },
+    "mirror_pside_bronze": {
+      "vertices": 602,
+      "faces": 640,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.6354028344958714e-05
+    },
+    "badge_front": {
+      "vertices": 320,
+      "faces": 320,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.035855835434177e-06
+    },
+    "badge_rear": {
+      "vertices": 320,
+      "faces": 320,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.035855835436244e-06
+    },
+    "bumper_f": {
+      "vertices": 28903,
+      "faces": 17090,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00979061658564354
+    },
+    "skirt_dside": {
+      "vertices": 686,
+      "faces": 684,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0026080427224329105
+    },
+    "skirt_pside": {
+      "vertices": 686,
+      "faces": 684,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0026080427227027575
+    },
+    "front_intake_pocket_dside": {
+      "vertices": 160,
+      "faces": 196,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0003539236756648704
+    },
+    "front_intake_pocket_pside": {
+      "vertices": 160,
+      "faces": 196,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0003539030243295293
+    },
+    "diffuser_strake_1": {
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006553278884571152
+    },
+    "diffuser_strake_2": {
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006553270321372635
+    },
+    "diffuser_strake_3": {
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006553270985715627
+    },
+    "diffuser_strake_4": {
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006553271278074235
+    },
+    "boot_ducktail": {
+      "vertices": 484,
+      "faces": 482,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.002110050888351178
+    },
+    "quarter_dside_r": {
+      "vertices": 8050,
+      "faces": 8048,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.005040553216105831
+    },
+    "fender_dside_f": {
+      "vertices": 7895,
+      "faces": 7678,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004192227564028597
+    },
+    "arch_return_dside_f": {
+      "vertices": 1010,
+      "faces": 1008,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.001322110271574156
+    },
+    "arch_return_dside_r": {
+      "vertices": 1010,
+      "faces": 1008,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0012994211455618775
+    },
+    "quarter_pside_r": {
+      "vertices": 8050,
+      "faces": 8048,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.005039920733576199
+    },
+    "fender_pside_f": {
+      "vertices": 7894,
+      "faces": 7678,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004189931155438759
+    },
+    "arch_return_pside_f": {
+      "vertices": 1010,
+      "faces": 1008,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0013221101556905126
+    },
+    "arch_return_pside_r": {
+      "vertices": 1010,
+      "faces": 1008,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0012994193733458855
+    },
+    "hood_shoulder_dside": {
+      "vertices": 2693,
+      "faces": 2601,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004301055148061695
+    },
+    "hood_shoulder_pside": {
+      "vertices": 2693,
+      "faces": 2601,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004301356738215193
+    },
+    "hood_leading_band": {
+      "vertices": 882,
+      "faces": 880,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.002331377029807874
+    },
+    "hood_cowl_band": {
+      "vertices": 196,
+      "faces": 194,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 9.528811460787584e-05
+    },
+    "rear_deck_shoulder_dside": {
+      "vertices": 2730,
+      "faces": 2728,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0018033848104825017
+    },
+    "rear_deck_shoulder_pside": {
+      "vertices": 2730,
+      "faces": 2728,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.001803261303804922
+    },
+    "rear_deck_leading_band": {
+      "vertices": 863,
+      "faces": 722,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0011185482282322144
+    },
+    "rear_deck_cowl_band": {
+      "vertices": 196,
+      "faces": 194,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.7899732514716563e-05
+    },
+    "front_scoop_louver_dside_1": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410160578e-06
+    },
+    "front_scoop_louver_dside_2": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.032797541017074e-06
+    },
+    "front_scoop_louver_dside_3": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.032797541016339e-06
+    },
+    "front_scoop_louver_dside_4": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410180805e-06
+    },
+    "front_scoop_louver_dside_5": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410166337e-06
+    },
+    "front_scoop_louver_dside_6": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.032797541015485e-06
+    },
+    "front_scoop_louver_dside_7": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410171996e-06
+    },
+    "front_scoop_louver_pside_1": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.03279754101722e-06
+    },
+    "front_scoop_louver_pside_2": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410164914e-06
+    },
+    "front_scoop_louver_pside_3": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410157596e-06
+    },
+    "front_scoop_louver_pside_4": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410163457e-06
+    },
+    "front_scoop_louver_pside_5": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410160544e-06
+    },
+    "front_scoop_louver_pside_6": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.0327975410177857e-06
+    },
+    "front_scoop_louver_pside_7": {
+      "vertices": 36,
+      "faces": 34,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.032797541016644e-06
+    },
+    "front_lower_intake_cavity": {
+      "vertices": 168,
+      "faces": 206,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0020571176785258295
+    },
+    "front_lower_louver_01": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00011780059661921615
+    },
+    "front_lower_louver_02": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00011872685211864739
+    },
+    "front_lower_louver_03": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00011965310761807767
+    },
+    "front_lower_louver_04": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0001205793631175095
+    },
+    "front_lower_louver_05": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00012150561861693793
+    },
+    "front_lower_louver_06": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00012243187411636948
+    },
+    "front_lower_louver_07": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0001233581182908623
+    },
+    "front_lower_louver_08": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0001242843737902924
+    },
+    "front_lower_louver_09": {
+      "vertices": 260,
+      "faces": 258,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0001252106292897245
+    },
+    "front_intake_support_minus0_39": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.483269647232344e-06
+    },
+    "front_intake_support_0": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.4832690716481327e-06
+    },
+    "front_intake_support_0_39": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.4832696472323576e-06
+    },
+    "front_intake_bronze_mouth": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.3800343776389732e-05
+    },
+    "front_mouth_upper_return": {
+      "vertices": 486,
+      "faces": 484,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.475001324848307e-05
+    },
+    "front_aero_wing_dside": {
+      "vertices": 450,
+      "faces": 448,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0002918173839900297
+    },
+    "front_wing_bronze_dside": {
+      "vertices": 16,
+      "faces": 14,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.2906105930838536e-06
+    },
+    "front_aero_wing_pside": {
+      "vertices": 450,
+      "faces": 448,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0002915574867677292
+    },
+    "front_wing_bronze_pside": {
+      "vertices": 16,
+      "faces": 14,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.874339509467087e-06
+    },
+    "diffuser_strake_bronze_1": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.1704390948360628e-06
+    },
+    "diffuser_strake_bronze_2": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.170439094835792e-06
+    },
+    "diffuser_strake_bronze_3": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.1704714373150525e-06
+    },
+    "diffuser_strake_bronze_4": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.1704714373151584e-06
+    },
+    "diffuser_strake_5": {
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006553269481119023
+    },
+    "diffuser_strake_bronze_5": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.17043909483586e-06
+    },
+    "diffuser_strake_6": {
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006553279387657103
+    },
+    "diffuser_strake_bronze_6": {
+      "vertices": 12,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.170439094836054e-06
+    },
+    "fender_duct_louver_dside_1": {
+      "vertices": 52,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.369605465702197e-06
+    },
+    "fender_duct_louver_dside_2": {
+      "vertices": 52,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.539605813790933e-06
+    },
+    "fender_duct_louver_dside_3": {
+      "vertices": 52,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.7096061618805155e-06
+    },
+    "handle_recess_dside_f": {
+      "vertices": 152,
+      "faces": 186,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.2331717997975217e-05
+    },
+    "handle_bronze_cap_dside_f": {
+      "vertices": 152,
+      "faces": 152,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.120331211572337e-07
+    },
+    "handle_recess_dside_r": {
+      "vertices": 152,
+      "faces": 186,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.2286237080252264e-05
+    },
+    "handle_bronze_cap_dside_r": {
+      "vertices": 152,
+      "faces": 152,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.1203447985964343e-07
+    },
+    "fender_duct_louver_pside_1": {
+      "vertices": 52,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.369605465701753e-06
+    },
+    "fender_duct_louver_pside_2": {
+      "vertices": 52,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.53960581379079e-06
+    },
+    "fender_duct_louver_pside_3": {
+      "vertices": 52,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.709606161880661e-06
+    },
+    "handle_recess_pside_f": {
+      "vertices": 152,
+      "faces": 186,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.2331408619194377e-05
+    },
+    "handle_bronze_cap_pside_f": {
+      "vertices": 152,
+      "faces": 152,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.120334620479879e-07
+    },
+    "handle_recess_pside_r": {
+      "vertices": 152,
+      "faces": 186,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.228596850389886e-05
+    },
+    "handle_bronze_cap_pside_r": {
+      "vertices": 152,
+      "faces": 152,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.1203435320893934e-07
+    },
+    "mirror_dside_camera_lens": {
+      "vertices": 602,
+      "faces": 640,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 9.915638603208257e-07
+    },
+    "mirror_pside_camera_lens": {
+      "vertices": 602,
+      "faces": 640,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 9.915638603203554e-07
+    },
+    "badge_front_tail": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 7.142216541195857e-07
+    },
+    "badge_front_plus_horizontal": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.5629167983871125e-07
+    },
+    "badge_front_plus_vertical": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.562886404655317e-07
+    },
+    "badge_rear_tail": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 7.142216541191054e-07
+    },
+    "badge_rear_plus_horizontal": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.562916798386712e-07
+    },
+    "badge_rear_plus_vertical": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.562886404655317e-07
+    },
+    "panoramic_glass_greenhouse": {
+      "vertices": 4346,
+      "faces": 4344,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004564082380047604
+    },
+    "windscreen": {
+      "vertices": 4234,
+      "faces": 4232,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004185067830424914
+    },
+    "glass_rear": {
+      "vertices": 3942,
+      "faces": 3940,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.004100124482787069
+    },
+    "canopy_front_header": {
+      "vertices": 246,
+      "faces": 244,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.2623087091844e-05
+    },
+    "canopy_rear_header": {
+      "vertices": 246,
+      "faces": 244,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.327686145727733e-05
+    },
+    "canopy_cowl_seal": {
+      "vertices": 292,
+      "faces": 290,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.203649534938196e-05
+    },
+    "canopy_rear_seal": {
+      "vertices": 292,
+      "faces": 290,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.160138154936617e-05
+    },
+    "canopy_rail_dside": {
+      "vertices": 488,
+      "faces": 486,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.239461647066653e-05
+    },
+    "glass_dside_f": {
+      "vertices": 2378,
+      "faces": 2376,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0007554737500304655
+    },
+    "pillar_b_dside": {
+      "vertices": 174,
+      "faces": 172,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.29437189170574e-05
+    },
+    "glass_dside_r": {
+      "vertices": 2262,
+      "faces": 2260,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0008863814717580264
+    },
+    "canopy_belt_seal_dside": {
+      "vertices": 520,
+      "faces": 518,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.732428847808267e-05
+    },
+    "canopy_rail_pside": {
+      "vertices": 488,
+      "faces": 486,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.239384373140329e-05
+    },
+    "glass_pside_f": {
+      "vertices": 2378,
+      "faces": 2376,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.000755426860385093
+    },
+    "pillar_b_pside": {
+      "vertices": 174,
+      "faces": 172,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 6.29428109730066e-05
+    },
+    "glass_pside_r": {
+      "vertices": 2262,
+      "faces": 2260,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0008864033221373704
+    },
+    "canopy_belt_seal_pside": {
+      "vertices": 520,
+      "faces": 518,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 5.7324139675740594e-05
+    },
+    "glass_quarter_dside": {
+      "vertices": 1102,
+      "faces": 1100,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00023428237456242198
+    },
+    "quarter_divider_dside": {
+      "vertices": 174,
+      "faces": 172,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.6933959004720113e-05
+    },
+    "glass_quarter_pside": {
+      "vertices": 1102,
+      "faces": 1100,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00023434982950585576
+    },
+    "quarter_divider_pside": {
+      "vertices": 174,
+      "faces": 172,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.6980771789997014e-05
+    },
+    "wheel_lf": {
+      "vertices": 461,
+      "faces": 407,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.009757085462883909
+    },
+    "rim_lf": {
+      "vertices": 128,
+      "faces": 128,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.011394835402302128
+    },
+    "hub_lf": {
+      "vertices": 128,
+      "faces": 188,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.119271429662008e-05
+    },
+    "caliper_lf": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0015101255479441056
+    },
+    "wheel_rf": {
+      "vertices": 461,
+      "faces": 407,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00975708546129527
+    },
+    "rim_rf": {
+      "vertices": 128,
+      "faces": 128,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.01139483540230213
+    },
+    "hub_rf": {
+      "vertices": 128,
+      "faces": 188,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.119271429662312e-05
+    },
+    "caliper_rf": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0015101255479441048
+    },
+    "wheel_lr": {
+      "vertices": 461,
+      "faces": 407,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.009757085462883909
+    },
+    "rim_lr": {
+      "vertices": 128,
+      "faces": 128,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.011394835402302128
+    },
+    "hub_lr": {
+      "vertices": 128,
+      "faces": 188,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.119271429661985e-05
+    },
+    "caliper_lr": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0015101255479441052
+    },
+    "wheel_rr": {
+      "vertices": 461,
+      "faces": 407,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00975708546129527
+    },
+    "rim_rr": {
+      "vertices": 128,
+      "faces": 128,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.01139483540230213
+    },
+    "hub_rr": {
+      "vertices": 128,
+      "faces": 188,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.119271429662072e-05
+    },
+    "caliper_rr": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0015101255479441056
+    },
+    "wheelcap_qplus_lf": {
+      "vertices": 320,
+      "faces": 320,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 7.953913006780853e-07
+    },
+    "wheelcap_qplus_lf_tail": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.1280879891686779e-07
+    },
+    "wheelcap_qplus_lf_plus_horizontal": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.048003867523908e-08
+    },
+    "wheelcap_qplus_lf_plus_vertical": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.047732074215499e-08
+    },
+    "wheelcap_qplus_rf": {
+      "vertices": 320,
+      "faces": 320,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 7.953913006780484e-07
+    },
+    "wheelcap_qplus_rf_tail": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.1280879891657684e-07
+    },
+    "wheelcap_qplus_rf_plus_horizontal": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.048003867523908e-08
+    },
+    "wheelcap_qplus_rf_plus_vertical": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.0477320742156685e-08
+    },
+    "wheelcap_qplus_lr": {
+      "vertices": 320,
+      "faces": 320,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 7.953913006780484e-07
+    },
+    "wheelcap_qplus_lr_tail": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.1280879891657684e-07
+    },
+    "wheelcap_qplus_lr_plus_horizontal": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.048003867523908e-08
+    },
+    "wheelcap_qplus_lr_plus_vertical": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.0477320742156685e-08
+    },
+    "wheelcap_qplus_rr": {
+      "vertices": 320,
+      "faces": 320,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 7.953913006780853e-07
+    },
+    "wheelcap_qplus_rr_tail": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.1280879891686779e-07
+    },
+    "wheelcap_qplus_rr_plus_horizontal": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.048003867523908e-08
+    },
+    "wheelcap_qplus_rr_plus_vertical": {
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.047732074215499e-08
+    },
+    "reverse_dside": {
+      "vertices": 100,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.399399589883736e-07
+    },
+    "reverse_pside": {
+      "vertices": 100,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.399399589883747e-07
+    },
+    "headlight_dside_blade_1": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.2026571939785938e-05
+    },
+    "headlight_dside_blade_2": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.1274492284504725e-05
+    },
+    "headlight_dside_blade_3": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 9.76907733488605e-06
+    },
+    "headlight_dside_housing": {
+      "vertices": 408,
+      "faces": 506,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00031058823248504124
+    },
+    "headlight_pside_blade_1": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.2016180018803534e-05
+    },
+    "headlight_pside_blade_2": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 1.130651959828142e-05
+    },
+    "headlight_pside_blade_3": {
+      "vertices": 404,
+      "faces": 402,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 9.790633927260126e-06
+    },
+    "headlight_pside_housing": {
+      "vertices": 408,
+      "faces": 506,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0003105852174786233
+    },
+    "drl_dside": {
+      "vertices": 244,
+      "faces": 242,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.155019885699589e-06
+    },
+    "drl_pside": {
+      "vertices": 244,
+      "faces": 242,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.160614205848875e-06
+    },
+    "tail_bar_running": {
+      "vertices": 1284,
+      "faces": 1282,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 3.0702432760540326e-05
+    },
+    "tail_bar_brake": {
+      "vertices": 1284,
+      "faces": 1282,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 4.3948825128195194e-05
+    },
+    "tail_lens": {
+      "vertices": 1288,
+      "faces": 1606,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0010623891792560134
+    },
+    "tail_quarter_branch_dside": {
+      "vertices": 324,
+      "faces": 322,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.85243619329041e-06
+    },
+    "tail_quarter_branch_pside": {
+      "vertices": 324,
+      "faces": 322,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 2.847460491901079e-06
+    },
+    "reverse_dside_housing": {
+      "vertices": 100,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.999875903235755e-06
+    },
+    "reverse_pside_housing": {
+      "vertices": 100,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 8.999875903235755e-06
+    },
+    "dash_glass_bar": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.02012864355950863
+    },
+    "dash_ambient_strip": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0022329855347457545
+    },
+    "center_console": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.09201678117625173
+    },
+    "console_rotary": {
+      "vertices": 48,
+      "faces": 26,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00012578606356793473
+    },
+    "cupholder_l": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0001885779507220999
+    },
+    "cupholder_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00018857795072209946
+    },
+    "armrest": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.006969145364852537
+    },
+    "pedal_brake": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0011461410928834135
+    },
+    "pedal_accel": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0011461411079075527
+    },
+    "door_card_dside_f": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.026836385795391507
+    },
+    "door_card_pside_f": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.028527229025137935
+    },
+    "door_card_dside_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.029976263021334305
+    },
+    "door_card_pside_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.028252955844456605
+    },
+    "seat_dside_f_cushion": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.02366564870777915
+    },
+    "seat_dside_f_back": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.016567252528929634
+    },
+    "seat_dside_f_bolster_l": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235371435641541
+    },
+    "seat_dside_f_bolster_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235372438070462
+    },
+    "seat_dside_f": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0028645327229384478
+    },
+    "seat_pside_f_cushion": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.023665648707779152
+    },
+    "seat_pside_f_back": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.016567252528929637
+    },
+    "seat_pside_f_bolster_l": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0072353724380704604
+    },
+    "seat_pside_f_bolster_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235371435641522
+    },
+    "seat_pside_f": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0028645327550392797
+    },
+    "seat_dside_r_cushion": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.023665647566519756
+    },
+    "seat_dside_r_back": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.01656724649233499
+    },
+    "seat_dside_r_bolster_l": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235369685276607
+    },
+    "seat_dside_r_bolster_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235370687704244
+    },
+    "seat_dside_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.002864530704472571
+    },
+    "seat_pside_r_cushion": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.023665647566519756
+    },
+    "seat_pside_r_back": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.01656724649233499
+    },
+    "seat_pside_r_bolster_l": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235370687704244
+    },
+    "seat_pside_r_bolster_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.007235369685276607
+    },
+    "seat_pside_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.002864530736573263
+    },
+    "steeringwheel": {
+      "vertices": 432,
+      "faces": 432,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0006248834692943269
+    },
+    "steeringwheel_hub": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0005816233174882673
+    },
+    "steeringwheel_spoke_l": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.0003781410593867952
+    },
+    "steeringwheel_spoke_r": {
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "volume_m3": 0.00031489139399098337
+    }
+  },
+  "emission": {
+    "qcomet_led_warm_v012": {
+      "expected": 20.0,
+      "actual": 20.0,
+      "pass": true
+    },
+    "qcomet_tail_running_v012": {
+      "expected": 25.0,
+      "actual": 25.0,
+      "pass": true
+    },
+    "qcomet_tail_brake_v012": {
+      "expected": 25.0,
+      "actual": 25.0,
+      "pass": true
+    }
+  },
+  "wheel_centers": {
+    "wheel_lf": {
+      "actual": [
+        -0.8450000286102295,
+        1.5,
+        0.38999998569488525
+      ],
+      "expected": [
+        -0.845,
+        1.5,
+        0.39
+      ],
+      "pass": true
+    },
+    "wheel_rf": {
+      "actual": [
+        0.8450000286102295,
+        1.5,
+        0.38999998569488525
+      ],
+      "expected": [
+        0.845,
+        1.5,
+        0.39
+      ],
+      "pass": true
+    },
+    "wheel_lr": {
+      "actual": [
+        -0.8450000286102295,
+        -1.5,
+        0.38999998569488525
+      ],
+      "expected": [
+        -0.845,
+        -1.5,
+        0.39
+      ],
+      "pass": true
+    },
+    "wheel_rr": {
+      "actual": [
+        0.8450000286102295,
+        -1.5,
+        0.38999998569488525
+      ],
+      "expected": [
+        0.845,
+        -1.5,
+        0.39
+      ],
+      "pass": true
+    }
+  },
+  "pocket_depth_probes": [
+    {
+      "x": 0.0,
+      "z": 0.305,
+      "expected_m": 0.007,
+      "actual_m": 0.007086992263793945,
+      "pass": true
+    },
+    {
+      "x": 0.056,
+      "z": 0.305,
+      "expected_m": 0.00690046375120717,
+      "actual_m": 0.006930828094482422,
+      "pass": true
+    },
+    {
+      "x": -0.056,
+      "z": 0.305,
+      "expected_m": 0.00690046375120717,
+      "actual_m": 0.006940126419067383,
+      "pass": true
+    },
+    {
+      "x": 0.112,
+      "z": 0.305,
+      "expected_m": 0.006698262517472814,
+      "actual_m": 0.00673985481262207,
+      "pass": true
+    },
+    {
+      "x": -0.112,
+      "z": 0.305,
+      "expected_m": 0.006698262517472814,
+      "actual_m": 0.006734371185302734,
+      "pass": true
+    },
+    {
+      "x": 0.168,
+      "z": 0.305,
+      "expected_m": 0.00642273493304152,
+      "actual_m": 0.006499767303466797,
+      "pass": true
+    },
+    {
+      "x": -0.168,
+      "z": 0.305,
+      "expected_m": 0.00642273493304152,
+      "actual_m": 0.006503582000732422,
+      "pass": true
+    },
+    {
+      "x": 0.224,
+      "z": 0.305,
+      "expected_m": 0.006085302997992804,
+      "actual_m": 0.006117820739746094,
+      "pass": true
+    },
+    {
+      "x": -0.224,
+      "z": 0.305,
+      "expected_m": 0.006085302997992804,
+      "actual_m": 0.006118297576904297,
+      "pass": true
+    },
+    {
+      "x": 0.28,
+      "z": 0.305,
+      "expected_m": 0.005692826374997904,
+      "actual_m": 0.005724191665649414,
+      "pass": true
+    },
+    {
+      "x": -0.28,
+      "z": 0.305,
+      "expected_m": 0.005692826374997904,
+      "actual_m": 0.005728006362915039,
+      "pass": true
+    },
+    {
+      "x": 0.336,
+      "z": 0.305,
+      "expected_m": 0.0052500595494865965,
+      "actual_m": 0.005319833755493164,
+      "pass": true
+    },
+    {
+      "x": -0.336,
+      "z": 0.305,
+      "expected_m": 0.0052500595494865965,
+      "actual_m": 0.005326986312866211,
+      "pass": true
+    },
+    {
+      "x": 0.392,
+      "z": 0.305,
+      "expected_m": 0.004760566691010632,
+      "actual_m": 0.004773378372192383,
+      "pass": true
+    },
+    {
+      "x": -0.392,
+      "z": 0.305,
+      "expected_m": 0.004760566691010632,
+      "actual_m": 0.0047893524169921875,
+      "pass": true
+    },
+    {
+      "x": 0.42,
+      "z": 0.305,
+      "expected_m": 0.004499198098150746,
+      "actual_m": 0.004502773284912109,
+      "pass": true
+    },
+    {
+      "x": -0.42,
+      "z": 0.305,
+      "expected_m": 0.004499198098150746,
+      "actual_m": 0.0045049190521240234,
+      "pass": true
+    },
+    {
+      "x": 0.448,
+      "z": 0.305,
+      "expected_m": 0.004227157201440596,
+      "actual_m": 0.004229068756103516,
+      "pass": true
+    },
+    {
+      "x": -0.448,
+      "z": 0.305,
+      "expected_m": 0.004227157201440596,
+      "actual_m": 0.004236936569213867,
+      "pass": true
+    },
+    {
+      "x": 0.47600000000000003,
+      "z": 0.305,
+      "expected_m": 0.003944716246720529,
+      "actual_m": 0.003968954086303711,
+      "pass": true
+    },
+    {
+      "x": -0.47600000000000003,
+      "z": 0.305,
+      "expected_m": 0.003944716246720529,
+      "actual_m": 0.0039615631103515625,
+      "pass": true
+    },
+    {
+      "x": 0.504,
+      "z": 0.305,
+      "expected_m": 0.003652124612168605,
+      "actual_m": 0.003702878952026367,
+      "pass": true
+    },
+    {
+      "x": -0.504,
+      "z": 0.305,
+      "expected_m": 0.003652124612168605,
+      "actual_m": 0.003704547882080078,
+      "pass": true
+    },
+    {
+      "x": 0.532,
+      "z": 0.305,
+      "expected_m": 0.003349611916883495,
+      "actual_m": 0.0034117698669433594,
+      "pass": true
+    },
+    {
+      "x": -0.532,
+      "z": 0.305,
+      "expected_m": 0.003349611916883495,
+      "actual_m": 0.003419160842895508,
+      "pass": true
+    },
+    {
+      "x": 0.56,
+      "z": 0.305,
+      "expected_m": 0.0030373905625577452,
+      "actual_m": 0.0030603408813476562,
+      "pass": true
+    },
+    {
+      "x": -0.56,
+      "z": 0.305,
+      "expected_m": 0.0030373905625577452,
+      "actual_m": 0.0030603408813476562,
+      "pass": true
+    },
+    {
+      "x": 0.588,
+      "z": 0.305,
+      "expected_m": 0.0027156578352962113,
+      "actual_m": 0.0027184486389160156,
+      "pass": true
+    },
+    {
+      "x": -0.588,
+      "z": 0.305,
+      "expected_m": 0.0027156578352962113,
+      "actual_m": 0.002725362777709961,
+      "pass": true
+    },
+    {
+      "x": 0.616,
+      "z": 0.305,
+      "expected_m": 0.0023845976613644303,
+      "actual_m": 0.0023860931396484375,
+      "pass": true
+    },
+    {
+      "x": -0.616,
+      "z": 0.305,
+      "expected_m": 0.0023845976613644303,
+      "actual_m": 0.002389192581176758,
+      "pass": true
+    },
+    {
+      "x": 0.644,
+      "z": 0.305,
+      "expected_m": 0.0020443820872339275,
+      "actual_m": 0.0020465850830078125,
+      "pass": true
+    },
+    {
+      "x": -0.644,
+      "z": 0.305,
+      "expected_m": 0.0020443820872339275,
+      "actual_m": 0.002048492431640625,
+      "pass": true
+    },
+    {
+      "x": 0.672,
+      "z": 0.305,
+      "expected_m": 0.0016951725375003277,
+      "actual_m": 0.0016961097717285156,
+      "pass": true
+    },
+    {
+      "x": -0.672,
+      "z": 0.305,
+      "expected_m": 0.0016951725375003277,
+      "actual_m": 0.001695871353149414,
+      "pass": true
+    },
+    {
+      "x": 0.7000000000000001,
+      "z": 0.305,
+      "expected_m": 0.0013371208920086137,
+      "actual_m": 0.001337289810180664,
+      "pass": true
+    },
+    {
+      "x": -0.7000000000000001,
+      "z": 0.305,
+      "expected_m": 0.0013371208920086137,
+      "actual_m": 0.0013370513916015625,
+      "pass": true
+    },
+    {
+      "x": 0.728,
+      "z": 0.305,
+      "expected_m": 0.0009703704144599083,
+      "actual_m": 0.0009703636169433594,
+      "pass": true
+    },
+    {
+      "x": -0.728,
+      "z": 0.305,
+      "expected_m": 0.0009703704144599083,
+      "actual_m": 0.0009665489196777344,
+      "pass": true
+    },
+    {
+      "x": 0.042,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0065779751240295885,
+      "actual_m": 0.006618022918701172,
+      "pass": true
+    },
+    {
+      "x": -0.042,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0065779751240295885,
+      "actual_m": 0.006609439849853516,
+      "pass": true
+    },
+    {
+      "x": 0.098,
+      "z": 0.33499999999999996,
+      "expected_m": 0.006397099936605474,
+      "actual_m": 0.006456851959228516,
+      "pass": true
+    },
+    {
+      "x": -0.098,
+      "z": 0.33499999999999996,
+      "expected_m": 0.006397099936605474,
+      "actual_m": 0.006459951400756836,
+      "pass": true
+    },
+    {
+      "x": 0.15400000000000003,
+      "z": 0.33499999999999996,
+      "expected_m": 0.006138549789463894,
+      "actual_m": 0.006152629852294922,
+      "pass": true
+    },
+    {
+      "x": -0.15400000000000003,
+      "z": 0.33499999999999996,
+      "expected_m": 0.006138549789463894,
+      "actual_m": 0.00614619255065918,
+      "pass": true
+    },
+    {
+      "x": 0.21000000000000002,
+      "z": 0.33499999999999996,
+      "expected_m": 0.005815835454489576,
+      "actual_m": 0.005846977233886719,
+      "pass": true
+    },
+    {
+      "x": -0.21000000000000002,
+      "z": 0.33499999999999996,
+      "expected_m": 0.005815835454489576,
+      "actual_m": 0.005833625793457031,
+      "pass": true
+    },
+    {
+      "x": 0.266,
+      "z": 0.33499999999999996,
+      "expected_m": 0.005436613439415241,
+      "actual_m": 0.005497455596923828,
+      "pass": true
+    },
+    {
+      "x": -0.266,
+      "z": 0.33499999999999996,
+      "expected_m": 0.005436613439415241,
+      "actual_m": 0.005509376525878906,
+      "pass": true
+    },
+    {
+      "x": 0.322,
+      "z": 0.33499999999999996,
+      "expected_m": 0.005006048168015401,
+      "actual_m": 0.0050199031829833984,
+      "pass": true
+    },
+    {
+      "x": -0.322,
+      "z": 0.33499999999999996,
+      "expected_m": 0.005006048168015401,
+      "actual_m": 0.005009651184082031,
+      "pass": true
+    },
+    {
+      "x": 0.378,
+      "z": 0.33499999999999996,
+      "expected_m": 0.004527949042730378,
+      "actual_m": 0.004539012908935547,
+      "pass": true
+    },
+    {
+      "x": -0.378,
+      "z": 0.33499999999999996,
+      "expected_m": 0.004527949042730378,
+      "actual_m": 0.004518747329711914,
+      "pass": true
+    },
+    {
+      "x": 0.406,
+      "z": 0.33499999999999996,
+      "expected_m": 0.004272026868136875,
+      "actual_m": 0.004288911819458008,
+      "pass": true
+    },
+    {
+      "x": -0.406,
+      "z": 0.33499999999999996,
+      "expected_m": 0.004272026868136875,
+      "actual_m": 0.0042879581451416016,
+      "pass": true
+    },
+    {
+      "x": 0.434,
+      "z": 0.33499999999999996,
+      "expected_m": 0.004005286523140346,
+      "actual_m": 0.0040509700775146484,
+      "pass": true
+    },
+    {
+      "x": -0.434,
+      "z": 0.33499999999999996,
+      "expected_m": 0.004005286523140346,
+      "actual_m": 0.004057645797729492,
+      "pass": true
+    },
+    {
+      "x": 0.462,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0037280130764792358,
+      "actual_m": 0.0037670135498046875,
+      "pass": true
+    },
+    {
+      "x": -0.462,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0037280130764792358,
+      "actual_m": 0.0037834644317626953,
+      "pass": true
+    },
+    {
+      "x": 0.49000000000000005,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0034404669100086766,
+      "actual_m": 0.0034554004669189453,
+      "pass": true
+    },
+    {
+      "x": -0.49000000000000005,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0034404669100086766,
+      "actual_m": 0.0034513473510742188,
+      "pass": true
+    },
+    {
+      "x": 0.518,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0031428871726801545,
+      "actual_m": 0.003145456314086914,
+      "pass": true
+    },
+    {
+      "x": -0.518,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0031428871726801545,
+      "actual_m": 0.003137350082397461,
+      "pass": true
+    },
+    {
+      "x": 0.546,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0028354945872009437,
+      "actual_m": 0.0028455257415771484,
+      "pass": true
+    },
+    {
+      "x": -0.546,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0028354945872009437,
+      "actual_m": 0.0028247833251953125,
+      "pass": true
+    },
+    {
+      "x": 0.5740000000000001,
+      "z": 0.33499999999999996,
+      "expected_m": 0.002518493758256772,
+      "actual_m": 0.002522706985473633,
+      "pass": true
+    },
+    {
+      "x": -0.5740000000000001,
+      "z": 0.33499999999999996,
+      "expected_m": 0.002518493758256772,
+      "actual_m": 0.0025129318237304688,
+      "pass": true
+    },
+    {
+      "x": 0.602,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0021920750912218395,
+      "actual_m": 0.0021920204162597656,
+      "pass": true
+    },
+    {
+      "x": -0.602,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0021920750912218395,
+      "actual_m": 0.0021920204162597656,
+      "pass": true
+    },
+    {
+      "x": 0.63,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0018564164024359056,
+      "actual_m": 0.0018575191497802734,
+      "pass": true
+    },
+    {
+      "x": -0.63,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0018564164024359056,
+      "actual_m": 0.0018658638000488281,
+      "pass": true
+    },
+    {
+      "x": 0.658,
+      "z": 0.33499999999999996,
+      "expected_m": 0.001511684282342018,
+      "actual_m": 0.0015511512756347656,
+      "pass": true
+    },
+    {
+      "x": -0.658,
+      "z": 0.33499999999999996,
+      "expected_m": 0.001511684282342018,
+      "actual_m": 0.001565694808959961,
+      "pass": true
+    },
+    {
+      "x": 0.686,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0011580352584697397,
+      "actual_m": 0.001157999038696289,
+      "pass": true
+    },
+    {
+      "x": -0.686,
+      "z": 0.33499999999999996,
+      "expected_m": 0.0011580352584697397,
+      "actual_m": 0.0011591911315917969,
+      "pass": true
+    },
+    {
+      "x": 0.0,
+      "z": 0.365,
+      "expected_m": 0.006084336342574719,
+      "actual_m": 0.006155729293823242,
+      "pass": true
+    },
+    {
+      "x": 0.056,
+      "z": 0.365,
+      "expected_m": 0.005984800093781889,
+      "actual_m": 0.006004810333251953,
+      "pass": true
+    },
+    {
+      "x": -0.056,
+      "z": 0.365,
+      "expected_m": 0.005984800093781889,
+      "actual_m": 0.006003379821777344,
+      "pass": true
+    },
+    {
+      "x": 0.112,
+      "z": 0.365,
+      "expected_m": 0.005782598860047532,
+      "actual_m": 0.005795478820800781,
+      "pass": true
+    },
+    {
+      "x": -0.112,
+      "z": 0.365,
+      "expected_m": 0.005782598860047532,
+      "actual_m": 0.00579833984375,
+      "pass": true
+    },
+    {
+      "x": 0.168,
+      "z": 0.365,
+      "expected_m": 0.00550707127561624,
+      "actual_m": 0.005564689636230469,
+      "pass": true
+    },
+    {
+      "x": -0.168,
+      "z": 0.365,
+      "expected_m": 0.00550707127561624,
+      "actual_m": 0.005563974380493164,
+      "pass": true
+    },
+    {
+      "x": 0.224,
+      "z": 0.365,
+      "expected_m": 0.005169639340567523,
+      "actual_m": 0.0051898956298828125,
+      "pass": true
+    },
+    {
+      "x": -0.224,
+      "z": 0.365,
+      "expected_m": 0.005169639340567523,
+      "actual_m": 0.0051958560943603516,
+      "pass": true
+    },
+    {
+      "x": 0.28,
+      "z": 0.365,
+      "expected_m": 0.0047771627175726234,
+      "actual_m": 0.00478053092956543,
+      "pass": true
+    },
+    {
+      "x": -0.28,
+      "z": 0.365,
+      "expected_m": 0.0047771627175726234,
+      "actual_m": 0.004776716232299805,
+      "pass": true
+    },
+    {
+      "x": 0.336,
+      "z": 0.365,
+      "expected_m": 0.004334395892061314,
+      "actual_m": 0.004378080368041992,
+      "pass": true
+    },
+    {
+      "x": -0.336,
+      "z": 0.365,
+      "expected_m": 0.004334395892061314,
+      "actual_m": 0.004370927810668945,
+      "pass": true
+    },
+    {
+      "x": 0.364,
+      "z": 0.365,
+      "expected_m": 0.00409530035828711,
+      "actual_m": 0.004149675369262695,
+      "pass": true
+    },
+    {
+      "x": -0.364,
+      "z": 0.365,
+      "expected_m": 0.00409530035828711,
+      "actual_m": 0.004157066345214844,
+      "pass": true
+    },
+    {
+      "x": 0.392,
+      "z": 0.365,
+      "expected_m": 0.0038449030335853517,
+      "actual_m": 0.003877401351928711,
+      "pass": true
+    },
+    {
+      "x": -0.392,
+      "z": 0.365,
+      "expected_m": 0.0038449030335853517,
+      "actual_m": 0.003871917724609375,
+      "pass": true
+    },
+    {
+      "x": 0.42,
+      "z": 0.365,
+      "expected_m": 0.0035835344407254646,
+      "actual_m": 0.0035905838012695312,
+      "pass": true
+    },
+    {
+      "x": -0.42,
+      "z": 0.365,
+      "expected_m": 0.0035835344407254646,
+      "actual_m": 0.003582000732421875,
+      "pass": true
+    },
+    {
+      "x": 0.448,
+      "z": 0.365,
+      "expected_m": 0.003311493544015314,
+      "actual_m": 0.0033140182495117188,
+      "pass": true
+    },
+    {
+      "x": -0.448,
+      "z": 0.365,
+      "expected_m": 0.003311493544015314,
+      "actual_m": 0.0033118724822998047,
+      "pass": true
+    },
+    {
+      "x": 0.47600000000000003,
+      "z": 0.365,
+      "expected_m": 0.0030290525892952475,
+      "actual_m": 0.003031015396118164,
+      "pass": true
+    },
+    {
+      "x": -0.47600000000000003,
+      "z": 0.365,
+      "expected_m": 0.0030290525892952475,
+      "actual_m": 0.0030291080474853516,
+      "pass": true
+    },
+    {
+      "x": 0.504,
+      "z": 0.365,
+      "expected_m": 0.002736460954743324,
+      "actual_m": 0.002740144729614258,
+      "pass": true
+    },
+    {
+      "x": -0.504,
+      "z": 0.365,
+      "expected_m": 0.002736460954743324,
+      "actual_m": 0.0027403831481933594,
+      "pass": true
+    },
+    {
+      "x": 0.532,
+      "z": 0.365,
+      "expected_m": 0.0024339482594582136,
+      "actual_m": 0.0024521350860595703,
+      "pass": true
+    },
+    {
+      "x": -0.532,
+      "z": 0.365,
+      "expected_m": 0.0024339482594582136,
+      "actual_m": 0.002452373504638672,
+      "pass": true
+    },
+    {
+      "x": 0.56,
+      "z": 0.365,
+      "expected_m": 0.002121726905132464,
+      "actual_m": 0.002164125442504883,
+      "pass": true
+    },
+    {
+      "x": -0.56,
+      "z": 0.365,
+      "expected_m": 0.002121726905132464,
+      "actual_m": 0.0021657943725585938,
+      "pass": true
+    },
+    {
+      "x": 0.588,
+      "z": 0.365,
+      "expected_m": 0.00179999417787093,
+      "actual_m": 0.0018157958984375,
+      "pass": true
+    },
+    {
+      "x": -0.588,
+      "z": 0.365,
+      "expected_m": 0.00179999417787093,
+      "actual_m": 0.0018172264099121094,
+      "pass": true
+    },
+    {
+      "x": 0.616,
+      "z": 0.365,
+      "expected_m": 0.0014689340039391492,
+      "actual_m": 0.0014688968658447266,
+      "pass": true
+    },
+    {
+      "x": -0.616,
+      "z": 0.365,
+      "expected_m": 0.0014689340039391492,
+      "actual_m": 0.0014688968658447266,
+      "pass": true
+    },
+    {
+      "x": 0.644,
+      "z": 0.365,
+      "expected_m": 0.0011287184298086463,
+      "actual_m": 0.0011286735534667969,
+      "pass": true
+    },
+    {
+      "x": -0.644,
+      "z": 0.365,
+      "expected_m": 0.0011287184298086463,
+      "actual_m": 0.0011286735534667969,
+      "pass": true
+    },
+    {
+      "x": 0.042,
+      "z": 0.395,
+      "expected_m": 0.005354261928117654,
+      "actual_m": 0.005380153656005859,
+      "pass": true
+    },
+    {
+      "x": -0.042,
+      "z": 0.395,
+      "expected_m": 0.005354261928117654,
+      "actual_m": 0.00537109375,
+      "pass": true
+    },
+    {
+      "x": 0.098,
+      "z": 0.395,
+      "expected_m": 0.005173386740693539,
+      "actual_m": 0.005225658416748047,
+      "pass": true
+    },
+    {
+      "x": -0.098,
+      "z": 0.395,
+      "expected_m": 0.005173386740693539,
+      "actual_m": 0.0052280426025390625,
+      "pass": true
+    },
+    {
+      "x": 0.15400000000000003,
+      "z": 0.395,
+      "expected_m": 0.004914836593551958,
+      "actual_m": 0.004928112030029297,
+      "pass": true
+    },
+    {
+      "x": -0.15400000000000003,
+      "z": 0.395,
+      "expected_m": 0.004914836593551958,
+      "actual_m": 0.0049288272857666016,
+      "pass": true
+    },
+    {
+      "x": 0.21000000000000002,
+      "z": 0.395,
+      "expected_m": 0.004592122258577641,
+      "actual_m": 0.0045931339263916016,
+      "pass": true
+    },
+    {
+      "x": -0.21000000000000002,
+      "z": 0.395,
+      "expected_m": 0.004592122258577641,
+      "actual_m": 0.004587650299072266,
+      "pass": true
+    },
+    {
+      "x": 0.23800000000000002,
+      "z": 0.395,
+      "expected_m": 0.004409211461242098,
+      "actual_m": 0.004434347152709961,
+      "pass": true
+    },
+    {
+      "x": -0.23800000000000002,
+      "z": 0.395,
+      "expected_m": 0.004409211461242098,
+      "actual_m": 0.00443720817565918,
+      "pass": true
+    },
+    {
+      "x": 0.266,
+      "z": 0.395,
+      "expected_m": 0.004212900243503306,
+      "actual_m": 0.004257678985595703,
+      "pass": true
+    },
+    {
+      "x": -0.266,
+      "z": 0.395,
+      "expected_m": 0.004212900243503306,
+      "actual_m": 0.004262447357177734,
+      "pass": true
+    },
+    {
+      "x": 0.29400000000000004,
+      "z": 0.395,
+      "expected_m": 0.0040037733870730095,
+      "actual_m": 0.004036903381347656,
+      "pass": true
+    },
+    {
+      "x": -0.29400000000000004,
+      "z": 0.395,
+      "expected_m": 0.0040037733870730095,
+      "actual_m": 0.004042863845825195,
+      "pass": true
+    },
+    {
+      "x": 0.322,
+      "z": 0.395,
+      "expected_m": 0.003782334972103466,
+      "actual_m": 0.003791332244873047,
+      "pass": true
+    },
+    {
+      "x": -0.322,
+      "z": 0.395,
+      "expected_m": 0.003782334972103466,
+      "actual_m": 0.003796815872192383,
+      "pass": true
+    },
+    {
+      "x": 0.35000000000000003,
+      "z": 0.395,
+      "expected_m": 0.003549025786582842,
+      "actual_m": 0.003555774688720703,
+      "pass": true
+    },
+    {
+      "x": -0.35000000000000003,
+      "z": 0.395,
+      "expected_m": 0.003549025786582842,
+      "actual_m": 0.0035467147827148438,
+      "pass": true
+    },
+    {
+      "x": 0.378,
+      "z": 0.395,
+      "expected_m": 0.003304235846818443,
+      "actual_m": 0.0033075809478759766,
+      "pass": true
+    },
+    {
+      "x": -0.378,
+      "z": 0.395,
+      "expected_m": 0.003304235846818443,
+      "actual_m": 0.0032989978790283203,
+      "pass": true
+    },
+    {
+      "x": 0.406,
+      "z": 0.395,
+      "expected_m": 0.0030483136722249393,
+      "actual_m": 0.0030488967895507812,
+      "pass": true
+    },
+    {
+      "x": -0.406,
+      "z": 0.395,
+      "expected_m": 0.0030483136722249393,
+      "actual_m": 0.0030417442321777344,
+      "pass": true
+    },
+    {
+      "x": 0.434,
+      "z": 0.395,
+      "expected_m": 0.0027815733272284118,
+      "actual_m": 0.002785205841064453,
+      "pass": true
+    },
+    {
+      "x": -0.434,
+      "z": 0.395,
+      "expected_m": 0.0027815733272284118,
+      "actual_m": 0.0027933120727539062,
+      "pass": true
+    },
+    {
+      "x": 0.462,
+      "z": 0.395,
+      "expected_m": 0.0025042998805673003,
+      "actual_m": 0.002532958984375,
+      "pass": true
+    },
+    {
+      "x": -0.462,
+      "z": 0.395,
+      "expected_m": 0.0025042998805673003,
+      "actual_m": 0.002542257308959961,
+      "pass": true
+    },
+    {
+      "x": 0.49000000000000005,
+      "z": 0.395,
+      "expected_m": 0.0022167537140967415,
+      "actual_m": 0.002231121063232422,
+      "pass": true
+    },
+    {
+      "x": -0.49000000000000005,
+      "z": 0.395,
+      "expected_m": 0.0022167537140967415,
+      "actual_m": 0.0022430419921875,
+      "pass": true
+    },
+    {
+      "x": 0.518,
+      "z": 0.395,
+      "expected_m": 0.0019191739767682196,
+      "actual_m": 0.0019192695617675781,
+      "pass": true
+    },
+    {
+      "x": -0.518,
+      "z": 0.395,
+      "expected_m": 0.0019191739767682196,
+      "actual_m": 0.0019192695617675781,
+      "pass": true
+    },
+    {
+      "x": 0.546,
+      "z": 0.395,
+      "expected_m": 0.0016117813912890089,
+      "actual_m": 0.001611948013305664,
+      "pass": true
+    },
+    {
+      "x": -0.546,
+      "z": 0.395,
+      "expected_m": 0.0016117813912890089,
+      "actual_m": 0.0016112327575683594,
+      "pass": true
+    },
+    {
+      "x": 0.5740000000000001,
+      "z": 0.395,
+      "expected_m": 0.001294780562344837,
+      "actual_m": 0.0012960433959960938,
+      "pass": true
+    },
+    {
+      "x": -0.5740000000000001,
+      "z": 0.395,
+      "expected_m": 0.001294780562344837,
+      "actual_m": 0.0012903213500976562,
+      "pass": true
+    },
+    {
+      "x": 0.602,
+      "z": 0.395,
+      "expected_m": 0.0009683618953099044,
+      "actual_m": 0.0009701251983642578,
+      "pass": true
+    },
+    {
+      "x": -0.602,
+      "z": 0.395,
+      "expected_m": 0.0009683618953099044,
+      "actual_m": 0.0009682178497314453,
+      "pass": true
+    },
+    {
+      "x": 0.0,
+      "z": 0.425,
+      "expected_m": 0.004665862308757166,
+      "actual_m": 0.004718780517578125,
+      "pass": true
+    },
+    {
+      "x": 0.056,
+      "z": 0.425,
+      "expected_m": 0.004566326059964337,
+      "actual_m": 0.00457000732421875,
+      "pass": true
+    },
+    {
+      "x": -0.056,
+      "z": 0.425,
+      "expected_m": 0.004566326059964337,
+      "actual_m": 0.004581451416015625,
+      "pass": true
+    },
+    {
+      "x": 0.084,
+      "z": 0.425,
+      "expected_m": 0.004475435853141027,
+      "actual_m": 0.004476070404052734,
+      "pass": true
+    },
+    {
+      "x": -0.084,
+      "z": 0.425,
+      "expected_m": 0.004475435853141027,
+      "actual_m": 0.004474639892578125,
+      "pass": true
+    },
+    {
+      "x": 0.112,
+      "z": 0.425,
+      "expected_m": 0.004364124826229981,
+      "actual_m": 0.004365205764770508,
+      "pass": true
+    },
+    {
+      "x": -0.112,
+      "z": 0.425,
+      "expected_m": 0.004364124826229981,
+      "actual_m": 0.004363298416137695,
+      "pass": true
+    },
+    {
+      "x": 0.14,
+      "z": 0.425,
+      "expected_m": 0.00423465582402118,
+      "actual_m": 0.004252433776855469,
+      "pass": true
+    },
+    {
+      "x": -0.14,
+      "z": 0.425,
+      "expected_m": 0.00423465582402118,
+      "actual_m": 0.004251003265380859,
+      "pass": true
+    },
+    {
+      "x": 0.168,
+      "z": 0.425,
+      "expected_m": 0.004088597241798687,
+      "actual_m": 0.004121065139770508,
+      "pass": true
+    },
+    {
+      "x": -0.168,
+      "z": 0.425,
+      "expected_m": 0.004088597241798687,
+      "actual_m": 0.004121541976928711,
+      "pass": true
+    },
+    {
+      "x": 0.196,
+      "z": 0.425,
+      "expected_m": 0.00392712481704222,
+      "actual_m": 0.003964900970458984,
+      "pass": true
+    },
+    {
+      "x": -0.196,
+      "z": 0.425,
+      "expected_m": 0.00392712481704222,
+      "actual_m": 0.0039691925048828125,
+      "pass": true
+    },
+    {
+      "x": 0.224,
+      "z": 0.425,
+      "expected_m": 0.003751165306749971,
+      "actual_m": 0.0037648677825927734,
+      "pass": true
+    },
+    {
+      "x": -0.224,
+      "z": 0.425,
+      "expected_m": 0.003751165306749971,
+      "actual_m": 0.0037682056427001953,
+      "pass": true
+    },
+    {
+      "x": 0.252,
+      "z": 0.425,
+      "expected_m": 0.003561475294125818,
+      "actual_m": 0.0035614967346191406,
+      "pass": true
+    },
+    {
+      "x": -0.252,
+      "z": 0.425,
+      "expected_m": 0.003561475294125818,
+      "actual_m": 0.003559112548828125,
+      "pass": true
+    },
+    {
+      "x": 0.28,
+      "z": 0.425,
+      "expected_m": 0.0033586886837550707,
+      "actual_m": 0.003359079360961914,
+      "pass": true
+    },
+    {
+      "x": -0.28,
+      "z": 0.425,
+      "expected_m": 0.0033586886837550707,
+      "actual_m": 0.0033578872680664062,
+      "pass": true
+    },
+    {
+      "x": 0.308,
+      "z": 0.425,
+      "expected_m": 0.0031433473344498297,
+      "actual_m": 0.0031452178955078125,
+      "pass": true
+    },
+    {
+      "x": -0.308,
+      "z": 0.425,
+      "expected_m": 0.0031433473344498297,
+      "actual_m": 0.003143310546875,
+      "pass": true
+    },
+    {
+      "x": 0.336,
+      "z": 0.425,
+      "expected_m": 0.0029159218582437627,
+      "actual_m": 0.0029218196868896484,
+      "pass": true
+    },
+    {
+      "x": -0.336,
+      "z": 0.425,
+      "expected_m": 0.0029159218582437627,
+      "actual_m": 0.002916097640991211,
+      "pass": true
+    },
+    {
+      "x": 0.364,
+      "z": 0.425,
+      "expected_m": 0.0026768263244695578,
+      "actual_m": 0.0027008056640625,
+      "pass": true
+    },
+    {
+      "x": -0.364,
+      "z": 0.425,
+      "expected_m": 0.0026768263244695578,
+      "actual_m": 0.0027008056640625,
+      "pass": true
+    },
+    {
+      "x": 0.392,
+      "z": 0.425,
+      "expected_m": 0.002426428999767799,
+      "actual_m": 0.00244903564453125,
+      "pass": true
+    },
+    {
+      "x": -0.392,
+      "z": 0.425,
+      "expected_m": 0.002426428999767799,
+      "actual_m": 0.002454996109008789,
+      "pass": true
+    },
+    {
+      "x": 0.42,
+      "z": 0.425,
+      "expected_m": 0.002165060406907913,
+      "actual_m": 0.002166748046875,
+      "pass": true
+    },
+    {
+      "x": -0.42,
+      "z": 0.425,
+      "expected_m": 0.002165060406907913,
+      "actual_m": 0.002162456512451172,
+      "pass": true
+    },
+    {
+      "x": 0.448,
+      "z": 0.425,
+      "expected_m": 0.0018930195101977626,
+      "actual_m": 0.0018930435180664062,
+      "pass": true
+    },
+    {
+      "x": -0.448,
+      "z": 0.425,
+      "expected_m": 0.0018930195101977626,
+      "actual_m": 0.0018930435180664062,
+      "pass": true
+    },
+    {
+      "x": 0.47600000000000003,
+      "z": 0.425,
+      "expected_m": 0.0016105785554776958,
+      "actual_m": 0.0016105175018310547,
+      "pass": true
+    },
+    {
+      "x": -0.47600000000000003,
+      "z": 0.425,
+      "expected_m": 0.0016105785554776958,
+      "actual_m": 0.0016105175018310547,
+      "pass": true
+    },
+    {
+      "x": 0.504,
+      "z": 0.425,
+      "expected_m": 0.0013179869209257716,
+      "actual_m": 0.0013179779052734375,
+      "pass": true
+    },
+    {
+      "x": -0.504,
+      "z": 0.425,
+      "expected_m": 0.0013179869209257716,
+      "actual_m": 0.001318216323852539,
+      "pass": true
+    },
+    {
+      "x": 0.532,
+      "z": 0.425,
+      "expected_m": 0.0010154742256406613,
+      "actual_m": 0.0010154247283935547,
+      "pass": true
+    },
+    {
+      "x": -0.532,
+      "z": 0.425,
+      "expected_m": 0.0010154742256406613,
+      "actual_m": 0.0010156631469726562,
+      "pass": true
+    },
+    {
+      "x": 0.014,
+      "z": 0.45499999999999996,
+      "expected_m": 0.003834490931369056,
+      "actual_m": 0.0038361549377441406,
+      "pass": true
+    },
+    {
+      "x": -0.014,
+      "z": 0.45499999999999996,
+      "expected_m": 0.003834490931369056,
+      "actual_m": 0.0038356781005859375,
+      "pass": true
+    },
+    {
+      "x": 0.042,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0037825050448994438,
+      "actual_m": 0.003790616989135742,
+      "pass": true
+    },
+    {
+      "x": -0.042,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0037825050448994438,
+      "actual_m": 0.0037920475006103516,
+      "pass": true
+    },
+    {
+      "x": 0.07,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0037030772566045023,
+      "actual_m": 0.003728628158569336,
+      "pass": true
+    },
+    {
+      "x": -0.07,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0037030772566045023,
+      "actual_m": 0.003725767135620117,
+      "pass": true
+    },
+    {
+      "x": 0.098,
+      "z": 0.45499999999999996,
+      "expected_m": 0.003601629857475329,
+      "actual_m": 0.003646373748779297,
+      "pass": true
+    },
+    {
+      "x": -0.098,
+      "z": 0.45499999999999996,
+      "expected_m": 0.003601629857475329,
+      "actual_m": 0.0036454200744628906,
+      "pass": true
+    },
+    {
+      "x": 0.126,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0034810104979606966,
+      "actual_m": 0.003499746322631836,
+      "pass": true
+    },
+    {
+      "x": -0.126,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0034810104979606966,
+      "actual_m": 0.0035021305084228516,
+      "pass": true
+    },
+    {
+      "x": 0.15400000000000003,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0033430797103337477,
+      "actual_m": 0.0033435821533203125,
+      "pass": true
+    },
+    {
+      "x": -0.15400000000000003,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0033430797103337477,
+      "actual_m": 0.003343820571899414,
+      "pass": true
+    },
+    {
+      "x": 0.18200000000000002,
+      "z": 0.45499999999999996,
+      "expected_m": 0.003189185169531065,
+      "actual_m": 0.0031893253326416016,
+      "pass": true
+    },
+    {
+      "x": -0.18200000000000002,
+      "z": 0.45499999999999996,
+      "expected_m": 0.003189185169531065,
+      "actual_m": 0.0031893253326416016,
+      "pass": true
+    },
+    {
+      "x": 0.21000000000000002,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0030203653753594307,
+      "actual_m": 0.0030202865600585938,
+      "pass": true
+    },
+    {
+      "x": -0.21000000000000002,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0030203653753594307,
+      "actual_m": 0.003020048141479492,
+      "pass": true
+    },
+    {
+      "x": 0.23800000000000002,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0028374545780238875,
+      "actual_m": 0.0028371810913085938,
+      "pass": true
+    },
+    {
+      "x": -0.23800000000000002,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0028374545780238875,
+      "actual_m": 0.0028367042541503906,
+      "pass": true
+    },
+    {
+      "x": 0.266,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0026411433602850963,
+      "actual_m": 0.0026531219482421875,
+      "pass": true
+    },
+    {
+      "x": -0.266,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0026411433602850963,
+      "actual_m": 0.002655029296875,
+      "pass": true
+    },
+    {
+      "x": 0.29400000000000004,
+      "z": 0.45499999999999996,
+      "expected_m": 0.002432016503854799,
+      "actual_m": 0.0024633407592773438,
+      "pass": true
+    },
+    {
+      "x": -0.29400000000000004,
+      "z": 0.45499999999999996,
+      "expected_m": 0.002432016503854799,
+      "actual_m": 0.0024652481079101562,
+      "pass": true
+    },
+    {
+      "x": 0.322,
+      "z": 0.45499999999999996,
+      "expected_m": 0.002210578088885255,
+      "actual_m": 0.002222776412963867,
+      "pass": true
+    },
+    {
+      "x": -0.322,
+      "z": 0.45499999999999996,
+      "expected_m": 0.002210578088885255,
+      "actual_m": 0.0022208690643310547,
+      "pass": true
+    },
+    {
+      "x": 0.35000000000000003,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0019772689033646317,
+      "actual_m": 0.0019779205322265625,
+      "pass": true
+    },
+    {
+      "x": -0.35000000000000003,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0019772689033646317,
+      "actual_m": 0.0019774436950683594,
+      "pass": true
+    },
+    {
+      "x": 0.378,
+      "z": 0.45499999999999996,
+      "expected_m": 0.001732478963600233,
+      "actual_m": 0.0017325878143310547,
+      "pass": true
+    },
+    {
+      "x": -0.378,
+      "z": 0.45499999999999996,
+      "expected_m": 0.001732478963600233,
+      "actual_m": 0.0017325878143310547,
+      "pass": true
+    },
+    {
+      "x": 0.406,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0014765567890067295,
+      "actual_m": 0.001476287841796875,
+      "pass": true
+    },
+    {
+      "x": -0.406,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0014765567890067295,
+      "actual_m": 0.0014765262603759766,
+      "pass": true
+    },
+    {
+      "x": 0.434,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0012098164440102017,
+      "actual_m": 0.0012099742889404297,
+      "pass": true
+    },
+    {
+      "x": -0.434,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0012098164440102017,
+      "actual_m": 0.0012087821960449219,
+      "pass": true
+    },
+    {
+      "x": 0.462,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0009325429973490902,
+      "actual_m": 0.0009324550628662109,
+      "pass": true
+    },
+    {
+      "x": -0.462,
+      "z": 0.45499999999999996,
+      "expected_m": 0.0009325429973490902,
+      "actual_m": 0.0009326934814453125,
+      "pass": true
+    },
+    {
+      "x": 0.0,
+      "z": 0.485,
+      "expected_m": 0.002964943025293971,
+      "actual_m": 0.0029973983764648438,
+      "pass": true
+    },
+    {
+      "x": 0.028,
+      "z": 0.485,
+      "expected_m": 0.0029321083083712718,
+      "actual_m": 0.0029494762420654297,
+      "pass": true
+    },
+    {
+      "x": -0.028,
+      "z": 0.485,
+      "expected_m": 0.0029321083083712718,
+      "actual_m": 0.002948760986328125,
+      "pass": true
+    },
+    {
+      "x": 0.056,
+      "z": 0.485,
+      "expected_m": 0.0028654067765011408,
+      "actual_m": 0.002865314483642578,
+      "pass": true
+    },
+    {
+      "x": -0.056,
+      "z": 0.485,
+      "expected_m": 0.0028654067765011408,
+      "actual_m": 0.0028657913208007812,
+      "pass": true
+    },
+    {
+      "x": 0.084,
+      "z": 0.485,
+      "expected_m": 0.0027745165696778317,
+      "actual_m": 0.0027742385864257812,
+      "pass": true
+    },
+    {
+      "x": -0.084,
+      "z": 0.485,
+      "expected_m": 0.0027745165696778317,
+      "actual_m": 0.0027747154235839844,
+      "pass": true
+    },
+    {
+      "x": 0.112,
+      "z": 0.485,
+      "expected_m": 0.0026632055427667847,
+      "actual_m": 0.00266265869140625,
+      "pass": true
+    },
+    {
+      "x": -0.112,
+      "z": 0.485,
+      "expected_m": 0.0026632055427667847,
+      "actual_m": 0.0026633739471435547,
+      "pass": true
+    },
+    {
+      "x": 0.14,
+      "z": 0.485,
+      "expected_m": 0.002533736540557984,
+      "actual_m": 0.002533435821533203,
+      "pass": true
+    },
+    {
+      "x": -0.14,
+      "z": 0.485,
+      "expected_m": 0.002533736540557984,
+      "actual_m": 0.0025336742401123047,
+      "pass": true
+    },
+    {
+      "x": 0.168,
+      "z": 0.485,
+      "expected_m": 0.002387677958335491,
+      "actual_m": 0.0023915767669677734,
+      "pass": true
+    },
+    {
+      "x": -0.168,
+      "z": 0.485,
+      "expected_m": 0.002387677958335491,
+      "actual_m": 0.002387523651123047,
+      "pass": true
+    },
+    {
+      "x": 0.196,
+      "z": 0.485,
+      "expected_m": 0.0022262055335790236,
+      "actual_m": 0.002245187759399414,
+      "pass": true
+    },
+    {
+      "x": -0.196,
+      "z": 0.485,
+      "expected_m": 0.0022262055335790236,
+      "actual_m": 0.002245187759399414,
+      "pass": true
+    },
+    {
+      "x": 0.224,
+      "z": 0.485,
+      "expected_m": 0.002050246023286775,
+      "actual_m": 0.0020613670349121094,
+      "pass": true
+    },
+    {
+      "x": -0.224,
+      "z": 0.485,
+      "expected_m": 0.002050246023286775,
+      "actual_m": 0.0020627975463867188,
+      "pass": true
+    },
+    {
+      "x": 0.252,
+      "z": 0.485,
+      "expected_m": 0.0018605560106626218,
+      "actual_m": 0.0018606185913085938,
+      "pass": true
+    },
+    {
+      "x": -0.252,
+      "z": 0.485,
+      "expected_m": 0.0018605560106626218,
+      "actual_m": 0.0018608570098876953,
+      "pass": true
+    },
+    {
+      "x": 0.28,
+      "z": 0.485,
+      "expected_m": 0.0016577694002918753,
+      "actual_m": 0.001657724380493164,
+      "pass": true
+    },
+    {
+      "x": -0.28,
+      "z": 0.485,
+      "expected_m": 0.0016577694002918753,
+      "actual_m": 0.0016579627990722656,
+      "pass": true
+    },
+    {
+      "x": 0.308,
+      "z": 0.485,
+      "expected_m": 0.0014424280509866333,
+      "actual_m": 0.0014424324035644531,
+      "pass": true
+    },
+    {
+      "x": -0.308,
+      "z": 0.485,
+      "expected_m": 0.0014424280509866333,
+      "actual_m": 0.0014424324035644531,
+      "pass": true
+    },
+    {
+      "x": 0.336,
+      "z": 0.485,
+      "expected_m": 0.001215002574780567,
+      "actual_m": 0.001214742660522461,
+      "pass": true
+    },
+    {
+      "x": -0.336,
+      "z": 0.485,
+      "expected_m": 0.001215002574780567,
+      "actual_m": 0.0012149810791015625,
+      "pass": true
+    },
+    {
+      "x": 0.364,
+      "z": 0.485,
+      "expected_m": 0.0009759070410063622,
+      "actual_m": 0.0009753704071044922,
+      "pass": true
+    },
+    {
+      "x": -0.364,
+      "z": 0.485,
+      "expected_m": 0.0009759070410063622,
+      "actual_m": 0.0009758472442626953,
+      "pass": true
+    },
+    {
+      "x": 0.042,
+      "z": 0.515,
+      "expected_m": 0.0019686536015960606,
+      "actual_m": 0.0019769668579101562,
+      "pass": true
+    },
+    {
+      "x": -0.042,
+      "z": 0.515,
+      "expected_m": 0.0019686536015960606,
+      "actual_m": 0.0019769668579101562,
+      "pass": true
+    },
+    {
+      "x": 0.07,
+      "z": 0.515,
+      "expected_m": 0.0018892258133011192,
+      "actual_m": 0.0018961429595947266,
+      "pass": true
+    },
+    {
+      "x": -0.07,
+      "z": 0.515,
+      "expected_m": 0.0018892258133011192,
+      "actual_m": 0.0018961429595947266,
+      "pass": true
+    },
+    {
+      "x": 0.098,
+      "z": 0.515,
+      "expected_m": 0.0017877784141719457,
+      "actual_m": 0.0018062591552734375,
+      "pass": true
+    },
+    {
+      "x": -0.098,
+      "z": 0.515,
+      "expected_m": 0.0017877784141719457,
+      "actual_m": 0.001804351806640625,
+      "pass": true
+    },
+    {
+      "x": 0.126,
+      "z": 0.515,
+      "expected_m": 0.0016671590546573144,
+      "actual_m": 0.001682281494140625,
+      "pass": true
+    },
+    {
+      "x": -0.126,
+      "z": 0.515,
+      "expected_m": 0.0016671590546573144,
+      "actual_m": 0.0016813278198242188,
+      "pass": true
+    },
+    {
+      "x": 0.15400000000000003,
+      "z": 0.515,
+      "expected_m": 0.0015292282670303651,
+      "actual_m": 0.0015301704406738281,
+      "pass": true
+    },
+    {
+      "x": -0.15400000000000003,
+      "z": 0.515,
+      "expected_m": 0.0015292282670303651,
+      "actual_m": 0.0015311241149902344,
+      "pass": true
+    },
+    {
+      "x": 0.18200000000000002,
+      "z": 0.515,
+      "expected_m": 0.0013753337262276829,
+      "actual_m": 0.0013759136199951172,
+      "pass": true
+    },
+    {
+      "x": -0.18200000000000002,
+      "z": 0.515,
+      "expected_m": 0.0013753337262276829,
+      "actual_m": 0.001375436782836914,
+      "pass": true
+    },
+    {
+      "x": 0.21000000000000002,
+      "z": 0.515,
+      "expected_m": 0.0012065139320560482,
+      "actual_m": 0.0012063980102539062,
+      "pass": true
+    },
+    {
+      "x": -0.21000000000000002,
+      "z": 0.515,
+      "expected_m": 0.0012065139320560482,
+      "actual_m": 0.0012063980102539062,
+      "pass": true
+    },
+    {
+      "x": 0.23800000000000002,
+      "z": 0.515,
+      "expected_m": 0.0010236031347205053,
+      "actual_m": 0.0010235309600830078,
+      "pass": true
+    },
+    {
+      "x": -0.23800000000000002,
+      "z": 0.515,
+      "expected_m": 0.0010236031347205053,
+      "actual_m": 0.0010235309600830078,
+      "pass": true
+    },
+    {
+      "x": 0.084,
+      "z": 0.5449999999999999,
+      "expected_m": 0.0008595735443838632,
+      "actual_m": 0.0008594989776611328,
+      "pass": true
+    },
+    {
+      "x": -0.084,
+      "z": 0.5449999999999999,
+      "expected_m": 0.0008595735443838632,
+      "actual_m": 0.0008597373962402344,
+      "pass": true
+    }
+  ],
+  "dimensions_approved": false,
+  "game_ready": false,
+  "exact_reference_match_certified": false,
+  "source_sha256": {
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q Comet Front view showroom.png": "e5ed903b4b56ae946438f9e50edfd7f499e95880d9b77f86ec20c40651e8af43",
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\q comet all four sides.png": "fc7eebaed6bfe1a45d2a4d2d5429d639380e22e8c2696cab5bffb8f65eb1f655",
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\docs\\qcomet-art-brief.md": "37050c3b0cbc845f1d6c1304a3d12cf35d8c06e2233e0a1990de5e9bf4822767",
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_body_v011.blend": "b131b057cf9111673b4cc3a3518820f57c0ec37878d0e4894271628286787b08",
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_checkpoint_v011.blend": "a317d71b1d1aa3da5f48c1d52ad71c814fb0ba3aba644391ec4455af4477a2fe"
+  },
+  "geometry_pass": true,
+  "recess_depth_pass": true,
+  "feature_counts": {
+    "pill_pockets": 262,
+    "grille_rows": 9,
+    "lower_louvers": 9,
+    "headlight_blades": 6,
+    "diffuser_strakes": 6
+  },
+  "four_doors_four_seats_present": true,
+  "light_visibility": {
+    "headlight_dside_blade_1": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "headlight_dside_blade_1",
+          "pass": true
+        }
+      ]
+    },
+    "headlight_dside_blade_2": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "headlight_dside_blade_2",
+          "pass": true
+        }
+      ]
+    },
+    "headlight_dside_blade_3": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "headlight_dside_blade_3",
+          "pass": true
+        }
+      ]
+    },
+    "headlight_pside_blade_1": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "headlight_pside_blade_1",
+          "pass": true
+        }
+      ]
+    },
+    "headlight_pside_blade_2": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "headlight_pside_blade_2",
+          "pass": true
+        }
+      ]
+    },
+    "headlight_pside_blade_3": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "headlight_pside_blade_3",
+          "pass": true
+        }
+      ]
+    },
+    "drl_dside": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "drl_dside",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "drl_dside",
+          "pass": true
+        }
+      ]
+    },
+    "drl_pside": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "drl_pside",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "drl_pside",
+          "pass": true
+        }
+      ]
+    },
+    "tail_bar_running": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 99,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 102,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 105,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 108,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 111,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 114,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 117,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 120,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 123,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 126,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 129,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 132,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 135,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 138,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 141,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 144,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 147,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 150,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 153,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 156,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 159,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 162,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 165,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 168,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 171,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 174,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 177,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 180,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 183,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 186,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 189,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 192,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 195,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 198,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 201,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 204,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 207,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 210,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 213,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 216,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 219,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 222,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 225,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 228,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 231,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 234,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 237,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 240,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 243,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 246,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 249,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 252,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 255,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 258,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 261,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 264,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 267,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 270,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 273,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 276,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 279,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 282,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 285,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 288,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 291,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 294,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 297,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 300,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 303,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 306,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 309,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 312,
+          "hit": "tail_bar_running",
+          "pass": true
+        },
+        {
+          "sample": 315,
+          "hit": "tail_bar_running",
+          "pass": true
+        }
+      ]
+    },
+    "tail_bar_brake": {
+      "pass": true,
+      "probes": [
+        {
+          "sample": 3,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 6,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 9,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 12,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 15,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 18,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 21,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 24,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 27,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 30,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 33,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 36,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 39,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 42,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 45,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 48,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 51,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 54,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 57,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 60,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 63,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 66,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 69,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 72,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 75,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 78,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 81,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 84,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 87,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 90,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 93,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 96,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 99,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 102,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 105,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 108,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 111,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 114,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 117,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 120,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 123,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 126,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 129,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 132,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 135,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 138,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 141,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 144,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 147,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 150,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 153,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 156,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 159,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 162,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 165,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 168,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 171,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 174,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 177,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 180,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 183,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 186,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 189,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 192,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 195,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 198,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 201,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 204,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 207,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 210,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 213,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 216,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 219,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 222,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 225,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 228,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 231,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 234,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 237,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 240,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 243,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 246,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 249,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 252,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 255,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 258,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 261,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 264,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 267,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 270,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 273,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 276,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 279,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 282,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 285,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 288,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 291,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 294,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 297,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 300,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 303,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 306,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 309,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 312,
+          "hit": "tail_bar_brake",
+          "pass": true
+        },
+        {
+          "sample": 315,
+          "hit": "tail_bar_brake",
+          "pass": true
+        }
+      ]
+    }
+  },
+  "inherited_canopy_master_join_error_m": 0.0,
+  "light_visibility_pass": true,
+  "pass": true
+}

@@ -1,0 +1,21 @@
+{
+  "status": "surfacing_review_ready_pending_human_approval",
+  "exact_reference_fit_certified": false,
+  "pixel_iou": null,
+  "views": {
+    "front_three_quarter": {"reviewed": true, "finding": "Curved panes follow the common canopy; tapered hood and rounded fascia replace overlapping blockout surfaces."},
+    "rear_three_quarter": {"reviewed": true, "finding": "Rear glass lands on the matched deck; boot and rear quarter skins remain separate."},
+    "side": {"reviewed": true, "finding": "Continuous crown, rearward cowl/crown correction, four doors, fixed quarter glazing, and unchanged axle centers."},
+    "front": {"reviewed": true, "finding": "Symmetric curved windshield, closed EV face, three-blade lights and lower dimples. Aero return closes the fascia/splitter gap."},
+    "rear": {"reviewed": true, "finding": "Symmetric rear canopy and fascia; original lamp strips follow the new surface."},
+    "top": {"reviewed": true, "finding": "Tapered bonnet, body waist, and independently editable panoramic roof, windshield, rear glazing, and deck."}
+  },
+  "geometry_evidence": "../geometry_validation.json",
+  "limitations": [
+    "Concept illustrations do not establish exact orthographic constraints or approved dimensions.",
+    "Wheel and cabin geometry remain inherited placeholders; detailing is not at concept-render fidelity.",
+    "Light, badge, and aero detail are not a certified finished v1; legacy open edges are reported separately.",
+    "Static ray probes do not replace in-game first-person, seating, or door-function tests."
+  ],
+  "exports": "none"
+}

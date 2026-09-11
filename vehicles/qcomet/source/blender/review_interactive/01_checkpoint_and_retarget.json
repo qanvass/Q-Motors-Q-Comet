@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "revision": "a-pillar-1",
+  "checkpoint": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_v004_unsaved_checkpoint_20260909_100216.blend",
+  "checkpoint_bytes": 320636,
+  "working": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_body_v006.blend",
+  "working_bytes": 320904,
+  "filepath": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_body_v006.blend",
+  "operator": "FINISHED",
+  "completed_step": "checkpoint_and_retarget"
+}

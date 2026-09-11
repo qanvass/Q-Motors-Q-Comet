@@ -1,0 +1,26 @@
+{
+  "sources": [
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q Comet Front view showroom.png",
+    "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\q comet all four sides.png",
+    "docs/qcomet-art-brief.md"
+  ],
+  "priority": "Latest explicit forensic dimensions, then front showroom/four-side visual shapes; original body package remains provisional.",
+  "primary_features": {
+    "grille_rows": 9,
+    "headlight_blades_per_side": 3,
+    "vertical_drls": 2,
+    "lower_intake_louvers": 9,
+    "tail_tiers": 2,
+    "wheel_centers_unchanged": true
+  },
+  "geometry_gates": {
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "zero_area_faces": 0,
+    "headlight_emission": 20.0,
+    "tail_emission": 25.0
+  },
+  "reference_registration": "Front X/Z outlines traced from supplied images and depth-fitted by raycasting against the preserved body, not replacement primitive housings.",
+  "exact_pixel_fit_certified": false,
+  "limitation": "Concept illustrations and the existing provisional body are not a calibrated exact 3D reconstruction; no full-vehicle 1:1 claim."
+}

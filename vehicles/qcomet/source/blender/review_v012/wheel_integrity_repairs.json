@@ -1,0 +1,62 @@
+{
+  "wheel_lf": {
+    "location_before": [
+      -0.8450000286102295,
+      1.5,
+      0.38999998569488525
+    ],
+    "location_after": [
+      -0.8450000286102295,
+      1.5,
+      0.38999998569488525
+    ],
+    "removed_loose_vertices": 0,
+    "boundary_faces_added": 0,
+    "spoke_geometry_preserved": true
+  },
+  "wheel_rf": {
+    "location_before": [
+      0.8450000286102295,
+      1.5,
+      0.38999998569488525
+    ],
+    "location_after": [
+      0.8450000286102295,
+      1.5,
+      0.38999998569488525
+    ],
+    "removed_loose_vertices": 0,
+    "boundary_faces_added": 0,
+    "spoke_geometry_preserved": true
+  },
+  "wheel_lr": {
+    "location_before": [
+      -0.8450000286102295,
+      -1.5,
+      0.38999998569488525
+    ],
+    "location_after": [
+      -0.8450000286102295,
+      -1.5,
+      0.38999998569488525
+    ],
+    "removed_loose_vertices": 0,
+    "boundary_faces_added": 0,
+    "spoke_geometry_preserved": true
+  },
+  "wheel_rr": {
+    "location_before": [
+      0.8450000286102295,
+      -1.5,
+      0.38999998569488525
+    ],
+    "location_after": [
+      0.8450000286102295,
+      -1.5,
+      0.38999998569488525
+    ],
+    "removed_loose_vertices": 0,
+    "boundary_faces_added": 0,
+    "spoke_geometry_preserved": true
+  }
+}

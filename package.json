@@ -1,0 +1,9 @@
+{
+  "name": "q-motors-q-comet",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate-project.mjs"
+  }
+}

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<string>", line 15, in build_v015_once
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 705, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 398, in main
+    build()
+    ~~~~~^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 605, in build
+    hull('COL_' + name, points, name, 'RUBBER' if wheel else 'CAR_METAL', 24 if wheel else 25 if name.startswith('door_') else 14, rig, composite, collision_collection)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 305, in hull
+    bmesh.ops.delete(edit, geom=discarded, context='VERTS')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: geom: found the same (BMVert/BMEdge/BMFace) used multiple times

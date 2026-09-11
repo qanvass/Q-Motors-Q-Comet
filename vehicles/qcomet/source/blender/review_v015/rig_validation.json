@@ -1,0 +1,2054 @@
+{
+  "game_ready": false,
+  "binary_assets_written": false,
+  "phases": {
+    "0_input": {
+      "active_source_file": "qcomet_vehicle_v013.blend",
+      "accepted_inputs": [
+        "qcomet_vehicle_v013.blend",
+        "qcomet_cabin_v014.blend"
+      ],
+      "source_was_dirty": false,
+      "checkpoint_copy_written": false
+    },
+    "1_discovery": {
+      "source": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_vehicle_v013.blend",
+      "sollumz": "2.9.0",
+      "sollumz_shader_config_shim_applied": true,
+      "port": 9876,
+      "lights_corrected": "0 is always-on; headlight 1/2, tail 3/4, indicators 5-8, brakes 9-11, reverse 12/13.",
+      "collision_corrected": "Native fragment-embedded bounds, using CAR_METAL and CAR_GLASS_MEDIUM/STRONG; no standalone YBN is required for this checkpoint."
+    },
+    "2_plan": [
+      "Preserve original authoring look and separate components.",
+      "Build native Fragment/Drawable and skinned export geometry.",
+      "Create rigid detachable child meshes, windows, real light alpha IDs and collision.",
+      "Generate candidate LODs and run native in-memory export conversion."
+    ],
+    "3_implementation": {
+      "bones": 24,
+      "moving_controls": [
+        "door_dside_f",
+        "door_pside_f",
+        "door_dside_r",
+        "door_pside_r",
+        "bonnet",
+        "boot",
+        "wheel_lf",
+        "wheel_rf",
+        "wheel_lr",
+        "wheel_rr",
+        "steeringwheel"
+      ],
+      "models": 234,
+      "native_collision_bounds": 21,
+      "palette_textures": 28,
+      "shader_materials": 25,
+      "authoring_look_preserved": true,
+      "lod_ratios_provisional": [
+        1,
+        0.5,
+        0.18,
+        0.07
+      ]
+    },
+    "4_verification": {
+      "rest_pose_max_error_m": 0.0,
+      "moving_pivot_count": 11,
+      "max_moving_pivot_error_m": 2.9802322387695312e-08,
+      "wheel_center_max_error_m": 0.0,
+      "unique_bone_tags": true,
+      "native_fragment": true,
+      "native_drawable": true,
+      "native_bound_composite": true,
+      "native_asset_constructed": true,
+      "in_game_spawn_verified": false,
+      "hinge_clipping_certified": false,
+      "exported_skeleton_bones": 24,
+      "exported_models_by_lod": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "physics_children": 21,
+      "generated_vehicle_windows": 6
+    }
+  },
+  "bindings": {
+    "chassis": "chassis",
+    "pillar_a_dside": "bodyshell",
+    "pillar_a_pside": "bodyshell",
+    "pillar_c_dside": "bodyshell",
+    "pillar_c_pside": "bodyshell",
+    "door_dside_f": "door_dside_f",
+    "door_pside_f": "door_pside_f",
+    "door_dside_r": "door_dside_r",
+    "door_pside_r": "door_pside_r",
+    "handle_dside_f": "door_dside_f",
+    "handle_pside_f": "door_pside_f",
+    "handle_dside_r": "door_dside_r",
+    "handle_pside_r": "door_pside_r",
+    "bonnet": "bonnet",
+    "boot": "boot",
+    "front_splitter": "bodyshell",
+    "front_splitter_bronze": "bodyshell",
+    "rear_bumper": "bodyshell",
+    "rear_diffuser": "bodyshell",
+    "rear_diffuser_bronze": "bodyshell",
+    "fender_vent_dside": "bodyshell",
+    "fender_vent_pside": "bodyshell",
+    "fender_vent_bronze_dside": "bodyshell",
+    "fender_vent_bronze_pside": "bodyshell",
+    "mirror_dside_stalk": "door_dside_f",
+    "mirror_dside": "door_dside_f",
+    "mirror_dside_bronze": "door_dside_f",
+    "mirror_pside_stalk": "door_pside_f",
+    "mirror_pside": "door_pside_f",
+    "mirror_pside_bronze": "door_pside_f",
+    "badge_front": "bodyshell",
+    "badge_rear": "bodyshell",
+    "bumper_f": "bodyshell",
+    "skirt_dside": "bodyshell",
+    "skirt_pside": "bodyshell",
+    "front_intake_pocket_dside": "bodyshell",
+    "front_intake_pocket_pside": "bodyshell",
+    "diffuser_strake_1": "bodyshell",
+    "diffuser_strake_2": "bodyshell",
+    "diffuser_strake_3": "bodyshell",
+    "diffuser_strake_4": "bodyshell",
+    "boot_ducktail": "boot",
+    "quarter_dside_r": "bodyshell",
+    "fender_dside_f": "bodyshell",
+    "arch_return_dside_f": "bodyshell",
+    "arch_return_dside_r": "bodyshell",
+    "quarter_pside_r": "bodyshell",
+    "fender_pside_f": "bodyshell",
+    "arch_return_pside_f": "bodyshell",
+    "arch_return_pside_r": "bodyshell",
+    "hood_shoulder_dside": "bodyshell",
+    "hood_shoulder_pside": "bodyshell",
+    "hood_leading_band": "bodyshell",
+    "hood_cowl_band": "bodyshell",
+    "rear_deck_shoulder_dside": "bodyshell",
+    "rear_deck_shoulder_pside": "bodyshell",
+    "rear_deck_leading_band": "bodyshell",
+    "rear_deck_cowl_band": "bodyshell",
+    "front_scoop_louver_dside_1": "bodyshell",
+    "front_scoop_louver_dside_2": "bodyshell",
+    "front_scoop_louver_dside_3": "bodyshell",
+    "front_scoop_louver_dside_4": "bodyshell",
+    "front_scoop_louver_dside_5": "bodyshell",
+    "front_scoop_louver_dside_6": "bodyshell",
+    "front_scoop_louver_dside_7": "bodyshell",
+    "front_scoop_louver_pside_1": "bodyshell",
+    "front_scoop_louver_pside_2": "bodyshell",
+    "front_scoop_louver_pside_3": "bodyshell",
+    "front_scoop_louver_pside_4": "bodyshell",
+    "front_scoop_louver_pside_5": "bodyshell",
+    "front_scoop_louver_pside_6": "bodyshell",
+    "front_scoop_louver_pside_7": "bodyshell",
+    "front_lower_intake_cavity": "bodyshell",
+    "front_lower_louver_01": "bodyshell",
+    "front_lower_louver_02": "bodyshell",
+    "front_lower_louver_03": "bodyshell",
+    "front_lower_louver_04": "bodyshell",
+    "front_lower_louver_05": "bodyshell",
+    "front_lower_louver_06": "bodyshell",
+    "front_lower_louver_07": "bodyshell",
+    "front_lower_louver_08": "bodyshell",
+    "front_lower_louver_09": "bodyshell",
+    "front_intake_support_minus0_39": "bodyshell",
+    "front_intake_support_0": "bodyshell",
+    "front_intake_support_0_39": "bodyshell",
+    "front_intake_bronze_mouth": "bodyshell",
+    "front_mouth_upper_return": "bodyshell",
+    "front_aero_wing_dside": "bodyshell",
+    "front_wing_bronze_dside": "bodyshell",
+    "front_aero_wing_pside": "bodyshell",
+    "front_wing_bronze_pside": "bodyshell",
+    "diffuser_strake_bronze_1": "bodyshell",
+    "diffuser_strake_bronze_2": "bodyshell",
+    "diffuser_strake_bronze_3": "bodyshell",
+    "diffuser_strake_bronze_4": "bodyshell",
+    "diffuser_strake_5": "bodyshell",
+    "diffuser_strake_bronze_5": "bodyshell",
+    "diffuser_strake_6": "bodyshell",
+    "diffuser_strake_bronze_6": "bodyshell",
+    "fender_duct_louver_dside_1": "bodyshell",
+    "fender_duct_louver_dside_2": "bodyshell",
+    "fender_duct_louver_dside_3": "bodyshell",
+    "handle_recess_dside_f": "door_dside_f",
+    "handle_bronze_cap_dside_f": "door_dside_f",
+    "handle_recess_dside_r": "door_dside_r",
+    "handle_bronze_cap_dside_r": "door_dside_r",
+    "fender_duct_louver_pside_1": "bodyshell",
+    "fender_duct_louver_pside_2": "bodyshell",
+    "fender_duct_louver_pside_3": "bodyshell",
+    "handle_recess_pside_f": "door_pside_f",
+    "handle_bronze_cap_pside_f": "door_pside_f",
+    "handle_recess_pside_r": "door_pside_r",
+    "handle_bronze_cap_pside_r": "door_pside_r",
+    "mirror_dside_camera_lens": "door_dside_f",
+    "mirror_pside_camera_lens": "door_pside_f",
+    "badge_front_tail": "bodyshell",
+    "badge_front_plus_horizontal": "bodyshell",
+    "badge_front_plus_vertical": "bodyshell",
+    "badge_rear_tail": "bodyshell",
+    "badge_rear_plus_horizontal": "bodyshell",
+    "badge_rear_plus_vertical": "bodyshell",
+    "panoramic_glass_greenhouse": "bodyshell",
+    "windscreen": "windscreen",
+    "windscreen_r": "windscreen_r",
+    "canopy_front_header": "bodyshell",
+    "canopy_rear_header": "bodyshell",
+    "canopy_cowl_seal": "bodyshell",
+    "canopy_rear_seal": "bodyshell",
+    "canopy_rail_dside": "bodyshell",
+    "window_lf": "window_lf",
+    "pillar_b_dside": "bodyshell",
+    "window_lr": "window_lr",
+    "canopy_belt_seal_dside": "bodyshell",
+    "canopy_rail_pside": "bodyshell",
+    "window_rf": "window_rf",
+    "pillar_b_pside": "bodyshell",
+    "window_rr": "window_rr",
+    "canopy_belt_seal_pside": "bodyshell",
+    "glass_quarter_dside": "bodyshell",
+    "quarter_divider_dside": "bodyshell",
+    "glass_quarter_pside": "bodyshell",
+    "quarter_divider_pside": "bodyshell",
+    "wheel_lf": "wheel_lf",
+    "rim_lf": "wheel_lf",
+    "hub_lf": "wheel_lf",
+    "caliper_lf": "bodyshell",
+    "wheel_rf": "wheel_rf",
+    "rim_rf": "wheel_rf",
+    "hub_rf": "wheel_rf",
+    "caliper_rf": "bodyshell",
+    "wheel_lr": "wheel_lr",
+    "rim_lr": "wheel_lr",
+    "hub_lr": "wheel_lr",
+    "caliper_lr": "bodyshell",
+    "wheel_rr": "wheel_rr",
+    "rim_rr": "wheel_rr",
+    "hub_rr": "wheel_rr",
+    "caliper_rr": "bodyshell",
+    "wheelcap_qplus_lf": "wheel_lf",
+    "wheelcap_qplus_lf_tail": "bodyshell",
+    "wheelcap_qplus_lf_plus_horizontal": "bodyshell",
+    "wheelcap_qplus_lf_plus_vertical": "bodyshell",
+    "wheelcap_qplus_rf": "wheel_rf",
+    "wheelcap_qplus_rf_tail": "bodyshell",
+    "wheelcap_qplus_rf_plus_horizontal": "bodyshell",
+    "wheelcap_qplus_rf_plus_vertical": "bodyshell",
+    "wheelcap_qplus_lr": "wheel_lr",
+    "wheelcap_qplus_lr_tail": "bodyshell",
+    "wheelcap_qplus_lr_plus_horizontal": "bodyshell",
+    "wheelcap_qplus_lr_plus_vertical": "bodyshell",
+    "wheelcap_qplus_rr": "wheel_rr",
+    "wheelcap_qplus_rr_tail": "bodyshell",
+    "wheelcap_qplus_rr_plus_horizontal": "bodyshell",
+    "wheelcap_qplus_rr_plus_vertical": "bodyshell",
+    "reverse_dside": "bodyshell",
+    "reverse_pside": "bodyshell",
+    "headlight_dside_blade_1": "bodyshell",
+    "headlight_dside_blade_2": "bodyshell",
+    "headlight_dside_blade_3": "bodyshell",
+    "headlight_dside_housing": "bodyshell",
+    "headlight_pside_blade_1": "bodyshell",
+    "headlight_pside_blade_2": "bodyshell",
+    "headlight_pside_blade_3": "bodyshell",
+    "headlight_pside_housing": "bodyshell",
+    "drl_dside": "bodyshell",
+    "drl_pside": "bodyshell",
+    "tail_bar_running": "bodyshell",
+    "tail_bar_brake": "bodyshell",
+    "tail_lens": "bodyshell",
+    "tail_quarter_branch_dside": "bodyshell",
+    "tail_quarter_branch_pside": "bodyshell",
+    "reverse_dside_housing": "bodyshell",
+    "reverse_pside_housing": "bodyshell",
+    "indicator_front_dside": "bodyshell",
+    "indicator_rear_dside": "bodyshell",
+    "indicator_mirror_dside": "door_dside_f",
+    "indicator_front_pside": "bodyshell",
+    "indicator_rear_pside": "bodyshell",
+    "indicator_mirror_pside": "door_pside_f",
+    "seat_dside_f": "seat_dside_f",
+    "seat_dside_f_headrest_qplus": "seat_dside_f",
+    "seat_pside_f": "seat_pside_f",
+    "seat_pside_f_headrest_qplus": "seat_pside_f",
+    "seat_dside_r": "seat_dside_r",
+    "seat_pside_r": "seat_pside_r",
+    "steering": "steeringwheel",
+    "steering_qplus": "steeringwheel",
+    "steering_column": "chassis",
+    "dash_lower_shell": "chassis",
+    "dash_glass_bar": "chassis",
+    "dash_ambient_strip": "chassis",
+    "dash_speed": "chassis",
+    "dash_speed_units": "chassis",
+    "dash_battery": "chassis",
+    "dash_touch_icon_1": "chassis",
+    "dash_touch_label_1": "chassis",
+    "dash_touch_icon_2": "chassis",
+    "dash_touch_label_2": "chassis",
+    "dash_touch_icon_3": "chassis",
+    "dash_touch_label_3": "chassis",
+    "dash_touch_icon_4": "chassis",
+    "dash_touch_label_4": "chassis",
+    "dash_passenger_qplus": "chassis",
+    "center_console": "chassis",
+    "armrest": "chassis",
+    "cupholder_l": "chassis",
+    "cupholder_r": "chassis",
+    "console_rotary": "chassis",
+    "pedal_brake": "chassis",
+    "pedal_accel": "chassis",
+    "door_card_dside_f": "door_dside_f",
+    "door_card_dside_r": "door_dside_r",
+    "door_card_pside_f": "door_pside_f",
+    "door_card_pside_r": "door_pside_r"
+  },
+  "lods": {
+    "chassis": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "pillar_a_dside": {
+      "sollumz_high": 230,
+      "sollumz_medium": 230,
+      "sollumz_low": 82,
+      "sollumz_verylow": 32
+    },
+    "pillar_a_pside": {
+      "sollumz_high": 230,
+      "sollumz_medium": 230,
+      "sollumz_low": 82,
+      "sollumz_verylow": 32
+    },
+    "pillar_c_dside": {
+      "sollumz_high": 230,
+      "sollumz_medium": 230,
+      "sollumz_low": 82,
+      "sollumz_verylow": 32
+    },
+    "pillar_c_pside": {
+      "sollumz_high": 230,
+      "sollumz_medium": 230,
+      "sollumz_low": 82,
+      "sollumz_verylow": 32
+    },
+    "door_dside_f": {
+      "sollumz_high": 2322,
+      "sollumz_medium": 2332,
+      "sollumz_low": 838,
+      "sollumz_verylow": 326
+    },
+    "door_pside_f": {
+      "sollumz_high": 2322,
+      "sollumz_medium": 2332,
+      "sollumz_low": 838,
+      "sollumz_verylow": 326
+    },
+    "door_dside_r": {
+      "sollumz_high": 2329,
+      "sollumz_medium": 2340,
+      "sollumz_low": 842,
+      "sollumz_verylow": 326
+    },
+    "door_pside_r": {
+      "sollumz_high": 2329,
+      "sollumz_medium": 2340,
+      "sollumz_low": 842,
+      "sollumz_verylow": 326
+    },
+    "handle_dside_f": {
+      "sollumz_high": 110,
+      "sollumz_medium": 74,
+      "sollumz_low": 26,
+      "sollumz_verylow": 10
+    },
+    "handle_pside_f": {
+      "sollumz_high": 110,
+      "sollumz_medium": 74,
+      "sollumz_low": 26,
+      "sollumz_verylow": 10
+    },
+    "handle_dside_r": {
+      "sollumz_high": 110,
+      "sollumz_medium": 74,
+      "sollumz_low": 26,
+      "sollumz_verylow": 10
+    },
+    "handle_pside_r": {
+      "sollumz_high": 110,
+      "sollumz_medium": 74,
+      "sollumz_low": 26,
+      "sollumz_verylow": 10
+    },
+    "bonnet": {
+      "sollumz_high": 3524,
+      "sollumz_medium": 3524,
+      "sollumz_low": 1268,
+      "sollumz_verylow": 492
+    },
+    "boot": {
+      "sollumz_high": 3524,
+      "sollumz_medium": 3524,
+      "sollumz_low": 1268,
+      "sollumz_verylow": 492
+    },
+    "front_splitter": {
+      "sollumz_high": 1412,
+      "sollumz_medium": 1412,
+      "sollumz_low": 508,
+      "sollumz_verylow": 196
+    },
+    "front_splitter_bronze": {
+      "sollumz_high": 482,
+      "sollumz_medium": 482,
+      "sollumz_low": 172,
+      "sollumz_verylow": 66
+    },
+    "rear_bumper": {
+      "sollumz_high": 3660,
+      "sollumz_medium": 4238,
+      "sollumz_low": 1524,
+      "sollumz_verylow": 592
+    },
+    "rear_diffuser": {
+      "sollumz_high": 1206,
+      "sollumz_medium": 966,
+      "sollumz_low": 346,
+      "sollumz_verylow": 134
+    },
+    "rear_diffuser_bronze": {
+      "sollumz_high": 482,
+      "sollumz_medium": 482,
+      "sollumz_low": 172,
+      "sollumz_verylow": 66
+    },
+    "fender_vent_dside": {
+      "sollumz_high": 146,
+      "sollumz_medium": 118,
+      "sollumz_low": 42,
+      "sollumz_verylow": 16
+    },
+    "fender_vent_pside": {
+      "sollumz_high": 146,
+      "sollumz_medium": 118,
+      "sollumz_low": 42,
+      "sollumz_verylow": 16
+    },
+    "fender_vent_bronze_dside": {
+      "sollumz_high": 130,
+      "sollumz_medium": 130,
+      "sollumz_low": 46,
+      "sollumz_verylow": 18
+    },
+    "fender_vent_bronze_pside": {
+      "sollumz_high": 130,
+      "sollumz_medium": 130,
+      "sollumz_low": 46,
+      "sollumz_verylow": 18
+    },
+    "mirror_dside_stalk": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "mirror_dside": {
+      "sollumz_high": 640,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "mirror_dside_bronze": {
+      "sollumz_high": 640,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "mirror_pside_stalk": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "mirror_pside": {
+      "sollumz_high": 640,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "mirror_pside_bronze": {
+      "sollumz_high": 640,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "badge_front": {
+      "sollumz_high": 320,
+      "sollumz_medium": 320,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "badge_rear": {
+      "sollumz_high": 320,
+      "sollumz_medium": 320,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "bumper_f": {
+      "sollumz_high": 17090,
+      "sollumz_medium": 28900,
+      "sollumz_low": 10404,
+      "sollumz_verylow": 4046
+    },
+    "skirt_dside": {
+      "sollumz_high": 684,
+      "sollumz_medium": 684,
+      "sollumz_low": 246,
+      "sollumz_verylow": 94
+    },
+    "skirt_pside": {
+      "sollumz_high": 684,
+      "sollumz_medium": 684,
+      "sollumz_low": 246,
+      "sollumz_verylow": 94
+    },
+    "front_intake_pocket_dside": {
+      "sollumz_high": 196,
+      "sollumz_medium": 158,
+      "sollumz_low": 56,
+      "sollumz_verylow": 22
+    },
+    "front_intake_pocket_pside": {
+      "sollumz_high": 196,
+      "sollumz_medium": 158,
+      "sollumz_low": 56,
+      "sollumz_verylow": 22
+    },
+    "diffuser_strake_1": {
+      "sollumz_high": 7,
+      "sollumz_medium": 7,
+      "sollumz_low": 7,
+      "sollumz_verylow": 7
+    },
+    "diffuser_strake_2": {
+      "sollumz_high": 7,
+      "sollumz_medium": 7,
+      "sollumz_low": 7,
+      "sollumz_verylow": 7
+    },
+    "diffuser_strake_3": {
+      "sollumz_high": 7,
+      "sollumz_medium": 7,
+      "sollumz_low": 7,
+      "sollumz_verylow": 7
+    },
+    "diffuser_strake_4": {
+      "sollumz_high": 7,
+      "sollumz_medium": 7,
+      "sollumz_low": 7,
+      "sollumz_verylow": 7
+    },
+    "boot_ducktail": {
+      "sollumz_high": 482,
+      "sollumz_medium": 482,
+      "sollumz_low": 172,
+      "sollumz_verylow": 66
+    },
+    "quarter_dside_r": {
+      "sollumz_high": 8048,
+      "sollumz_medium": 8048,
+      "sollumz_low": 2896,
+      "sollumz_verylow": 1126
+    },
+    "fender_dside_f": {
+      "sollumz_high": 7678,
+      "sollumz_medium": 7891,
+      "sollumz_low": 2841,
+      "sollumz_verylow": 1103
+    },
+    "arch_return_dside_f": {
+      "sollumz_high": 1008,
+      "sollumz_medium": 1008,
+      "sollumz_low": 362,
+      "sollumz_verylow": 140
+    },
+    "arch_return_dside_r": {
+      "sollumz_high": 1008,
+      "sollumz_medium": 1008,
+      "sollumz_low": 362,
+      "sollumz_verylow": 140
+    },
+    "quarter_pside_r": {
+      "sollumz_high": 8048,
+      "sollumz_medium": 8048,
+      "sollumz_low": 2896,
+      "sollumz_verylow": 1126
+    },
+    "fender_pside_f": {
+      "sollumz_high": 7678,
+      "sollumz_medium": 7891,
+      "sollumz_low": 2839,
+      "sollumz_verylow": 1103
+    },
+    "arch_return_pside_f": {
+      "sollumz_high": 1008,
+      "sollumz_medium": 1008,
+      "sollumz_low": 362,
+      "sollumz_verylow": 140
+    },
+    "arch_return_pside_r": {
+      "sollumz_high": 1008,
+      "sollumz_medium": 1008,
+      "sollumz_low": 362,
+      "sollumz_verylow": 140
+    },
+    "hood_shoulder_dside": {
+      "sollumz_high": 2601,
+      "sollumz_medium": 2690,
+      "sollumz_low": 968,
+      "sollumz_verylow": 376
+    },
+    "hood_shoulder_pside": {
+      "sollumz_high": 2601,
+      "sollumz_medium": 2690,
+      "sollumz_low": 968,
+      "sollumz_verylow": 376
+    },
+    "hood_leading_band": {
+      "sollumz_high": 880,
+      "sollumz_medium": 880,
+      "sollumz_low": 316,
+      "sollumz_verylow": 122
+    },
+    "hood_cowl_band": {
+      "sollumz_high": 194,
+      "sollumz_medium": 194,
+      "sollumz_low": 68,
+      "sollumz_verylow": 26
+    },
+    "rear_deck_shoulder_dside": {
+      "sollumz_high": 2728,
+      "sollumz_medium": 2728,
+      "sollumz_low": 982,
+      "sollumz_verylow": 380
+    },
+    "rear_deck_shoulder_pside": {
+      "sollumz_high": 2728,
+      "sollumz_medium": 2728,
+      "sollumz_low": 982,
+      "sollumz_verylow": 380
+    },
+    "rear_deck_leading_band": {
+      "sollumz_high": 722,
+      "sollumz_medium": 860,
+      "sollumz_low": 308,
+      "sollumz_verylow": 120
+    },
+    "rear_deck_cowl_band": {
+      "sollumz_high": 194,
+      "sollumz_medium": 194,
+      "sollumz_low": 68,
+      "sollumz_verylow": 26
+    },
+    "front_scoop_louver_dside_1": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_dside_2": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_dside_3": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_dside_4": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_dside_5": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_dside_6": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_dside_7": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_1": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_2": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_3": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_4": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_5": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_6": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_scoop_louver_pside_7": {
+      "sollumz_high": 34,
+      "sollumz_medium": 34,
+      "sollumz_low": 34,
+      "sollumz_verylow": 34
+    },
+    "front_lower_intake_cavity": {
+      "sollumz_high": 206,
+      "sollumz_medium": 166,
+      "sollumz_low": 58,
+      "sollumz_verylow": 22
+    },
+    "front_lower_louver_01": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_02": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_03": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_04": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_05": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_06": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_07": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_08": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_lower_louver_09": {
+      "sollumz_high": 258,
+      "sollumz_medium": 258,
+      "sollumz_low": 92,
+      "sollumz_verylow": 36
+    },
+    "front_intake_support_minus0_39": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "front_intake_support_0": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "front_intake_support_0_39": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "front_intake_bronze_mouth": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "front_mouth_upper_return": {
+      "sollumz_high": 484,
+      "sollumz_medium": 484,
+      "sollumz_low": 174,
+      "sollumz_verylow": 66
+    },
+    "front_aero_wing_dside": {
+      "sollumz_high": 448,
+      "sollumz_medium": 448,
+      "sollumz_low": 160,
+      "sollumz_verylow": 62
+    },
+    "front_wing_bronze_dside": {
+      "sollumz_high": 14,
+      "sollumz_medium": 14,
+      "sollumz_low": 14,
+      "sollumz_verylow": 14
+    },
+    "front_aero_wing_pside": {
+      "sollumz_high": 448,
+      "sollumz_medium": 448,
+      "sollumz_low": 160,
+      "sollumz_verylow": 62
+    },
+    "front_wing_bronze_pside": {
+      "sollumz_high": 14,
+      "sollumz_medium": 14,
+      "sollumz_low": 14,
+      "sollumz_verylow": 14
+    },
+    "diffuser_strake_bronze_1": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "diffuser_strake_bronze_2": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "diffuser_strake_bronze_3": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "diffuser_strake_bronze_4": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "diffuser_strake_5": {
+      "sollumz_high": 7,
+      "sollumz_medium": 7,
+      "sollumz_low": 7,
+      "sollumz_verylow": 7
+    },
+    "diffuser_strake_bronze_5": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "diffuser_strake_6": {
+      "sollumz_high": 7,
+      "sollumz_medium": 7,
+      "sollumz_low": 7,
+      "sollumz_verylow": 7
+    },
+    "diffuser_strake_bronze_6": {
+      "sollumz_high": 10,
+      "sollumz_medium": 10,
+      "sollumz_low": 10,
+      "sollumz_verylow": 10
+    },
+    "fender_duct_louver_dside_1": {
+      "sollumz_high": 50,
+      "sollumz_medium": 50,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "fender_duct_louver_dside_2": {
+      "sollumz_high": 50,
+      "sollumz_medium": 50,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "fender_duct_louver_dside_3": {
+      "sollumz_high": 50,
+      "sollumz_medium": 50,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "handle_recess_dside_f": {
+      "sollumz_high": 186,
+      "sollumz_medium": 150,
+      "sollumz_low": 54,
+      "sollumz_verylow": 20
+    },
+    "handle_bronze_cap_dside_f": {
+      "sollumz_high": 152,
+      "sollumz_medium": 152,
+      "sollumz_low": 54,
+      "sollumz_verylow": 34
+    },
+    "handle_recess_dside_r": {
+      "sollumz_high": 186,
+      "sollumz_medium": 150,
+      "sollumz_low": 54,
+      "sollumz_verylow": 20
+    },
+    "handle_bronze_cap_dside_r": {
+      "sollumz_high": 152,
+      "sollumz_medium": 152,
+      "sollumz_low": 54,
+      "sollumz_verylow": 30
+    },
+    "fender_duct_louver_pside_1": {
+      "sollumz_high": 50,
+      "sollumz_medium": 50,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "fender_duct_louver_pside_2": {
+      "sollumz_high": 50,
+      "sollumz_medium": 50,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "fender_duct_louver_pside_3": {
+      "sollumz_high": 50,
+      "sollumz_medium": 50,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "handle_recess_pside_f": {
+      "sollumz_high": 186,
+      "sollumz_medium": 150,
+      "sollumz_low": 54,
+      "sollumz_verylow": 20
+    },
+    "handle_bronze_cap_pside_f": {
+      "sollumz_high": 152,
+      "sollumz_medium": 152,
+      "sollumz_low": 54,
+      "sollumz_verylow": 28
+    },
+    "handle_recess_pside_r": {
+      "sollumz_high": 186,
+      "sollumz_medium": 150,
+      "sollumz_low": 54,
+      "sollumz_verylow": 20
+    },
+    "handle_bronze_cap_pside_r": {
+      "sollumz_high": 152,
+      "sollumz_medium": 152,
+      "sollumz_low": 54,
+      "sollumz_verylow": 26
+    },
+    "mirror_dside_camera_lens": {
+      "sollumz_high": 640,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "mirror_pside_camera_lens": {
+      "sollumz_high": 640,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "badge_front_tail": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "badge_front_plus_horizontal": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "badge_front_plus_vertical": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "badge_rear_tail": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "badge_rear_plus_horizontal": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "badge_rear_plus_vertical": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "panoramic_glass_greenhouse": {
+      "sollumz_high": 4344,
+      "sollumz_medium": 4344,
+      "sollumz_low": 1562,
+      "sollumz_verylow": 608
+    },
+    "windscreen": {
+      "sollumz_high": 4232,
+      "sollumz_medium": 4232,
+      "sollumz_low": 1522,
+      "sollumz_verylow": 592
+    },
+    "windscreen_r": {
+      "sollumz_high": 3940,
+      "sollumz_medium": 3940,
+      "sollumz_low": 1418,
+      "sollumz_verylow": 550
+    },
+    "canopy_front_header": {
+      "sollumz_high": 244,
+      "sollumz_medium": 244,
+      "sollumz_low": 86,
+      "sollumz_verylow": 34
+    },
+    "canopy_rear_header": {
+      "sollumz_high": 244,
+      "sollumz_medium": 244,
+      "sollumz_low": 86,
+      "sollumz_verylow": 34
+    },
+    "canopy_cowl_seal": {
+      "sollumz_high": 290,
+      "sollumz_medium": 290,
+      "sollumz_low": 104,
+      "sollumz_verylow": 40
+    },
+    "canopy_rear_seal": {
+      "sollumz_high": 290,
+      "sollumz_medium": 290,
+      "sollumz_low": 104,
+      "sollumz_verylow": 40
+    },
+    "canopy_rail_dside": {
+      "sollumz_high": 486,
+      "sollumz_medium": 486,
+      "sollumz_low": 174,
+      "sollumz_verylow": 68
+    },
+    "window_lf": {
+      "sollumz_high": 2376,
+      "sollumz_medium": 2376,
+      "sollumz_low": 854,
+      "sollumz_verylow": 332
+    },
+    "pillar_b_dside": {
+      "sollumz_high": 172,
+      "sollumz_medium": 172,
+      "sollumz_low": 60,
+      "sollumz_verylow": 24
+    },
+    "window_lr": {
+      "sollumz_high": 2260,
+      "sollumz_medium": 2260,
+      "sollumz_low": 812,
+      "sollumz_verylow": 316
+    },
+    "canopy_belt_seal_dside": {
+      "sollumz_high": 518,
+      "sollumz_medium": 518,
+      "sollumz_low": 186,
+      "sollumz_verylow": 72
+    },
+    "canopy_rail_pside": {
+      "sollumz_high": 486,
+      "sollumz_medium": 486,
+      "sollumz_low": 174,
+      "sollumz_verylow": 68
+    },
+    "window_rf": {
+      "sollumz_high": 2376,
+      "sollumz_medium": 2376,
+      "sollumz_low": 854,
+      "sollumz_verylow": 332
+    },
+    "pillar_b_pside": {
+      "sollumz_high": 172,
+      "sollumz_medium": 172,
+      "sollumz_low": 60,
+      "sollumz_verylow": 24
+    },
+    "window_rr": {
+      "sollumz_high": 2260,
+      "sollumz_medium": 2260,
+      "sollumz_low": 812,
+      "sollumz_verylow": 316
+    },
+    "canopy_belt_seal_pside": {
+      "sollumz_high": 518,
+      "sollumz_medium": 518,
+      "sollumz_low": 186,
+      "sollumz_verylow": 72
+    },
+    "glass_quarter_dside": {
+      "sollumz_high": 1100,
+      "sollumz_medium": 1100,
+      "sollumz_low": 396,
+      "sollumz_verylow": 154
+    },
+    "quarter_divider_dside": {
+      "sollumz_high": 172,
+      "sollumz_medium": 172,
+      "sollumz_low": 60,
+      "sollumz_verylow": 24
+    },
+    "glass_quarter_pside": {
+      "sollumz_high": 1100,
+      "sollumz_medium": 1100,
+      "sollumz_low": 396,
+      "sollumz_verylow": 154
+    },
+    "quarter_divider_pside": {
+      "sollumz_high": 172,
+      "sollumz_medium": 172,
+      "sollumz_low": 60,
+      "sollumz_verylow": 24
+    },
+    "wheel_lf": {
+      "sollumz_high": 407,
+      "sollumz_medium": 454,
+      "sollumz_low": 162,
+      "sollumz_verylow": 62
+    },
+    "rim_lf": {
+      "sollumz_high": 128,
+      "sollumz_medium": 128,
+      "sollumz_low": 46,
+      "sollumz_verylow": 22
+    },
+    "hub_lf": {
+      "sollumz_high": 188,
+      "sollumz_medium": 126,
+      "sollumz_low": 44,
+      "sollumz_verylow": 16
+    },
+    "caliper_lf": {
+      "sollumz_high": 54,
+      "sollumz_medium": 54,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "wheel_rf": {
+      "sollumz_high": 407,
+      "sollumz_medium": 454,
+      "sollumz_low": 162,
+      "sollumz_verylow": 62
+    },
+    "rim_rf": {
+      "sollumz_high": 128,
+      "sollumz_medium": 128,
+      "sollumz_low": 46,
+      "sollumz_verylow": 28
+    },
+    "hub_rf": {
+      "sollumz_high": 188,
+      "sollumz_medium": 126,
+      "sollumz_low": 44,
+      "sollumz_verylow": 16
+    },
+    "caliper_rf": {
+      "sollumz_high": 54,
+      "sollumz_medium": 54,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "wheel_lr": {
+      "sollumz_high": 407,
+      "sollumz_medium": 454,
+      "sollumz_low": 162,
+      "sollumz_verylow": 62
+    },
+    "rim_lr": {
+      "sollumz_high": 128,
+      "sollumz_medium": 128,
+      "sollumz_low": 46,
+      "sollumz_verylow": 18
+    },
+    "hub_lr": {
+      "sollumz_high": 188,
+      "sollumz_medium": 126,
+      "sollumz_low": 44,
+      "sollumz_verylow": 16
+    },
+    "caliper_lr": {
+      "sollumz_high": 54,
+      "sollumz_medium": 54,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "wheel_rr": {
+      "sollumz_high": 407,
+      "sollumz_medium": 454,
+      "sollumz_low": 162,
+      "sollumz_verylow": 62
+    },
+    "rim_rr": {
+      "sollumz_high": 128,
+      "sollumz_medium": 128,
+      "sollumz_low": 46,
+      "sollumz_verylow": 24
+    },
+    "hub_rr": {
+      "sollumz_high": 188,
+      "sollumz_medium": 126,
+      "sollumz_low": 44,
+      "sollumz_verylow": 16
+    },
+    "caliper_rr": {
+      "sollumz_high": 54,
+      "sollumz_medium": 54,
+      "sollumz_low": 18,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_lf": {
+      "sollumz_high": 320,
+      "sollumz_medium": 320,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "wheelcap_qplus_lf_tail": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_lf_plus_horizontal": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_lf_plus_vertical": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_rf": {
+      "sollumz_high": 320,
+      "sollumz_medium": 320,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "wheelcap_qplus_rf_tail": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_rf_plus_horizontal": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_rf_plus_vertical": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_lr": {
+      "sollumz_high": 320,
+      "sollumz_medium": 320,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "wheelcap_qplus_lr_tail": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_lr_plus_horizontal": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_lr_plus_vertical": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_rr": {
+      "sollumz_high": 320,
+      "sollumz_medium": 320,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "wheelcap_qplus_rr_tail": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_rr_plus_horizontal": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "wheelcap_qplus_rr_plus_vertical": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "reverse_dside": {
+      "sollumz_high": 98,
+      "sollumz_medium": 98,
+      "sollumz_low": 34,
+      "sollumz_verylow": 12
+    },
+    "reverse_pside": {
+      "sollumz_high": 98,
+      "sollumz_medium": 98,
+      "sollumz_low": 34,
+      "sollumz_verylow": 12
+    },
+    "headlight_dside_blade_1": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "headlight_dside_blade_2": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "headlight_dside_blade_3": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "headlight_dside_housing": {
+      "sollumz_high": 506,
+      "sollumz_medium": 406,
+      "sollumz_low": 146,
+      "sollumz_verylow": 56
+    },
+    "headlight_pside_blade_1": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "headlight_pside_blade_2": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "headlight_pside_blade_3": {
+      "sollumz_high": 402,
+      "sollumz_medium": 402,
+      "sollumz_low": 144,
+      "sollumz_verylow": 56
+    },
+    "headlight_pside_housing": {
+      "sollumz_high": 506,
+      "sollumz_medium": 406,
+      "sollumz_low": 146,
+      "sollumz_verylow": 56
+    },
+    "drl_dside": {
+      "sollumz_high": 242,
+      "sollumz_medium": 242,
+      "sollumz_low": 86,
+      "sollumz_verylow": 32
+    },
+    "drl_pside": {
+      "sollumz_high": 242,
+      "sollumz_medium": 242,
+      "sollumz_low": 86,
+      "sollumz_verylow": 32
+    },
+    "tail_bar_running": {
+      "sollumz_high": 1282,
+      "sollumz_medium": 1282,
+      "sollumz_low": 460,
+      "sollumz_verylow": 178
+    },
+    "tail_bar_brake": {
+      "sollumz_high": 1282,
+      "sollumz_medium": 1282,
+      "sollumz_low": 460,
+      "sollumz_verylow": 178
+    },
+    "tail_lens": {
+      "sollumz_high": 1606,
+      "sollumz_medium": 1286,
+      "sollumz_low": 462,
+      "sollumz_verylow": 180
+    },
+    "tail_quarter_branch_dside": {
+      "sollumz_high": 322,
+      "sollumz_medium": 322,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "tail_quarter_branch_pside": {
+      "sollumz_high": 322,
+      "sollumz_medium": 322,
+      "sollumz_low": 114,
+      "sollumz_verylow": 44
+    },
+    "reverse_dside_housing": {
+      "sollumz_high": 98,
+      "sollumz_medium": 98,
+      "sollumz_low": 34,
+      "sollumz_verylow": 12
+    },
+    "reverse_pside_housing": {
+      "sollumz_high": 98,
+      "sollumz_medium": 98,
+      "sollumz_low": 34,
+      "sollumz_verylow": 12
+    },
+    "indicator_front_dside": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "indicator_rear_dside": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "indicator_mirror_dside": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "indicator_front_pside": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "indicator_rear_pside": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "indicator_mirror_pside": {
+      "sollumz_high": 6,
+      "sollumz_medium": 6,
+      "sollumz_low": 6,
+      "sollumz_verylow": 6
+    },
+    "seat_dside_f": {
+      "sollumz_high": 3246,
+      "sollumz_medium": 3246,
+      "sollumz_low": 1168,
+      "sollumz_verylow": 454
+    },
+    "seat_dside_f_headrest_qplus": {
+      "sollumz_high": 414,
+      "sollumz_medium": 426,
+      "sollumz_low": 152,
+      "sollumz_verylow": 58
+    },
+    "seat_pside_f": {
+      "sollumz_high": 3246,
+      "sollumz_medium": 3246,
+      "sollumz_low": 1168,
+      "sollumz_verylow": 454
+    },
+    "seat_pside_f_headrest_qplus": {
+      "sollumz_high": 414,
+      "sollumz_medium": 426,
+      "sollumz_low": 152,
+      "sollumz_verylow": 58
+    },
+    "seat_dside_r": {
+      "sollumz_high": 3246,
+      "sollumz_medium": 3246,
+      "sollumz_low": 1168,
+      "sollumz_verylow": 454
+    },
+    "seat_pside_r": {
+      "sollumz_high": 3246,
+      "sollumz_medium": 3246,
+      "sollumz_low": 1168,
+      "sollumz_verylow": 454
+    },
+    "steering": {
+      "sollumz_high": 1462,
+      "sollumz_medium": 1462,
+      "sollumz_low": 526,
+      "sollumz_verylow": 204
+    },
+    "steering_qplus": {
+      "sollumz_high": 414,
+      "sollumz_medium": 426,
+      "sollumz_low": 152,
+      "sollumz_verylow": 58
+    },
+    "steering_column": {
+      "sollumz_high": 18,
+      "sollumz_medium": 18,
+      "sollumz_low": 18,
+      "sollumz_verylow": 18
+    },
+    "dash_lower_shell": {
+      "sollumz_high": 384,
+      "sollumz_medium": 384,
+      "sollumz_low": 138,
+      "sollumz_verylow": 52
+    },
+    "dash_glass_bar": {
+      "sollumz_high": 600,
+      "sollumz_medium": 600,
+      "sollumz_low": 216,
+      "sollumz_verylow": 84
+    },
+    "dash_ambient_strip": {
+      "sollumz_high": 482,
+      "sollumz_medium": 486,
+      "sollumz_low": 174,
+      "sollumz_verylow": 68
+    },
+    "dash_speed": {
+      "sollumz_high": 72,
+      "sollumz_medium": 48,
+      "sollumz_low": 16,
+      "sollumz_verylow": 6
+    },
+    "dash_speed_units": {
+      "sollumz_high": 190,
+      "sollumz_medium": 130,
+      "sollumz_low": 46,
+      "sollumz_verylow": 17
+    },
+    "dash_battery": {
+      "sollumz_high": 374,
+      "sollumz_medium": 250,
+      "sollumz_low": 90,
+      "sollumz_verylow": 34
+    },
+    "dash_touch_icon_1": {
+      "sollumz_high": 208,
+      "sollumz_medium": 212,
+      "sollumz_low": 76,
+      "sollumz_verylow": 30
+    },
+    "dash_touch_label_1": {
+      "sollumz_high": 137,
+      "sollumz_medium": 94,
+      "sollumz_low": 33,
+      "sollumz_verylow": 13
+    },
+    "dash_touch_icon_2": {
+      "sollumz_high": 216,
+      "sollumz_medium": 222,
+      "sollumz_low": 78,
+      "sollumz_verylow": 44
+    },
+    "dash_touch_label_2": {
+      "sollumz_high": 168,
+      "sollumz_medium": 114,
+      "sollumz_low": 41,
+      "sollumz_verylow": 15
+    },
+    "dash_touch_icon_3": {
+      "sollumz_high": 224,
+      "sollumz_medium": 232,
+      "sollumz_low": 82,
+      "sollumz_verylow": 48
+    },
+    "dash_touch_label_3": {
+      "sollumz_high": 177,
+      "sollumz_medium": 120,
+      "sollumz_low": 43,
+      "sollumz_verylow": 16
+    },
+    "dash_touch_icon_4": {
+      "sollumz_high": 232,
+      "sollumz_medium": 242,
+      "sollumz_low": 86,
+      "sollumz_verylow": 40
+    },
+    "dash_touch_label_4": {
+      "sollumz_high": 189,
+      "sollumz_medium": 128,
+      "sollumz_low": 46,
+      "sollumz_verylow": 16
+    },
+    "dash_passenger_qplus": {
+      "sollumz_high": 414,
+      "sollumz_medium": 426,
+      "sollumz_low": 152,
+      "sollumz_verylow": 58
+    },
+    "center_console": {
+      "sollumz_high": 586,
+      "sollumz_medium": 692,
+      "sollumz_low": 248,
+      "sollumz_verylow": 96
+    },
+    "armrest": {
+      "sollumz_high": 432,
+      "sollumz_medium": 432,
+      "sollumz_low": 154,
+      "sollumz_verylow": 60
+    },
+    "cupholder_l": {
+      "sollumz_high": 530,
+      "sollumz_medium": 574,
+      "sollumz_low": 206,
+      "sollumz_verylow": 80
+    },
+    "cupholder_r": {
+      "sollumz_high": 530,
+      "sollumz_medium": 574,
+      "sollumz_low": 206,
+      "sollumz_verylow": 80
+    },
+    "console_rotary": {
+      "sollumz_high": 676,
+      "sollumz_medium": 764,
+      "sollumz_low": 274,
+      "sollumz_verylow": 106
+    },
+    "pedal_brake": {
+      "sollumz_high": 270,
+      "sollumz_medium": 270,
+      "sollumz_low": 96,
+      "sollumz_verylow": 36
+    },
+    "pedal_accel": {
+      "sollumz_high": 270,
+      "sollumz_medium": 270,
+      "sollumz_low": 96,
+      "sollumz_verylow": 36
+    },
+    "door_card_dside_f": {
+      "sollumz_high": 1920,
+      "sollumz_medium": 1924,
+      "sollumz_low": 692,
+      "sollumz_verylow": 268
+    },
+    "door_card_dside_r": {
+      "sollumz_high": 1920,
+      "sollumz_medium": 1924,
+      "sollumz_low": 692,
+      "sollumz_verylow": 268
+    },
+    "door_card_pside_f": {
+      "sollumz_high": 1920,
+      "sollumz_medium": 1924,
+      "sollumz_low": 692,
+      "sollumz_verylow": 268
+    },
+    "door_card_pside_r": {
+      "sollumz_high": 1920,
+      "sollumz_medium": 1924,
+      "sollumz_low": 692,
+      "sollumz_verylow": 268
+    }
+  },
+  "light_ids": {
+    "reverse_dside": [
+      12
+    ],
+    "reverse_pside": [
+      13
+    ],
+    "headlight_dside_blade_1": [
+      1
+    ],
+    "headlight_dside_blade_2": [
+      1
+    ],
+    "headlight_dside_blade_3": [
+      1
+    ],
+    "headlight_pside_blade_1": [
+      2
+    ],
+    "headlight_pside_blade_2": [
+      2
+    ],
+    "headlight_pside_blade_3": [
+      2
+    ],
+    "drl_dside": [
+      1
+    ],
+    "drl_pside": [
+      2
+    ],
+    "tail_bar_running": [
+      3,
+      4
+    ],
+    "tail_bar_brake": [
+      9,
+      10,
+      11
+    ],
+    "tail_quarter_branch_dside": [
+      3
+    ],
+    "tail_quarter_branch_pside": [
+      4
+    ],
+    "indicator_front_dside": [
+      5
+    ],
+    "indicator_rear_dside": [
+      7
+    ],
+    "indicator_mirror_dside": [
+      5
+    ],
+    "indicator_front_pside": [
+      6
+    ],
+    "indicator_rear_pside": [
+      8
+    ],
+    "indicator_mirror_pside": [
+      6
+    ]
+  },
+  "collision": {
+    "COL_skateboard": {
+      "bone": "chassis",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 1100,
+      "vertices": 8
+    },
+    "COL_floor_pan": {
+      "bone": "chassis",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 380,
+      "vertices": 8
+    },
+    "COL_roof_cap": {
+      "bone": "chassis",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 25,
+      "vertices": 8
+    },
+    "COL_bumper_front": {
+      "bone": "chassis",
+      "material": "CAR_PLASTIC",
+      "mass_kg_provisional": 12,
+      "vertices": 8
+    },
+    "COL_bumper_rear": {
+      "bone": "chassis",
+      "material": "CAR_PLASTIC",
+      "mass_kg_provisional": 12,
+      "vertices": 8
+    },
+    "COL_door_dside_f": {
+      "bone": "door_dside_f",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 25,
+      "vertices": 152
+    },
+    "COL_door_pside_f": {
+      "bone": "door_pside_f",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 25,
+      "vertices": 152
+    },
+    "COL_door_dside_r": {
+      "bone": "door_dside_r",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 25,
+      "vertices": 194
+    },
+    "COL_door_pside_r": {
+      "bone": "door_pside_r",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 25,
+      "vertices": 194
+    },
+    "COL_bonnet": {
+      "bone": "bonnet",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 14,
+      "vertices": 210
+    },
+    "COL_boot": {
+      "bone": "boot",
+      "material": "CAR_METAL",
+      "mass_kg_provisional": 14,
+      "vertices": 322
+    },
+    "COL_wheel_lf": {
+      "bone": "wheel_lf",
+      "material": "RUBBER",
+      "mass_kg_provisional": 24,
+      "vertices": 64
+    },
+    "COL_wheel_rf": {
+      "bone": "wheel_rf",
+      "material": "RUBBER",
+      "mass_kg_provisional": 24,
+      "vertices": 64
+    },
+    "COL_wheel_lr": {
+      "bone": "wheel_lr",
+      "material": "RUBBER",
+      "mass_kg_provisional": 24,
+      "vertices": 64
+    },
+    "COL_wheel_rr": {
+      "bone": "wheel_rr",
+      "material": "RUBBER",
+      "mass_kg_provisional": 24,
+      "vertices": 64
+    },
+    "COL_window_lf": {
+      "bone": "window_lf",
+      "material": "CAR_GLASS_MEDIUM",
+      "mass_kg_provisional": 5,
+      "vertices": 946
+    },
+    "COL_window_rf": {
+      "bone": "window_rf",
+      "material": "CAR_GLASS_MEDIUM",
+      "mass_kg_provisional": 5,
+      "vertices": 946
+    },
+    "COL_window_lr": {
+      "bone": "window_lr",
+      "material": "CAR_GLASS_MEDIUM",
+      "mass_kg_provisional": 5,
+      "vertices": 564
+    },
+    "COL_window_rr": {
+      "bone": "window_rr",
+      "material": "CAR_GLASS_MEDIUM",
+      "mass_kg_provisional": 5,
+      "vertices": 564
+    },
+    "COL_windscreen": {
+      "bone": "windscreen",
+      "material": "CAR_GLASS_STRONG",
+      "mass_kg_provisional": 5,
+      "vertices": 783
+    },
+    "COL_windscreen_r": {
+      "bone": "windscreen_r",
+      "material": "CAR_GLASS_STRONG",
+      "mass_kg_provisional": 5,
+      "vertices": 565
+    }
+  },
+  "warnings": [
+    "Mesh 'dash_battery.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_battery_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_battery_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_battery_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_units.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_units_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_units_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_speed_units_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_1.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_1_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_1_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_1_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_2.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_2_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_2_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_2_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_3.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_3_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_3_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_3_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_4.001' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_4_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_4_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'dash_touch_label_4_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 0. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_dside_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_dside_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_dside_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_dside_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_pside_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_pside_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_pside_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_quarter_pside_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'panoramic_glass_greenhouse_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'panoramic_glass_greenhouse_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'panoramic_glass_greenhouse_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'panoramic_glass_greenhouse_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_dside_f_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lf_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lf_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lf_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_pside_f_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rf_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rf_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rf_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_dside_r_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lr_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lr_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lr_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_pside_r_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rr_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rr_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rr_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_rear_v011_surface.002' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_r_sollumz_medium' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_r_sollumz_low' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_r_sollumz_verylow' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_dside_f_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lf_sollumz_medium.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lf_sollumz_low.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lf_sollumz_verylow.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_dside_r_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lr_sollumz_medium.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lr_sollumz_low.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_lr_sollumz_verylow.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_pside_f_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rf_sollumz_medium.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rf_sollumz_low.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rf_sollumz_verylow.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_pside_r_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rr_sollumz_medium.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rr_sollumz_low.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'window_rr_sollumz_verylow.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_sollumz_medium.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_sollumz_low.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_sollumz_verylow.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'glass_rear_v011_surface.003' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_r_sollumz_medium.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_r_sollumz_low.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Mesh 'windscreen_r_sollumz_verylow.001' is missing UV maps used by Sollumz shaders: UVMap 2. Please add them to avoid rendering issues in-game.",
+    "Existing hinge guides remain provisional; opening sweeps and entry clearance require human/in-game review.",
+    "Palette textures and generated projection UVs are structural export proxies, not final production texture bakes.",
+    "LOD meshes are automatic candidates and require silhouette, material and performance review.",
+    "No handling/meta, suspension setup, damage test or clean-server spawn test has been certified."
+  ],
+  "blockers": [],
+  "door_card_refit": {
+    "door_card_dside_f": {
+      "old_y": [
+        -0.375,
+        0.7900000214576721
+      ],
+      "fitted_y": [
+        -0.09300002098083496,
+        0.913771595954895
+      ],
+      "shell_inset_min_m": 0.025
+    },
+    "door_card_dside_r": {
+      "old_y": [
+        -1.434999942779541,
+        -0.45500001311302185
+      ],
+      "fitted_y": [
+        -0.9841363096237182,
+        -0.16667715072631836
+      ],
+      "shell_inset_min_m": 0.025
+    },
+    "door_card_pside_f": {
+      "old_y": [
+        -0.375,
+        0.7900000214576721
+      ],
+      "fitted_y": [
+        -0.09300002098083496,
+        0.913771595954895
+      ],
+      "shell_inset_min_m": 0.025
+    },
+    "door_card_pside_r": {
+      "old_y": [
+        -1.434999942779541,
+        -0.45500001311302185
+      ],
+      "fitted_y": [
+        -0.9841363096237182,
+        -0.16667715072631836
+      ],
+      "shell_inset_min_m": 0.025
+    }
+  }
+}

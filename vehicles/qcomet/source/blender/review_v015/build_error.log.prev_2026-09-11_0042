@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 8, in build_v015_once
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 610, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 299, in main
+    raise RuntimeError('The active input must be qcomet_cabin_v014.blend.')
+RuntimeError: The active input must be qcomet_cabin_v014.blend.

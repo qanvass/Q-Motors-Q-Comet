@@ -1,0 +1,49 @@
+Traceback (most recent call last):
+  File "<string>", line 20, in run_v015
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 706, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 399, in main
+    build()
+    ~~~~~^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 555, in build
+    high.materials.append(export_material(original, name))
+                          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Qanva\Desktop\Gaming GTA\Q-Motors-Q-Comet\tools\blender\build_qcomet_sollumz_v015.py", line 226, in export_material
+    result = SHADERS.create_shader(filename)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\ydr\shader_materials_v2.py", line 360, in create_shader
+    mat = compile_to_material(filename.replace(".sps", ""), shader_expr, shader_def=shader)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 476, in compile_to_material
+    compiled_shader_expr = compile_expr(mat.node_tree, shader_expr)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 459, in compile_expr
+    return Compiler(dest_node_tree, expr).compile()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 47, in compile
+    return self.visit(self.root_expr)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 54, in visit
+    compiled_expr = visit_fn(e)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 260, in visit_BsdfPrincipledExpr
+    self.connect_vector_input(src, bsdf, input_socket)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 350, in connect_vector_input
+    compiled_src_expr = self.visit(src_expr)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 54, in visit
+    compiled_expr = visit_fn(e)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 215, in visit_TextureColorExpr
+    tex_expr = self.visit(e.texture)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 54, in visit
+    compiled_expr = visit_fn(e)
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 210, in visit_TextureExpr
+    self.connect_vector_input(e.uv, tex, 0)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 351, in connect_vector_input
+    self.node_tree.links.new(compiled_src_expr.output, node.inputs[input_socket])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qanva\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\sollumz_org\sollumz\shared\shader_expr\compiler.py", line 32, in output
+    return self.node.outputs[self.output_socket]
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+IndexError: bpy_prop_collection[index]: index 0 out of range, size 0

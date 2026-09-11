@@ -1,0 +1,152 @@
+QCOMET 00_state_audit
+revision=a-pillar-1
+2026-09-09T10:03:53.140618
+
+{
+  "filepath": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_body_v006.blend",
+  "script_revision_in_scene": "a-pillar-1",
+  "interactive_index": 2,
+  "completed_step": "hide_refs_and_frame",
+  "checkpoint_verified": true,
+  "checkpoint_path": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_v004_unsaved_checkpoint_20260909_100216.blend",
+  "working_path": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_body_v006.blend",
+  "status": "BLOCKOUT_INTERACTIVE_WORKING",
+  "a_pillar_marker": false,
+  "objects": {
+    "pillar_a_dside": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delta_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_users": 1,
+      "modifiers": [
+        "BEVEL"
+      ],
+      "custom": {}
+    },
+    "pillar_a_pside": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delta_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_users": 1,
+      "modifiers": [
+        "BEVEL"
+      ],
+      "custom": {}
+    },
+    "pillar_b_dside": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delta_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_users": 1,
+      "modifiers": [
+        "BEVEL"
+      ],
+      "custom": {}
+    },
+    "pillar_c_dside": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delta_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_users": 1,
+      "modifiers": [
+        "BEVEL"
+      ],
+      "custom": {}
+    },
+    "panoramic_glass_greenhouse": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delta_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_users": 1,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "custom": {}
+    }
+  }
+}

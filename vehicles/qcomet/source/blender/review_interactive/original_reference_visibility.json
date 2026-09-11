@@ -1,0 +1,262 @@
+{
+  "objects": {
+    "REF_bonnet": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_boot": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_chassis": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_door_dside_f": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_door_dside_r": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_door_pside_f": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_door_pside_r": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_front_splitter": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_GUIDE_driver_extent": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_GUIDE_front_extent": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_GUIDE_ground_clearance": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_GUIDE_passenger_extent": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_GUIDE_rear_extent": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_GUIDE_roof_extent": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_panoramic_glass_greenhouse": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_PIVOT_bonnet": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_PIVOT_boot": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_PIVOT_door_dside_f": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_PIVOT_door_dside_r": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_PIVOT_door_pside_f": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_PIVOT_door_pside_r": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_rear_diffuser": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_rim_lf": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_rim_lr": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_rim_rf": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_rim_rr": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_side_skirt_l": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_side_skirt_r": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_steeringwheel": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_arch_cutter_lf": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_arch_cutter_lr": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_arch_cutter_rf": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_arch_cutter_rr": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_lf": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_lr": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_rf": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REF_wheel_rr": {
+      "hide_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REFIMG_front": {
+      "hide_get": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REFIMG_left": {
+      "hide_get": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REFIMG_lights": {
+      "hide_get": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REFIMG_rear": {
+      "hide_get": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REFIMG_right": {
+      "hide_get": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "in_view_layer": true
+    },
+    "REFIMG_showroom": {
+      "hide_get": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "in_view_layer": true
+    }
+  }
+}

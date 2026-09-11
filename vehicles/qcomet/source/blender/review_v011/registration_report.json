@@ -1,0 +1,11 @@
+{
+  "status": "illustration_based_review_not_calibrated_registration",
+  "coordinate_system": {"front": "+Y", "passenger_side": "+X", "up": "+Z"},
+  "primary_silhouette_reference": "../../concepts/orthos/qcomet_ref_left.png",
+  "supporting_reference": "../../concepts/q comet front rear top.png",
+  "canonical_policy": "Use the side silhouette for cowl/crown placement and three-quarter/top concepts for surface flow; retain active scene wheel centers.",
+  "side_comparison": "The +X model side view is mirrored for the front-left-facing source. Images are normalized for visual inspection only.",
+  "dimension_approval": "pending_quasar",
+  "exact_pixel_fit": false,
+  "reason": "Illustrations are not an approved dimension sheet or calibrated mutually consistent orthographic CAD set."
+}

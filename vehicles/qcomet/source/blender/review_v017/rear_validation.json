@@ -1,0 +1,42 @@
+{
+  "input": "qcomet_sollumz_v016.blend",
+  "output": "qcomet_rear_v017.blend",
+  "timestamp": "2026-09-11 11:06:20",
+  "rebuilt_components": [
+    "sculpted_3blade_light_bar",
+    "3d_bronze_qplus_badge_and_recess",
+    "ducktail_spoiler_lip",
+    "bumper_shelf_sensors_and_vertical_vents",
+    "carbon_diffuser_bronze_rim_and_strakes"
+  ],
+  "sollumz_updated": [
+    "exp_boot_ducktail",
+    "exp_rear_diffuser",
+    "exp_rear_diffuser_bronze",
+    "exp_badge_rear",
+    "exp_badge_rear_tail",
+    "exp_badge_rear_plus_horizontal",
+    "exp_badge_rear_plus_vertical",
+    "exp_diffuser_strake_1",
+    "exp_diffuser_strake_2",
+    "exp_diffuser_strake_3",
+    "exp_diffuser_strake_4",
+    "exp_diffuser_strake_bronze_1",
+    "exp_diffuser_strake_bronze_2",
+    "exp_diffuser_strake_bronze_3",
+    "exp_diffuser_strake_bronze_4"
+  ],
+  "collision_updated": [
+    "col_boot",
+    "col_bumper_r"
+  ],
+  "renders": {
+    "ortho_rear": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\review_v017\\qcomet_v017_rear_ortho.png",
+    "three_quarter_rear": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\review_v017\\qcomet_v017_rear_three_quarter.png",
+    "detail_rear": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\review_v017\\qcomet_v017_rear_detail.png"
+  },
+  "game_ready": false,
+  "binary_assets_written": false,
+  "validation_status": "PASSED",
+  "elapsed_seconds": 12.81
+}

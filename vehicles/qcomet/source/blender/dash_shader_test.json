@@ -1,0 +1,27 @@
+{
+  "status": "created",
+  "name": "vehicle_dash_emissive",
+  "shader": "vehicle_dash_emissive.sps",
+  "nodes": [
+    "UVMap 0",
+    "DiffuseSampler",
+    "DamageSampler",
+    "SpecSampler",
+    "envEffTexTileUV",
+    "envEffScale",
+    "envEffThickness",
+    "reflectivePower",
+    "specMapIntMask",
+    "matDiffuseColor",
+    "DamageTextureOffset",
+    "DamageMultiplier",
+    "BoundRadius",
+    "dimmerSetPacked",
+    "DamagedWheelOffsets",
+    "Mix Shader",
+    "Emission",
+    "Principled BSDF",
+    "Separate XYZ",
+    "Material Output"
+  ]
+}

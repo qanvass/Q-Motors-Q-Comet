@@ -1,0 +1,7 @@
+.env
+.env.*
+*.blend1
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

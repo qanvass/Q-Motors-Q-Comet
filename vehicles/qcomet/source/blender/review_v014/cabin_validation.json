@@ -1,0 +1,245 @@
+{
+  "scope": "Static game-spec cabin geometry and sightline probes; no gameplay/rigging certification.",
+  "objects": {
+    "seat_dside_f": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "seat_dside_f_headrest_qplus": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "seat_pside_f": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "seat_pside_f_headrest_qplus": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "seat_dside_r": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "seat_pside_r": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "steering": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "steering_qplus": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "steering_column": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_lower_shell": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_glass_bar": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_ambient_strip": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_touch_icon_1": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_touch_icon_2": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_touch_icon_3": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_touch_icon_4": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "dash_passenger_qplus": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "center_console": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "armrest": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "cupholder_1": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "cupholder_2": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "console_rotary": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "pedal_brake": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "pedal_accel": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "door_card_dside_f": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "door_card_dside_r": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "door_card_pside_f": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "door_card_pside_r": {
+      "nonmanifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "seat_positions": {
+    "seat_dside_f": [
+      -0.38,
+      0.12
+    ],
+    "seat_pside_f": [
+      0.38,
+      0.12
+    ],
+    "seat_dside_r": [
+      -0.38,
+      -0.78
+    ],
+    "seat_pside_r": [
+      0.38,
+      -0.78
+    ]
+  },
+  "road_probes": [
+    {
+      "yaw": -12,
+      "pitch": -2,
+      "clear": true
+    },
+    {
+      "yaw": -12,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "yaw": -12,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "yaw": 0,
+      "pitch": -2,
+      "clear": true
+    },
+    {
+      "yaw": 0,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "yaw": 0,
+      "pitch": 5,
+      "clear": true
+    },
+    {
+      "yaw": 12,
+      "pitch": -2,
+      "clear": true
+    },
+    {
+      "yaw": 12,
+      "pitch": 0,
+      "clear": true
+    },
+    {
+      "yaw": 12,
+      "pitch": 5,
+      "clear": true
+    }
+  ],
+  "cluster_probes": [
+    {
+      "target": [
+        -0.39500001072883606,
+        0.5442467927932739,
+        1.0305777788162231
+      ],
+      "clear": true
+    },
+    {
+      "target": [
+        -0.32600000500679016,
+        0.5442467927932739,
+        1.0305777788162231
+      ],
+      "clear": true
+    },
+    {
+      "target": [
+        -0.5130000114440918,
+        0.5442467927932739,
+        1.0305777788162231
+      ],
+      "clear": true
+    }
+  ],
+  "game_ready": false,
+  "sightlines_pass": true,
+  "door_cards": [
+    "door_card_dside_f",
+    "door_card_dside_r",
+    "door_card_pside_f",
+    "door_card_pside_r"
+  ],
+  "pass": true
+}

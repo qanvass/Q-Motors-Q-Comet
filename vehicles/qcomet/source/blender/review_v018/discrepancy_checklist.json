@@ -1,0 +1,61 @@
+{
+  "baseline_file": "qcomet_rear_v017.blend",
+  "baseline_sha256": "8a40722d080e1fe9727463b65476e5724aed9e4c7b252af0abd2002facfdf9f5",
+  "discrepancies": {
+    "cabin_steering": {
+      "current": "Primitive thin ring, straight horizontal bar, cylindrical hub",
+      "target_ref": "q comet cabin dash.png",
+      "required_geometry": "Ergonomic contoured flat-bottom leather rim, shaped spokes, substantial trapezoidal airbag boss, left/right thumb control pods, bronze inner rim & lower trim, 3D bronze Q+ emblem"
+    },
+    "cabin_dash": {
+      "current": "Flat thick rectangular slab, generic icons, 82%, placeholder labels",
+      "target_ref": "q comet cabin dash.png",
+      "required_geometry": "Panoramic fitted glass display enclosure, soft curved end bevels, slim full-width HVAC air slit, amber ambient channel, static high-res UI: 0 km/h, P, 78% battery, Music/Nav/Vehicle/Settings icons, passenger bronze Q+ signature"
+    },
+    "cabin_console": {
+      "current": "Plain block with basic cylinder knob, no cupholders, basic box armrest",
+      "target_ref": "q comet cabin dash.png",
+      "required_geometry": "Sculpted console bridge, two recessed round cupholders, knurled rotary controller dial with bronze rim, split dual-lidded olive leather padded armrest with contrast seam"
+    },
+    "cabin_door_cards": {
+      "current": "Flat olive panels with small rectangular grille inserts",
+      "target_ref": "q comet cabin dash.png",
+      "required_geometry": "Layered multi-tone door cards (olive upper, woven dark mid, tan lower), contoured armrest, angled 4-window driver switch bank, sculpted pull handle, large perforated acoustic speaker grilles"
+    },
+    "cabin_details": {
+      "current": "Missing rear view mirror, simple block pedals, minimal buckle details",
+      "target_ref": "q comet cabin dash.png",
+      "required_geometry": "Frameless trapezoidal windshield mirror, floor-mounted ribbed organ accelerator, wide ribbed brake pedal, dead pedal, seatbelt buckles, defined headliner and rear seat transitions"
+    },
+    "rear_lights": {
+      "current": "Pale floating lines protruding past the bumper corners",
+      "target_ref": "target_rear_concept.png & q comet wheel headlight tail light on and off.png",
+      "required_geometry": "Recessed ruby-red wave blades nested inside dark smoked housing strictly following rear shoulder curves; no protruding corner geometry"
+    },
+    "rear_diffuser": {
+      "current": "Oversized knife fins hanging down to the floor, disconnected bronze shelf",
+      "target_ref": "target_rear_concept.png",
+      "required_geometry": "Integrated carbon lower bumper assembly, stepped central channel, 4 proportionate carbon vertical strakes, restrained bronze contour lip"
+    },
+    "rear_bumper_trunk": {
+      "current": "Plain green slab, no clear trunk shutlines, faint orange ring badge",
+      "target_ref": "target_rear_concept.png",
+      "required_geometry": "Defined trunk shutlines, ducktail trailing edge, distinct horizontal bumper crease, 4 flush circular parking sensors, deep vertical corner air vents with dark louvers and vertical red reflectors, sculpted bronze Q+ badge with sweeping tail"
+    },
+    "front_fascia": {
+      "current": "Flat nose, sparse grille dots, thin headlight outlines",
+      "target_ref": "Q Comet Front view showroom.png & q comet wheel headlight tail light on and off.png",
+      "required_geometry": "Deeper lamp housings with 3 layered glowing flame blades, hood channels, parametric intake pattern, vertical blade corner ducts with L-running lights, carbon splitter with bronze chin"
+    },
+    "wheels_tires": {
+      "current": "Thick bronze turbine spokes, flat face, visibly angular/faceted tire meshes",
+      "target_ref": "q comet wheel headlight tail light on and off.png",
+      "required_geometry": "Slim sculpted turbine spokes with deep gloss-black negative pockets, rim dish, bronze Q+ center cap, lug detail, cross-drilled brake rotors, bronze calipers with Q+ logo, rounded performance tire profile with tread and sidewall beads"
+    },
+    "glass_materials": {
+      "current": "Opaque, mirror-black, blotchy reflections hiding cabin",
+      "target_ref": "target_rear_concept.png & q comet front rear top.png",
+      "required_geometry": "Neutral smoke-tinted transparent glass with proper transmission revealing seats, steering, and dash from exterior angles; satin metallic olive paint; distinct PBR materials"
+    }
+  }
+}
