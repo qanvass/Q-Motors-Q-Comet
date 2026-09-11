@@ -5,3 +5,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+collaboration/local/checkpoints/
+collaboration/local/*.json
+collaboration/local/*.jsonl
+collaboration/local/*.blend

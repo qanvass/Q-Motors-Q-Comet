@@ -1,0 +1,86 @@
+{
+  "source_file": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_rear_v017.blend",
+  "images": [
+    {
+      "name": "front",
+      "path": "collaboration/blender-handoff/review/qcomet_front.png",
+      "kind": "eevee_render",
+      "exists": true,
+      "bytes": 872372
+    },
+    {
+      "name": "rear",
+      "path": "collaboration/blender-handoff/review/qcomet_rear.png",
+      "kind": "eevee_render",
+      "exists": true,
+      "bytes": 854492
+    },
+    {
+      "name": "left",
+      "path": "collaboration/blender-handoff/review/qcomet_left.png",
+      "kind": "eevee_render",
+      "exists": true,
+      "bytes": 854851
+    },
+    {
+      "name": "right",
+      "path": "collaboration/blender-handoff/review/qcomet_right.png",
+      "kind": "eevee_render",
+      "exists": true,
+      "bytes": 856543
+    },
+    {
+      "name": "top",
+      "path": "collaboration/blender-handoff/review/qcomet_top.png",
+      "kind": "eevee_render",
+      "exists": true,
+      "bytes": 941027
+    },
+    {
+      "name": "front_three_quarter",
+      "path": "collaboration/blender-handoff/review/qcomet_front_three_quarter.png",
+      "kind": "eevee_render",
+      "exists": true,
+      "bytes": 973026
+    },
+    {
+      "name": "cabin",
+      "path": "collaboration/blender-handoff/review/qcomet_cabin.png",
+      "kind": "eevee_render",
+      "camera": "qcomet_v018_cabin_cam",
+      "exists": true,
+      "bytes": 1299140
+    },
+    {
+      "name": "dashboard_or_existing_review",
+      "path": "collaboration/blender-handoff/review/qcomet_dashboard_or_existing_review.png",
+      "kind": "eevee_render",
+      "camera": "QCOMET_REVIEW_CAMERA",
+      "exists": true,
+      "bytes": 1019198
+    },
+    {
+      "name": "workbench_wire_front",
+      "path": "collaboration/blender-handoff/review/qcomet_workbench_wire_front.png",
+      "kind": "workbench_render_wire",
+      "exists": true,
+      "bytes": 417091
+    },
+    {
+      "name": "workbench_wire_front_three_quarter",
+      "path": "collaboration/blender-handoff/review/qcomet_workbench_wire_front_three_quarter.png",
+      "kind": "workbench_render_wire",
+      "exists": true,
+      "bytes": 530707
+    },
+    {
+      "name": "contact_sheet",
+      "path": "collaboration/blender-handoff/review/qcomet_contact_sheet.png",
+      "kind": "composed_from_renders",
+      "exists": true
+    }
+  ],
+  "restored": true,
+  "geometry_modified": false,
+  "wireframe_note": "EEVEE ignores display_type=WIRE; topology views are Workbench renders."
+}

@@ -1,0 +1,233 @@
+{
+  "blender": {
+    "version": "5.2.1 LTS",
+    "build": "1787590252"
+  },
+  "addons": [
+    {
+      "module": "blender_mcp",
+      "name": "MCP for Blender",
+      "version": [
+        1,
+        6
+      ],
+      "enabled": true,
+      "file": "C:\\Users\\Qanva\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\scripts\\addons\\blender_mcp.py"
+    },
+    {
+      "module": "bl_ext.sollumz_org.sollumz",
+      "name": "Sollumz",
+      "version": [
+        2,
+        9,
+        0
+      ],
+      "enabled": true,
+      "file": "C:\\Users\\Qanva\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\sollumz_org\\sollumz\\__init__.py"
+    }
+  ],
+  "scene": {
+    "name": "Scene",
+    "objects": 940,
+    "materials": 69,
+    "frame_current": 1,
+    "render_engine": "BLENDER_EEVEE",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 24
+  },
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "system_rotation": "DEGREES"
+  },
+  "axis_conventions": {
+    "project": {
+      "front": "+Y",
+      "right": "+X",
+      "up": "+Z"
+    },
+    "blender_forward": "+Y",
+    "blender_up": "+Z"
+  },
+  "file": {
+    "filepath": "C:\\Users\\Qanva\\Desktop\\Gaming GTA\\Q-Motors-Q-Comet\\vehicles\\qcomet\\source\\blender\\qcomet_rear_v017.blend",
+    "is_dirty": true
+  },
+  "mcp": {
+    "port": 9876,
+    "addon": "C:\\Users\\Qanva\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\scripts\\addons\\blender_mcp.py",
+    "protocol_version": 5
+  },
+  "classification_counts": {
+    "guide_or_review": 15,
+    "camera": 1,
+    "working_car": 267,
+    "uncertain": 33,
+    "reference": 19,
+    "archived_authoring": 282,
+    "sollumz_export": 289,
+    "collision": 33,
+    "sollumz_rig": 1
+  },
+  "cameras": [
+    {
+      "name": "QCOMET_REVIEW_CAMERA",
+      "location": [
+        0.0,
+        -6.0,
+        0.76
+      ],
+      "lens": 65.0
+    },
+    {
+      "name": "qcomet_v018_cabin_cam",
+      "location": [
+        -0.38,
+        0.01,
+        1.14
+      ],
+      "lens": 28.0
+    },
+    {
+      "name": "qcomet_review_camera_v011",
+      "location": [
+        6.2,
+        8.4,
+        3.6
+      ],
+      "lens": 50.0
+    }
+  ],
+  "lights": [
+    {
+      "name": "QCOMET_REVIEW_SUN",
+      "light_type": "SUN",
+      "energy": 6.0,
+      "location": [
+        4.5,
+        6.5,
+        8.0
+      ]
+    },
+    {
+      "name": "qcomet_review_key",
+      "light_type": "AREA",
+      "energy": 850.0,
+      "location": [
+        1.0,
+        2.0,
+        6.0
+      ]
+    },
+    {
+      "name": "qcomet_review_side",
+      "light_type": "AREA",
+      "energy": 600.0,
+      "location": [
+        -4.0,
+        0.0,
+        3.5
+      ]
+    },
+    {
+      "name": "qcomet_review_rim",
+      "light_type": "AREA",
+      "energy": 450.0,
+      "location": [
+        2.0,
+        -4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "qcomet_review_front",
+      "light_type": "AREA",
+      "energy": 240.0,
+      "location": [
+        0.0,
+        5.0,
+        2.0
+      ]
+    },
+    {
+      "name": "qcomet_review_rear_soft",
+      "light_type": "AREA",
+      "energy": 750.0,
+      "location": [
+        0.0,
+        -6.5,
+        1.2
+      ]
+    }
+  ],
+  "missing_images": [],
+  "libraries": [],
+  "collection_names": [
+    "QCOMET_BODY_PANELS",
+    "QCOMET_GLASS",
+    "QCOMET_RUNNING_GEAR",
+    "QCOMET_INTERIOR_GUIDES",
+    "QCOMET_DIMENSION_GUIDES",
+    "QCOMET_CONSTRUCTION_GUIDES",
+    "QCOMET_V002_BLOCKOUT_REFERENCE",
+    "QCOMET_CONCEPT_REFERENCES",
+    "QCOMET_LIGHTS",
+    "QCOMET_INTERIOR",
+    "QCOMET_V010_SURFACING_ARCHIVE",
+    "QCOMET_V011_REVIEW_STUDIO",
+    "QCOMET_V011_DETAILS_ARCHIVE",
+    "QCOMET_V012_CONSTRUCTION",
+    "QCOMET_V013_CABIN_ARCHIVE",
+    "QCOMET_LIGHTS_GTA",
+    "QCOMET_COLLISION",
+    "QCOMET_SOLLUMZ_EXPORT",
+    "QCOMET_RIG",
+    "QCOMET_AUTHORING_ARCHIVE",
+    "QCOMET_V016_REAR_ARCHIVE"
+  ],
+  "working_car_sample": [
+    "chassis",
+    "pillar_a_dside",
+    "pillar_a_pside",
+    "pillar_c_dside",
+    "pillar_c_pside",
+    "door_dside_f",
+    "door_pside_f",
+    "door_dside_r",
+    "door_pside_r",
+    "handle_dside_f",
+    "handle_pside_f",
+    "handle_dside_r",
+    "handle_pside_r",
+    "bonnet",
+    "boot",
+    "front_splitter",
+    "front_splitter_bronze",
+    "rear_bumper",
+    "fender_vent_dside",
+    "fender_vent_pside",
+    "fender_vent_bronze_dside",
+    "fender_vent_bronze_pside",
+    "mirror_dside_stalk",
+    "mirror_dside",
+    "mirror_dside_bronze",
+    "mirror_pside_stalk",
+    "mirror_pside",
+    "mirror_pside_bronze",
+    "badge_front",
+    "bumper_f",
+    "skirt_dside",
+    "skirt_pside",
+    "front_intake_pocket_dside",
+    "front_intake_pocket_pside",
+    "quarter_dside_r",
+    "fender_dside_f",
+    "arch_return_dside_f",
+    "arch_return_dside_r",
+    "quarter_pside_r",
+    "fender_pside_f"
+  ]
+}

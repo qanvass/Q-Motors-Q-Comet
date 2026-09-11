@@ -1,0 +1,8 @@
+{
+  "comment": "Copy machine-specific values into collaboration/local/ (gitignored). Do not commit tokens.",
+  "blender_mcp_host": "127.0.0.1",
+  "blender_mcp_port": 9876,
+  "blender_mcp_addon": "C:/Users/Qanva/AppData/Roaming/Blender Foundation/Blender/5.2/scripts/addons/blender_mcp.py",
+  "uv_executable": "C:/Users/Qanva/.local/bin/uv.exe",
+  "workspace": "C:/Users/Qanva/Desktop/Gaming GTA/Q-Motors-Q-Comet"
+}
